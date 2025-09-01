@@ -1,0 +1,33 @@
+Folder ini untuk menyimpan gambar-gambar website.
+
+File yang diperlukan:
+
+**Hero Section:**
+- jb.jpeg (gambar background utama untuk semua slide hero)
+- hero-bg-2.jpg (gambar pelatihan otomotif - opsional)
+- hero-bg-3.jpg (gambar quality assurance - opsional)
+
+**Scheme Section:**
+- scheme-ev.jpg (gambar kendaraan listrik/EV)
+- scheme-motor-conversion.jpg (gambar konversi motor listrik)
+- scheme-gems.jpg (gambar mesin bensin dan komponen)
+- scheme-maintenance.jpg (gambar pemeliharaan kendaraan)
+- scheme-alignment.jpg (gambar spooring/alignment)
+- scheme-tuneup-conventional.jpg (gambar tune up konvensional)
+- scheme-tuneup-injection.jpg (gambar tune up injeksi)
+- scheme-motorcycle.jpg (gambar pemeliharaan motor)
+
+**News Section:**
+- news-smk-kuta.jpg (gambar kegiatan SMK Negeri 1 Kuta Selatan)
+- news-smk-denpasar.jpg (gambar kegiatan SMK Negeri 1 Denpasar)
+- news-lpk-fitri.jpg (gambar kegiatan LPK Fitri Lebak)
+- news-smk-wirosari.jpg (gambar kegiatan SMK PGRI Wirosari)
+- news-smk-52-jakarta.jpg (gambar kegiatan SMK Negeri 52 Jakarta)
+- news-bimtek-jakarta.jpg (gambar bimbingan teknis SMKN 52 Jakarta)
+
+Catatan: 
+- Gunakan gambar dengan resolusi minimal 1920x1080px untuk hero
+- Gambar scheme minimal 400x300px
+- Format yang didukung: JPG, PNG, WebP
+- Optimalkan ukuran file untuk performa website
+- Pastikan gambar berkualitas tinggi dan relevan dengan konten
