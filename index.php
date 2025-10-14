@@ -16,8 +16,10 @@
                 <span class="date"><?php echo date('l, F j, Y'); ?></span>
             </div>
             <div class="top-bar-right">
+                
+                <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/lsp_smk_jayabuana/" class="social-icon"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
@@ -92,10 +94,7 @@
                     <div class="container">
                         <h1 class="hero-title">Manfaat sertifikasi untuk Perusahaan</h1>
                         <p class="hero-description">
-                            Membantu perusahaan meyakinkan kepada kliennya bahwa produk/jasanya telah dikelola oleh tenaga-tenaga yang kompeten, 
-                            Membantu perusahaan dalam rekruitmen dan mengembangkan tenaga berbasis kompetensi guna meningkatkan efisiensi HRD 
-                            khususnya dan efisiensi nasional pada umumnya, Membantu perusahaan dalam sistem pengembangan karir dan remunerasi 
-                            tenaga berbasis kompetensi dan meningkatkan produktivitas.
+                            Membantu SMK Jaya Buana dalam merancang sistem pengembangan karir dan peningkatan keterampilan siswa berbasis kompetensi, sehingga mampu meningkatkan kualitas dan produktivitas lulusan.
                         </p>
                         <div class="hero-brand">LSP SMK-JB</div>
                     </div>
@@ -111,9 +110,7 @@
                     <div class="container">
                         <h1 class="hero-title">Pelatihan dan Sertifikasi Profesional</h1>
                         <p class="hero-description">
-                            LSP GLOBAL OTOMOTIF menyediakan program pelatihan dan sertifikasi yang komprehensif untuk memastikan 
-                            tenaga kerja di industri otomotif memiliki kompetensi yang sesuai dengan standar nasional dan internasional.
-                        </p>
+                        SMK Jaya Buana menyediakan program pelatihan dan sertifikasi yang komprehensif untuk memastikan siswa memiliki kompetensi sesuai dengan standar nasional maupun kebutuhan industri.</p>
                         <div class="hero-brand">LSP SMK-JB</div>
                     </div>
                 </div>
@@ -128,9 +125,7 @@
                     <div class="container">
                         <h1 class="hero-title">Jaminan Kualitas dan Standar</h1>
                         <p class="hero-description">
-                            Dengan sertifikasi dari LSP GLOBAL OTOMOTIF, perusahaan dapat memastikan bahwa layanan dan produk 
-                            mereka memenuhi standar kualitas tertinggi, meningkatkan kepercayaan pelanggan dan daya saing di pasar.
-                        </p>
+                        Dengan sertifikasi dari SMK Jaya Buana, siswa dapat dipastikan memiliki keterampilan dan kompetensi sesuai standar, sehingga mampu meningkatkan kepercayaan dunia industri sekaligus daya saing lulusan di pasar kerja</p>
                         <div class="hero-brand">LSP SMK-JB</div>
                     </div>
                 </div>
@@ -160,118 +155,93 @@
         <div class="container">
             <!-- Header Section -->
             <div class="section-header">
-                <h2 class="section-title">Sertifikasi Profesi Otomotif Infrastruktur Sertifikasi</h2>
+                <h2 class="section-title">Sertifikasi Profesi SMK Jaya Buana</h2>
                 <p class="section-description">
-                    Dengan Infrastuktur sertifikasi yang dimiliki oleh lsp global otomotif, kami memberikan layanan sertifikasi kompetensi sesuai lisensi yang diberikan oleh Badan Nasional Sertifikasi Profesi
-                </p>
+                Dengan infrastruktur sertifikasi yang dimiliki oleh SMK Jaya Buana, sekolah menyediakan layanan sertifikasi kompetensi bagi siswa sesuai dengan lisensi dan standar yang ditetapkan oleh Badan Nasional Sertifikasi Profesi (BNSP).</p>
             </div>
 
-            <!-- Statistics Cards -->
-            <div class="stats-container">
-                <div class="stat-card">
-                    <div class="stat-label">TUK</div>
-                    <div class="stat-number">125</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-label">SKEMA SERTIFIKASI</div>
-                    <div class="stat-number">13</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-label">ASESOR KOMPETENSI</div>
-                    <div class="stat-number">74</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-label">ASESI</div>
-                    <div class="stat-number">2.206</div>
-                </div>
-            </div>
-
-            <!-- Certification Process Section -->
-            <div class="process-section">
-                <h3 class="process-title">Proses Sertifikasi Kompetensi</h3>
-                <div class="process-container">
-                    <div class="process-card">
-                        <div class="process-number">1</div>
-                        <div class="process-content">
-                            <h4 class="process-step">Pendaftaran</h4>
-                            <div class="process-illustration">
-                                <div class="illustration-person">
-                                    <i class="fas fa-user-tie"></i>
-                                </div>
-                                <div class="illustration-device">
-                                    <i class="fas fa-laptop"></i>
-                                </div>
-                                <div class="illustration-document">
-                                    <i class="fas fa-file-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="process-card">
-                        <div class="process-number">2</div>
-                        <div class="process-content">
-                            <h4 class="process-step">Pra Asesmen</h4>
-                            <div class="process-illustration">
-                                <div class="illustration-office">
-                                    <i class="fas fa-building"></i>
-                                </div>
-                                <div class="illustration-clock">
-                                    <i class="fas fa-clock"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="process-card">
-                        <div class="process-number">3</div>
-                        <div class="process-content">
-                            <h4 class="process-step">Pengumpulan Bukti (Asesmen)</h4>
-                            <div class="process-illustration">
-                                <div class="illustration-garage">
-                                    <i class="fas fa-car"></i>
-                                </div>
-                                <div class="illustration-tools">
-                                    <i class="fas fa-tools"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="process-card">
-                        <div class="process-number">4</div>
-                        <div class="process-content">
-                            <h4 class="process-step">Keputusan Asesmen</h4>
-                            <div class="process-illustration">
-                                <div class="illustration-chart">
-                                    <i class="fas fa-chart-bar"></i>
-                                </div>
-                                <div class="illustration-screen">
-                                    <i class="fas fa-desktop"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="process-card">
-                        <div class="process-number">5</div>
-                        <div class="process-content">
-                            <h4 class="process-step">Melaporkan dan Meninjau Asesmen</h4>
-                            <div class="process-illustration">
-                                <div class="illustration-report">
-                                    <i class="fas fa-file-chart-line"></i>
-                                </div>
-                                <div class="illustration-review">
-                                    <i class="fas fa-search"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <div class="stats-container">
+            <a href="tuk.php" class="stat-card">
+                <div class="stat-label">TUK</div>
+                <div class="stat-number">7</div>
+            </a>
+            <a href="skema.php" class="stat-card">
+                <div class="stat-label">SKEMA SERTIFIKASI</div>
+                <div class="stat-number">7</div>
+            </a>
+            <a href="asesor.php" class="stat-card">
+                <div class="stat-label">ASESOR KOMPETENSI</div>
+                <div class="stat-number">14</div>
+            </a>
+            <a href="asesi.php" class="stat-card">
+                <div class="stat-label">ASESI</div>
+                <div class="stat-number">1000</div>
+            </a>
         </div>
-    </section>
 
+
+        <div class="process-section">
+    <h3 class="process-title">Proses Sertifikasi Kompetensi</h3>
+    <div class="process-container">
+
+        <a href="pendaftaran.php" class="process-card">
+            <div class="process-number">1</div>
+            <div class="process-content">
+                <h4 class="process-step">Pendaftaran</h4>
+                <div class="process-illustration">
+                    <div class="illustration-person"><i class="fas fa-user-tie"></i></div>
+                    <div class="illustration-device"><i class="fas fa-laptop"></i></div>
+                    <div class="illustration-document"><i class="fas fa-file-alt"></i></div>
+                </div>
+            </div>
+        </a>
+
+        <a href="pra-asesmen.php" class="process-card">
+            <div class="process-number">2</div>
+            <div class="process-content">
+                <h4 class="process-step">Pra Asesmen</h4>
+                <div class="process-illustration">
+                    <div class="illustration-office"><i class="fas fa-building"></i></div>
+                    <div class="illustration-clock"><i class="fas fa-clock"></i></div>
+                </div>
+            </div>
+        </a>
+
+        <a href="asesmen.php" class="process-card">
+            <div class="process-number">3</div>
+            <div class="process-content">
+                <h4 class="process-step">Pengumpulan Bukti (Asesmen)</h4>
+                <div class="process-illustration">
+                    <div class="illustration-garage"><i class="fas fa-car"></i></div>
+                    <div class="illustration-tools"><i class="fas fa-tools"></i></div>
+                </div>
+            </div>
+        </a>
+
+        <a href="keputusan.php" class="process-card">
+            <div class="process-number">4</div>
+            <div class="process-content">
+                <h4 class="process-step">Keputusan Asesmen</h4>
+                <div class="process-illustration">
+                    <div class="illustration-chart"><i class="fas fa-chart-bar"></i></div>
+                    <div class="illustration-screen"><i class="fas fa-desktop"></i></div>
+                </div>
+            </div>
+        </a>
+
+        <a href="laporan.php" class="process-card">
+            <div class="process-number">5</div>
+            <div class="process-content">
+                <h4 class="process-step">Melaporkan dan Meninjau Asesmen</h4>
+                <div class="process-illustration">
+                    <div class="illustration-report"><i class="fas fa-file-chart-line"></i></div>
+                    <div class="illustration-review"><i class="fas fa-search"></i></div>
+                </div>
+            </div>
+        </a>
+
+    </div>
+</div>
     <!-- Certification Schemes Section -->
     <section class="schemes-section">
         <div class="container">
@@ -281,9 +251,9 @@
             
             <div class="schemes-grid">
                 <!-- Row 1 -->
-                <div class="scheme-card">
+                <a href="scheme-detail.php?scheme=ev" class="scheme-card">
                     <div class="scheme-image">
-                        <img src="assets/images/jb1.png" alt="Electrified Vehicles">
+                        <img src="assets/images/1.jpeg" alt="Electrified Vehicles">
                         <div class="scheme-overlay">
                             <i class="fas fa-bolt"></i>
                         </div>
@@ -294,11 +264,11 @@
                             Program sertifikasi untuk teknisi yang menguasai pemeliharaan dan perbaikan kendaraan listrik modern dengan teknologi terkini.
                         </p>
                     </div>
-                </div>
+                </a>
 
-                <div class="scheme-card">
+                <a href="scheme-detail.php?scheme=motor-conversion" class="scheme-card">
                     <div class="scheme-image">
-                        <img src="assets/images/jb1.png" alt="Motor Conversion">
+                        <img src="assets/images/2.jpeg" alt="Motor Conversion">
                         <div class="scheme-overlay">
                             <i class="fas fa-motorcycle"></i>
                         </div>
@@ -309,11 +279,11 @@
                             Sertifikasi untuk teknisi yang mampu melakukan konversi sepeda motor konvensional menjadi motor listrik dengan standar keamanan tinggi.
                         </p>
                     </div>
-                </div>
+                </a>
 
-                <div class="scheme-card">
+                <a href="scheme-detail.php?scheme=gems" class="scheme-card">
                     <div class="scheme-image">
-                        <img src="assets/images/jb1.png" alt="Gasoline Engine Management">
+                        <img src="assets/images/3.jpeg" alt="Gasoline Engine Management">
                         <div class="scheme-overlay">
                             <i class="fas fa-cogs"></i>
                         </div>
@@ -324,11 +294,11 @@
                             Program sertifikasi untuk teknisi yang menguasai sistem manajemen mesin bensin modern dan teknologi EFI.
                         </p>
                     </div>
-                </div>
+                </a>
 
-                <div class="scheme-card">
+                <a href="scheme-detail.php?scheme=vehicle-maintenance" class="scheme-card">
                     <div class="scheme-image">
-                        <img src="assets/images/jb1.png" alt="Vehicle Maintenance">
+                        <img src="assets/images/4.jpeg" alt="Vehicle Maintenance">
                         <div class="scheme-overlay">
                             <i class="fas fa-tools"></i>
                         </div>
@@ -339,12 +309,12 @@
                             Sertifikasi untuk teknisi yang mampu melakukan pemeliharaan berkala kendaraan ringan sesuai standar pabrik.
                         </p>
                     </div>
-                </div>
+                </a>
 
                 <!-- Row 2 -->
-                <div class="scheme-card">
+                <a href="scheme-detail.php?scheme=wheel-alignment" class="scheme-card">
                     <div class="scheme-image">
-                        <img src="assets/images/jb3.png" alt="Four Wheel Alignment">
+                        <img src="assets/images/5.jpeg" alt="Four Wheel Alignment">
                         <div class="scheme-overlay">
                             <i class="fas fa-car"></i>
                         </div>
@@ -355,11 +325,11 @@
                             Program sertifikasi untuk teknisi yang menguasai teknik spooring dan balancing kendaraan ringan dengan peralatan modern.
                         </p>
                     </div>
-                </div>
+                </a>
 
-                <div class="scheme-card">
+                <a href="scheme-detail.php?scheme=conventional-tuneup" class="scheme-card">
                     <div class="scheme-image">
-                        <img src="assets/images/jb3.png" alt="Conventional Tune Up">
+                        <img src="assets/images/6.jpeg" alt="Conventional Tune Up">
                         <div class="scheme-overlay">
                             <i class="fas fa-wrench"></i>
                         </div>
@@ -370,11 +340,11 @@
                             Sertifikasi untuk teknisi yang menguasai tune up mesin dengan sistem konvensional dan karburator.
                         </p>
                     </div>
-                </div>
+                </a>
 
-                <div class="scheme-card">
+                <a href="scheme-detail.php?scheme=injection-tuneup" class="scheme-card">
                     <div class="scheme-image">
-                        <img src="assets/images/jb3.png" alt="Injection Tune Up">
+                        <img src="assets/images/7.jpeg" alt="Injection Tune Up">
                         <div class="scheme-overlay">
                             <i class="fas fa-tachometer-alt"></i>
                         </div>
@@ -385,11 +355,11 @@
                             Program sertifikasi untuk teknisi yang menguasai tune up mesin dengan sistem injeksi elektronik modern.
                         </p>
                     </div>
-                </div>
+                </a>
 
-                <div class="scheme-card">
+                <a href="scheme-detail.php?scheme=motorcycle-maintenance" class="scheme-card">
                     <div class="scheme-image">
-                        <img src="assets/images/jb3.png" alt="Motorcycle Maintenance">
+                        <img src="assets/images/8.jpeg" alt="Motorcycle Maintenance">
                         <div class="scheme-overlay">
                             <i class="fas fa-motorcycle"></i>
                         </div>
@@ -400,7 +370,7 @@
                             Sertifikasi untuk teknisi yang menguasai pemeliharaan dan perbaikan sepeda motor dengan sistem konvensional.
                         </p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -415,9 +385,9 @@
             
             <div class="news-grid">
                 <!-- Row 1 -->
-                                 <div class="news-card">
+                    <a href="info_update/smkn1kuta.php" class="news-card">
                      <div class="news-image">
-                         <img src="assets/images/jb3.png" alt="SMK Negeri 1 Kuta Selatan">
+                         <img src="assets/images/kuta.jpeg" alt="SMK Negeri 1 Kuta Selatan">
                          <div class="news-overlay">
                              <span class="news-category">Uji Kompetensi SMK Negeri 1 Kuta Selatan</span>
                          </div>
@@ -432,14 +402,14 @@
                                  <i class="fas fa-calendar-alt"></i>
                                  <span>15 Desember 2024</span>
                              </div>
-                             <a href="#" class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                             <div class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></div>
                          </div>
                      </div>
-                 </div>
+                 </a>
 
-                 <div class="news-card">
+                 <a href="info_update/smkn1denpasar.php" class="news-card">
                      <div class="news-image">
-                         <img src="assets/images/jb3.png" alt="SMK Negeri 1 Denpasar">
+                         <img src="assets/images/denpsar.png" alt="SMK Negeri 1 Denpasar">
                          <div class="news-overlay">
                              <span class="news-category">Pelaksanaan Konversi Motor Listrik SMK Negeri Denpasar</span>
                          </div>
@@ -454,14 +424,14 @@
                                  <i class="fas fa-calendar-alt"></i>
                                  <span>12 Desember 2024</span>
                              </div>
-                             <a href="#" class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                             <div class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></div>
                          </div>
                      </div>
-                 </div>
+                 </a>
 
-                 <div class="news-card">
+                 <a href="info_update/lpklebak.php" class="news-card">
                      <div class="news-image">
-                         <img src="assets/images/jb3.png" alt="LPK Fitri Lebak">
+                         <img src="assets/images/fitri.jpeg     " alt="LPK Fitri Lebak">
                          <div class="news-overlay">
                              <span class="news-category">LPK Fitri Lebak</span>
                          </div>
@@ -476,15 +446,15 @@
                                  <i class="fas fa-calendar-alt"></i>
                                  <span>10 Desember 2024</span>
                              </div>
-                             <a href="#" class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                             <div class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></div>
                          </div>
                      </div>
-                 </div>
+                 </a>
 
                  <!-- Row 2 -->
-                 <div class="news-card">
+                 <a href="info_update/smkpgri.php" class="news-card">
                      <div class="news-image">
-                         <img src="assets/images/jb3.png" alt="SMK PGRI Wirosari">
+                         <img src="assets/images/wirosari.jpeg" alt="SMK PGRI Wirosari">
                          <div class="news-overlay">
                              <span class="news-category">Tenaga Pendidik SMK PGRI Wirosari Grobogan</span>
                          </div>
@@ -499,14 +469,14 @@
                                  <i class="fas fa-calendar-alt"></i>
                                  <span>8 Desember 2024</span>
                              </div>
-                             <a href="#" class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                             <div class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></div>
                          </div>
                      </div>
-                 </div>
+                 </a>
 
-                 <div class="news-card">
+                 <a href="info_update/smkn52.php" class="news-card">
                      <div class="news-image">
-                         <img src="assets/images/jb3.png" alt="SMK Negeri 52 Jakarta">
+                         <img src="assets/images/52jkt.jpeg" alt="SMK Negeri 52 Jakarta">
                          <div class="news-overlay">
                              <span class="news-category">SMK Negeri 52 Jakarta</span>
                          </div>
@@ -521,14 +491,14 @@
                                  <i class="fas fa-calendar-alt"></i>
                                  <span>5 Desember 2024</span>
                              </div>
-                             <a href="#" class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                             <div class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></div>
                          </div>
                      </div>
-                 </div>
+                 </a>
 
-                 <div class="news-card">
+                 <a href="info_update/smkn51jkt.php" class="news-card">
                      <div class="news-image">
-                         <img src="assets/images/jb3.png" alt="Bimtek SMKN 52 Jakarta">
+                         <img src="assets/images/jkt.jpeg" alt="Bimtek SMKN 52 Jakarta">
                          <div class="news-overlay">
                              <span class="news-category">SMKN 52 Jakarta</span>
                          </div>
@@ -543,10 +513,10 @@
                                  <i class="fas fa-calendar-alt"></i>
                                  <span>3 Desember 2024</span>
                              </div>
-                             <a href="#" class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                             <div class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></div>
                          </div>
                      </div>
-                 </div>
+                 </a>
             </div>
             
             <div class="news-cta">
@@ -581,11 +551,11 @@
                     <div class="contact-info">
                         <div class="contact-item">
                             <span class="contact-label">E-mail:</span>
-                            <a href="mailto:lspsmkjb@gmail.com" class="contact-value">lspglobalotomotif@gmail.com</a>
+                            <a href="mailto:lspsmkjb@gmail.com" class="contact-value">lsp.smkjayabuana@gmail.com</a>
                         </div>
                         <div class="contact-item">
                             <span class="contact-label">No.Telp:</span>
-                            <a href="tel:0851-2102-1319" class="contact-value">0851-2102-1319</a>
+                            <a href="tel:0851-2102-1319" class="contact-value">+62 895-0712-5215</a>
                         </div>
                     </div>
                 </div>
