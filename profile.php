@@ -283,11 +283,21 @@
             <li><span class="tick">✓</span><span>Website: https://smkjayabuana.sch.id (jika ada)</span></li>
           </ul>
         </div>
-        <div class="card">
-          <h2>Peta Lokasi</h2>
-          <p class="muted">Sematkan peta Google dengan mengganti tautan berikut.</p>
-          <a class="btn" href="https://www.google.com/maps" target="_blank" rel="noopener">Buka di Google Maps</a>
+          <!-- Peta Lokasi -->
+          <div class="mt-6">
+            <h3 class="text-lg font-semibold text-gray-800 mb-2">Lokasi Kami</h3>
+            <div class="w-full h-96 md:h-[32rem] rounded-lg overflow-hidden shadow">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0512141211693!2d106.41574877498951!3d-6.123810193862889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f8c0ffffffff%3A0x8466ad94725db23a!2sSMK%20JAYA%20BUANA%20Kresek%20Tangerang%20BANTEN!5e0!3m2!1sid!2sid!4v1760981516758!5m2!1sid!2sid" 
+                    width="100%" height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </div>
+
       </div>
     </section>
   </main>
