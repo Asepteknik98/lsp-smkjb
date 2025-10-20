@@ -2,6 +2,7 @@
 <head>
   <title>Form Asesmen</title>
     <link rel="icon" type="image/png" href="assets/images/jb3.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -39,6 +40,34 @@
     }
     button:hover {
       background: #218838;
+    }
+
+    /* Media query untuk mobile */
+    @media (max-width: 768px) {
+      body {
+        background-size: cover; /* Gambar background menutupi seluruh area */
+      }
+      .container {
+        width: 90%; /* Lebar container lebih besar di mobile */
+        margin: 20px auto;
+        padding: 15px 20px;
+      }
+      .main-nav {
+        padding: 10px 15px;
+      }
+      .logo img {
+        width: 40px; /* Logo lebih kecil di mobile */
+        height: 40px;
+      }
+      .logo-text span:first-child {
+        font-size: 18px; /* Teks logo lebih kecil */
+      }
+      .logo-text span:last-child {
+        font-size: 12px;
+      }
+      table {
+        font-size: 14px; /* Tabel lebih kecil di mobile */
+      }
     }
   </style>
 </head>

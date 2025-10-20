@@ -1,6 +1,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="assets/images/jb3.png">
     <title>Form Pra-Asesmen</title>
   <style>
@@ -61,9 +62,58 @@
     button:hover {
       background: #0056b3;
     }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .container {
+        margin: 20px;
+        padding: 15px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      input, select, textarea, button {
+        font-size: 16px; /* Prevent zoom on iOS */
+        padding: 8px;
+      }
+
+      nav .logo-text span:first-child {
+        font-size: 18px;
+      }
+
+      nav .logo-text span:last-child {
+        font-size: 12px;
+      }
+
+      table {
+        font-size: 12px;
+      }
+
+      th, td {
+        padding: 5px;
+      }
+    }
   </style>
 </head>
 <body>
+  <!-- Main Navigation -->
+  <nav class="main-nav" style="width:100%;background-color:#fff;padding:10px 20px;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div class="nav-left" style="display:flex;align-items:center;gap:10px;">
+      <!-- Logo Gambar -->
+      <div class="logo">
+        <img src="assets/images/jb3.png" alt="Logo" style="width:50px;height:50px;border-radius:50%;">
+      </div>
+
+      <!-- Teks -->
+      <div class="logo-text" style="display:flex;flex-direction:column;line-height:1;">
+        <span style="font-size:20px;font-weight:bold;color:#333;">LSP SMK Jaya Buana</span>
+        <span style="font-size:14px;color:#666;">Kresek, tangerang</span>
+      </div>
+    </div>
+  </nav>
+
   <div class="container">
     <h2>Form Pra-Asesmen</h2>
     <form action="#" method="post">
@@ -157,7 +207,7 @@
 
       <!-- D. Keputusan Asesor -->
       <h3>D. Keputusan Asesor</h3>
-      <label>Keputusan:</label>
+      <label>Keputusan: Lanjut / Tidak Lanjut</label>
      <input type="text" name="keputusan" required>
 
       <button type="submit">Submit</button>
