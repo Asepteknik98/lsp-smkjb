@@ -1,6 +1,6 @@
 <html>
 <head>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="assets/images/jb3.png">
 <style>
 body {
@@ -13,7 +13,7 @@ body {
 
 .form-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     margin: 50px auto;
     max-width: 1200px;
@@ -106,6 +106,36 @@ form button {
 form button:hover {
     background: #0056b3;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form-wrapper {
+        padding: 0 10px;
+        margin: 20px auto;
+    }
+
+    .container {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    form input, form select, form textarea, form button {
+        font-size: 16px; /* Prevent zoom on iOS */
+        padding: 10px;
+    }
+
+    nav .logo-text span:first-child {
+        font-size: 18px;
+    }
+
+    nav .logo-text span:last-child {
+        font-size: 12px;
+    }
+}
 </style>
 
 </head>
@@ -182,9 +212,6 @@ form button:hover {
 
                 
             </form>
-        </div>
-
-        <div class="container school-data-container">
             <h2>DATA SEKOLAH / TEMPAT UJI KOMPETENSI</h2>
             <form>
                 <label for="nama_sekolah">Nama Sekolah / Lembaga</label>

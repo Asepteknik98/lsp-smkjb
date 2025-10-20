@@ -43,40 +43,104 @@
   </style>
 </head>
 <body>
+    <!-- Main Navigation -->
+    <nav class="main-nav" style="width:100%;background-color:#fff;padding:10px 20px;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+        <div class="nav-left" style="display:flex;align-items:center;gap:10px;">
+        <!-- Logo Gambar -->
+        <div class="logo">
+            <img src="assets/images/jb3.png" alt="Logo" style="width:50px;height:50px;border-radius:50%;">
+        </div>
+
+        <!-- Teks -->
+        <div class="logo-text" style="display:flex;flex-direction:column;line-height:1;">
+            <span style="font-size:20px;font-weight:bold;color:#333;">LSP SMK Jaya Buana</span>
+            <span style="font-size:14px;color:#666;">Kresek, tangerang</span>
+        </div>
+        </div>
+    </nav>
   <div class="container">
     <h2>Form Asesmen</h2>
+
+    <!-- Informasi Proses LSP -->
+    <div style="margin-bottom: 30px; padding: 20px; background: rgba(255,255,255,0.8); border-radius: 8px; border-left: 5px solid #007bff;">
+      <h3>🔹 Bukti Langsung</h3>
+      <p>(hasil kerja nyata yang bisa dinilai langsung)</p>
+      <ul>
+        <li>Foto/video proses kerja atau hasil kerja</li>
+        <li>Laporan proyek, hasil praktik, atau produk</li>
+        <li>Dokumen pekerjaan (misalnya: desain, laporan kegiatan, program aplikasi, dsb.)</li>
+      </ul>
+
+      <h3>🔹 Bukti Tidak Langsung</h3>
+      <p>(bukti yang menunjukkan pengalaman dan keahlian)</p>
+      <ul>
+        <li>Sertifikat pelatihan</li>
+        <li>Surat pengalaman kerja / magang</li>
+        <li>Transkrip nilai mata pelajaran produktif</li>
+      </ul>
+
+      <h3>🔹 Bukti Tambahan / Pendukung</h3>
+      <p>(bukti administratif atau penguat)</p>
+      <ul>
+        <li>Surat rekomendasi dari guru pembimbing / tempat kerja</li>
+        <li>Daftar hadir pelatihan</li>
+        <li>Dokumentasi kegiatan terkait unit kompetensi</li>
+      </ul>
+
+      <h3>🧾 Setelah Bukti Diterima</h3>
+      <p>Setelah bukti dikumpulkan:</p>
+      <ul>
+        <li>Asesor akan melakukan verifikasi bukti — apakah valid, autentik, dan relevan.</li>
+        <li>Jika lengkap → lanjut ke Asesmen Kompetensi (uji praktek, wawancara, atau observasi).</li>
+        <li>Jika belum lengkap → peserta diminta melengkapi portofolio dulu.</li>
+      </ul>
+
+      <h3>🔄 Ringkasan Alur LSP P1:</h3>
+      <table border="1" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+        <thead>
+          <tr>
+            <th>Tahap</th>
+            <th>Formulir / Kegiatan</th>
+            <th>Hasil</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Pendaftaran (FR.APL.01)</td>
+            <td>Data peserta</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Pra Asesmen (FR.APL.02)</td>
+            <td>Cek kesiapan kompetensi</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Pengumpulan Bukti</td>
+            <td>Portofolio peserta</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Asesmen</td>
+            <td>Observasi, wawancara</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Rekomendasi Asesor</td>
+            <td>Kompeten / Belum Kompeten</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Sertifikasi</td>
+            <td>Terbit sertifikat LSP</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
     <form>
-      <div class="question">1. Apakah Anda memahami prosedur kerja sesuai standar?</div>
-      <div class="options">
-        <label><input type="radio" name="q1" value="Ya"> Ya</label><br>
-        <label><input type="radio" name="q1" value="Tidak"> Tidak</label>
-      </div>
-
-      <div class="question">2. Apakah Anda mampu menggunakan peralatan sesuai instruksi?</div>
-      <div class="options">
-        <label><input type="radio" name="q2" value="Ya"> Ya</label><br>
-        <label><input type="radio" name="q2" value="Tidak"> Tidak</label>
-      </div>
-
-      <div class="question">3. Apakah Anda dapat bekerja secara mandiri tanpa pengawasan?</div>
-      <div class="options">
-        <label><input type="radio" name="q3" value="Ya"> Ya</label><br>
-        <label><input type="radio" name="q3" value="Tidak"> Tidak</label>
-      </div>
-
-      <div class="question">4. Apakah Anda mampu menyelesaikan pekerjaan sesuai waktu yang ditentukan?</div>
-      <div class="options">
-        <label><input type="radio" name="q4" value="Ya"> Ya</label><br>
-        <label><input type="radio" name="q4" value="Tidak"> Tidak</label>
-      </div>
-
-      <div class="question">5. Apakah Anda memahami standar keselamatan kerja?</div>
-      <div class="options">
-        <label><input type="radio" name="q5" value="Ya"> Ya</label><br>
-        <label><input type="radio" name="q5" value="Tidak"> Tidak</label>
-      </div>
-
-      <button type="submit">Kirim Asesmen</button>
+     
     </form>
   </div>
 </body>
