@@ -1,5 +1,0 @@
-- [x] Add Data Asesi section with inputs for Nama lengkap, NIK, Program keahlian, Skema sertifikasi
-- [x] Add Persyaratan Administrasi table with checkboxes for each document
-- [x] Add Persyaratan Kompetensi table with radio buttons for each unit kompetensi
-- [x] Add Keputusan Asesor section with radio buttons and signature textareas
-- [x] Add submit button to the form
