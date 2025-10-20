@@ -66,34 +66,101 @@
 <body>
   <div class="container">
     <h2>Form Pra-Asesmen</h2>
-    <form>
-      <label>Nama Lengkap:</label>
-      <input type="text" name="nama" required>
+    <form action="#" method="post">
+      <!-- A. Data Asesi -->
+      <h3>A. Data Asesi</h3>
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" required>
 
-      <label>NIS / NIK:</label>
-      <input type="text" name="nis" required>
+      <label for="nik">NIK:</label>
+      <input type="text" id="nik" name="nik" required>
 
-      <label>Program Keahlian:</label>
-      <select name="program">
-        <option value="tkj">Teknik Komputer & Jaringan</option>
-        <option value="tpm">Teknik Pemesinan</option>
-        <option value="dpb">Desain Produksi Busana</option>
-        <option value="titl">Teknik Instalasi Tenaga Listrik</option>
-        <option value="tsm">Teknik Sepeda Motor</option>
-        <option value="tpu">Teknik Pendingin Udara</option>
-        <option value="tp">Teknik Pengelasan</option>
-      </select>
+      <label for="program">Program Keahlian:</label>
+      <input type="text" id="program" name="program" required>
 
-      <label>Pengalaman Kerja / Magang:</label>
-      <textarea name="pengalaman"></textarea>
+      <label for="skema">Skema Sertifikasi yang Akan Diikuti:</label>
+      <input type="text" id="skema" name="skema" required>
 
-      <label>Kesiapan Mengikuti Uji Kompetensi:</label>
-      <select name="kesiapan">
-        <option value="siap">Siap</option>
-        <option value="belum">Belum Siap</option>
-      </select>
+      <!-- B. Persyaratan Administrasi -->
+      <h3>B. Persyaratan Administrasi</h3>
+      <table border="1" style="width: 100%; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Dokumen Pendukung</th>
+            <th>Ada</th>
+            <th>Tidak Ada</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Fotokopi KTP</td>
+            <td><input type="checkbox" name="ktp" value="ada"></td>
+            <td><input type="checkbox" name="ktp" value="tidak"></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Pas foto 3x4</td>
+            <td><input type="checkbox" name="pasfoto" value="ada"></td>
+            <td><input type="checkbox" name="pasfoto" value="tidak"></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Ijazah / surat keterangan sekolah</td>
+            <td><input type="checkbox" name="ijazah" value="ada"></td>
+            <td><input type="checkbox" name="ijazah" value="tidak"></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Bukti pengalaman kerja / PKL</td>
+            <td><input type="checkbox" name="pengalaman" value="ada"></td>
+            <td><input type="checkbox" name="pengalaman" value="tidak"></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Formulir pendaftaran</td>
+            <td><input type="checkbox" name="pendaftaran" value="ada"></td>
+            <td><input type="checkbox" name="pendaftaran" value="tidak"></td>
+          </tr>
+        </tbody>
+      </table>
 
-      <button type="submit">Kirim Pra-Asesmen</button>
+      <!-- C. Persyaratan Kompetensi -->
+      <h3>C. Persyaratan Kompetensi</h3>
+      <table border="1" style="width: 100%; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th>Unit Kompetensi</th>
+            <th>Pernah Dipelajari</th>
+            <th>Belum Pernah</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Menginstalasi sistem operasi</td>
+            <td><input type="radio" name="so" value="pernah"></td>
+            <td><input type="radio" name="so" value="belum"></td>
+          </tr>
+          <tr>
+            <td>Mengelola jaringan komputer</td>
+            <td><input type="radio" name="jaringan" value="pernah"></td>
+            <td><input type="radio" name="jaringan" value="belum"></td>
+          </tr>
+          <tr>
+            <td>Melakukan perawatan PC</td>
+            <td><input type="radio" name="perawatan" value="pernah"></td>
+            <td><input type="radio" name="perawatan" value="belum"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- D. Keputusan Asesor -->
+      <h3>D. Keputusan Asesor</h3>
+      <label>Keputusan:</label>
+     <input type="text" name="keputusan" required>
+
+      <button type="submit">Submit</button>
     </form>
   </div>
 </body>
