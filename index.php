@@ -9,14 +9,13 @@
     <link rel="icon" type="image/png" href="assets/images/jb3.png">
 </head>
 <body>
-    <!-- Top Bar -->
-    <div class="top-bar">
+        <!-- Top Bar -->
+        <div class="top-bar">
         <div class="container">
             <div class="top-bar-left">
-                <span class="date"><?php echo date('l, F j, Y'); ?></span>
+                <span class="date" id="dateTime"></span>
             </div>
             <div class="top-bar-right">
-                
                 <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/lsp_smk_jayabuana/" class="social-icon"><i class="fab fa-instagram"></i></a>
@@ -29,6 +28,34 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function updateTime() {
+            const dateElement = document.getElementById('dateTime');
+            const now = new Date();
+
+            // Format waktu dalam Bahasa Indonesia
+            const options = {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false,
+                timeZone: 'Asia/Jakarta'
+            };
+
+            const formatter = new Intl.DateTimeFormat('id-ID', options);
+            dateElement.textContent = formatter.format(now);
+        }
+
+        // Jalankan pertama kali dan perbarui setiap detik
+        updateTime();
+        setInterval(updateTime, 1000);
+    </script>
+
 
     <!-- Main Navigation -->
     <nav class="main-nav">
@@ -56,13 +83,7 @@
                         <a href="profile.php" class="nav-link">Profile <i class="fas fa-chevron-down"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a href="skema.php" class="nav-link">Skema <i class="fas fa-chevron-down"></i></a>
-                    </li>
-                    <li class="nav-item">
                         <a href="sertifikasi.php" class="nav-link">Sertifikasi <i class="fas fa-chevron-down"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="tuk.php" class="nav-link">TUK <i class="fas fa-chevron-down"></i></a>
                     </li>
                     <li class="nav-item">
                         <a href="asesor.php" class="nav-link">Asesor <i class="fas fa-chevron-down"></i></a>
