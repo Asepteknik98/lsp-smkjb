@@ -25,7 +25,7 @@
                 <a href="#" class="utility-icon"><i class="fas fa-search"></i></a>
                 <a href="#" class="utility-icon"><i class="fas fa-user"></i></a>
                 <a href="#" class="utility-icon menu-toggle"><i class="fas fa-bars"></i></a>
-                <a href="admin.php" class="utility-icon bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center gap-2">
+                <a href="login_admin.php" class="utility-icon bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center gap-2">
                 <i class="fas fa-user-cog"></i>
                 Admin
             </a>
@@ -73,7 +73,7 @@
 
         <!-- Teks -->
         <div class="logo-text" style="display:flex;flex-direction:column;line-height:1;">
-            <span style="font-size:20px;font-weight:bold;color:#333;">LSP SMK</span>
+            <span style="font-size:20px;font-weight:bold;color:#333;">LSP-P1</span>
             <span style="font-size:14px;color:#666;">JAYA BUANA</span>
         </div>
     </div>
@@ -554,61 +554,61 @@
         </div>
     </section>
 
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <!-- Logo and Description -->
-                <div class="footer-brand">
-                    <div class="footer-logo">
-                        <div class="footer-logo-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <span class="footer-logo-text">LSP SMK JAYA BUANA</span>
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Logo and Description -->
+            <div class="footer-brand">
+                <div class="footer-logo" style="display:flex;align-items:center;gap:10px;">
+                    
+                    <!-- Ganti logo ke gambar -->
+                    <div class="logo">
+                        <img src="assets/images/jb3.png" alt="Logo" style="width:50px;height:50px;border-radius:50%;">
                     </div>
-                    <p class="footer-description">
-                        Sertifikasi merupakan suatu pengakuan terhadap tenaga kerja yang mempunyai pengetahuan, ketrampilan dan sikap kerja sesuai dengan standar kompetensi kerja yang telah dipersyaratkan.
-                    </p>
+
+                    <!-- Teks Logo -->
+                    <span class="footer-logo-text" style="font-weight:bold;color:#333;">LSP-P1 JAYA BUANA</span>
                 </div>
 
-                <!-- Contact Information -->
-                <div class="footer-contact">
-                    <h3 class="contact-title">Hubungi Kami:</h3>
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <span class="contact-label">E-mail:</span>
-                            <a href="mailto:lspsmkjb@gmail.com" class="contact-value">lsp.smkjayabuana@gmail.com</a>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-label">No.Telp:</span>
-                            <a href="tel:0851-2102-1319" class="contact-value">+62 895-0712-5215</a>
-                        </div>
+                <p class="footer-description">
+                    Sertifikasi merupakan suatu pengakuan terhadap tenaga kerja yang mempunyai pengetahuan, keterampilan, dan sikap kerja sesuai dengan standar kompetensi kerja yang telah dipersyaratkan.
+                </p>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="footer-contact">
+                <h3 class="contact-title">Hubungi Kami:</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-label">E-mail:</span>
+                        <a href="mailto:lsp.smkjayabuana@gmail.com" class="contact-value">lsp.smkjayabuana@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">No.Telp:</span>
+                        <a href="tel:+6289507125215" class="contact-value">+62 895-0712-5215</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Social Media Icons -->
-                <div class="footer-social">
-                    <a href="#" class="social-link">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="social-link">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#" class="social-link">
-                        <i class="fab fa-youtube"></i>
-                     <a href="#" class="social-link">
-                        <i class="fab fa-tiktok"></i>
-                    </a>    
+            <!-- Social Media Icons -->
+            <div class="footer-social">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
             </div>
         </div>
+
         <br>
         <center>
-        <div class="col-md-12">
-				Copyright - 2025 - LSP SMK JAYA BUANA					
-        </div>
-</center>
-    </footer>
+            <div class="col-md-12">
+            © 2025 - LSP-P1 JAYA BUANA					
+            </div>
+        </center>
+    </div>
+</footer>
 
-    <script src="assets/js/script.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>

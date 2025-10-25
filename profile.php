@@ -4,123 +4,249 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Profil LSP SMK Jaya Buana</title>
-    <link rel="icon" type="image/png" href="assets/images/jb3.png">
+  <link rel="icon" type="image/png" href="assets/images/jb3.png">
   <meta name="description" content="Profil Lembaga Sertifikasi Profesi (LSP) SMK Jaya Buana: visi misi, ruang lingkup sertifikasi, asesor, fasilitas TUK, regulasi, dan kontak."/>
   <style>
-    :root{
-      --bg:#0f172a;        /* slate-900 */
-      --card:#111827;      /* gray-900 */
-      --muted:#94a3b8;     /* slate-400 */
-      --text:#e5e7eb;      /* gray-200 */
-      --brand:#22c55e;     /* green-500 */
-      --brand-2:#06b6d4;   /* cyan-500 */
-      --ring: rgba(34,197,94,.35);
+    :root {
+      --bg: #ffffff;        /* ubah jadi putih */
+      --card: #f9fafb;      /* abu muda untuk kartu */
+      --muted: #475569;     /* abu-abu teks */
+      --text: #0f172a;      /* teks utama hitam tua */
+      --brand: #22c55e;     /* hijau utama */
+      --brand-2: #06b6d4;   /* biru sekunder */
+      --ring: rgba(34,197,94,.25);
     }
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:radial-gradient(1200px 600px at 10% -10%, rgba(34,197,94,.12), transparent 60%),radial-gradient(1000px 500px at 110% 10%, rgba(6,182,212,.12), transparent 60%), var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji";}
-    a{color:inherit}
-    .container{width:min(1100px,92vw);margin-inline:auto}
-    .nav{position:sticky;top:0;z-index:30;background:rgba(15,23,42,.6);backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid rgba(148,163,184,.15)}
-    .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
-    .brand{display:flex;gap:10px;align-items:center}
-    .brand-logo{height:38px;width:38px;border-radius:10px;background:conic-gradient(from 180deg at 50% 50%, var(--brand), var(--brand-2), var(--brand));display:grid;place-items:center;box-shadow:0 0 0 3px rgba(34,197,94,.15), 0 10px 30px rgba(6,182,212,.25)}
-    .brand-logo span{font-weight:800}
-    .brand-text{line-height:1}
-    .brand-text b{display:block;font-size:15px;letter-spacing:.2px}
-    .brand-text small{color:var(--muted)}
-    .nav a.btn{padding:10px 14px;border:1px solid rgba(148,163,184,.25);border-radius:12px;text-decoration:none}
 
-    .hero{padding:72px 0 38px}
-    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
-    .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border:1px solid rgba(148,163,184,.25);border-radius:999px;color:var(--muted);font-size:13px}
-    .badge i{font-style:normal;color:var(--brand)}
-    h1{margin:12px 0 12px;font-size:clamp(28px, 4.2vw, 44px)}
-    .lead{color:#cbd5e1;font-size:clamp(15px, 2.2vw, 18px);max-width:65ch}
-    .cta{display:flex;gap:12px;margin-top:20px}
-    .btn{display:inline-flex;gap:8px;align-items:center;border-radius:14px;padding:12px 16px;border:1px solid rgba(148,163,184,.25);text-decoration:none}
-    .btn-primary{background:linear-gradient(135deg, rgba(34,197,94,.18), rgba(6,182,212,.18));border-color:transparent}
-    .btn:hover{box-shadow:0 0 0 4px var(--ring)}
-
-    .card{background:linear-gradient(180deg, rgba(255,255,255,.02), transparent), var(--card);border:1px solid rgba(148,163,184,.12);border-radius:18px;padding:24px;transition:all 0.3s ease;position:relative;overflow:hidden}
-    .card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg, var(--brand), var(--brand-2));opacity:0;transition:opacity 0.3s ease}
-    .card:hover::before{opacity:1}
-    .card:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(0,0,0,.15);border-color:rgba(34,197,94,.2)}
-    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-    .card h3{margin:12px 0 8px;color:#f1f5f9}
-    .muted{color:var(--muted);line-height:1.6}
-
-    .section{padding:34px 0}
-    .section h2{font-size:24px;margin:0 0 14px}
-
-    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-
-    .list{display:grid;gap:12px;margin:0;padding:0;list-style:none}
-    .list li{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border:1px solid rgba(148,163,184,.2);border-radius:12px;background:rgba(255,255,255,.02);transition:all 0.2s ease}
-    .list li:hover{background:rgba(34,197,94,.05);border-color:rgba(34,197,94,.3);transform:translateX(4px)}
-    .tick{height:24px;width:24px;border-radius:8px;display:grid;place-items:center;background:linear-gradient(135deg, rgba(34,197,94,.2), rgba(6,182,212,.2));border:1px solid rgba(34,197,94,.4);color:var(--brand);font-weight:bold;font-size:12px;flex-shrink:0}
-
-    .table{width:100%;border-collapse:separate;border-spacing:0;background:rgba(255,255,255,.02);border-radius:12px;overflow:hidden;box-shadow:0 4px 6px rgba(0,0,0,.1)}
-    .table th,.table td{padding:16px 20px;text-align:left;border-bottom:1px solid rgba(148,163,184,.1)}
-    .table th{background:linear-gradient(135deg, rgba(34,197,94,.1), rgba(6,182,212,.1));color:#e2e8f0;font-weight:600;font-size:14px;text-transform:uppercase;letter-spacing:0.5px}
-    .table td{color:#cbd5e1;font-size:15px;line-height:1.5}
-    .table tbody tr{transition:all 0.2s ease}
-    .table tbody tr:hover{background:rgba(34,197,94,.05);transform:translateY(-1px)}
-    .table tbody tr:last-child td{border-bottom:none}
-    .table-responsive{overflow-x:auto;margin:16px 0}
-
-    .notice{padding:20px;border:1px solid rgba(34,197,94,.3);background:linear-gradient(135deg, rgba(34,197,94,.08), rgba(6,182,212,.08));border-radius:16px;position:relative;overflow:hidden}
-    .notice::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:linear-gradient(180deg, var(--brand), var(--brand-2))}
-    .notice p{margin:8px 0;line-height:1.6}
-    .notice p:first-child{margin-top:0}
-    .notice p:last-child{margin-bottom:0}
-
-    .footer{padding:28px 0;color:var(--muted);border-top:1px solid rgba(148,163,184,.15);margin-top:30px}
-
-    /* Responsive */
-    @media (max-width: 900px){
-      .hero{padding:56px 0 28px}
-      .hero-grid{grid-template-columns:1fr;gap:24px}
-      .cards{grid-template-columns:1fr;gap:16px}
-      .grid-2,.grid-3{grid-template-columns:1fr;gap:16px}
-      .table-responsive{margin:12px -16px}
-      .table th,.table td{padding:12px 16px;font-size:14px}
-      .card{padding:20px}
-      .list li{padding:12px 14px}
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial;
     }
-    
-    @media (max-width: 600px){
-      .container{width:95vw;padding:0 8px}
-      .hero{padding:48px 0 24px}
-      .card{padding:16px}
-      .table th,.table td{padding:10px 12px;font-size:13px}
-      .btn{padding:10px 12px;font-size:14px}
-      .section{padding:24px 0}
-      h1{font-size:clamp(24px, 6vw, 32px)}
-      .section h2{font-size:20px}
+
+    a { color: inherit; }
+
+    .container { width: min(1100px, 92vw); margin-inline: auto; }
+
+    .nav {
+      position: sticky; top: 0; z-index: 30;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: saturate(140%) blur(10px);
+      border-bottom: 1px solid rgba(148,163,184,.25);
+    }
+
+    .nav-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 0;
+    }
+
+    .brand { display: flex; gap: 10px; align-items: center; }
+    .brand-logo {
+      height: 38px; width: 38px; border-radius: 10px;
+      background: conic-gradient(from 180deg at 50% 50%, var(--brand), var(--brand-2), var(--brand));
+      display: grid; place-items: center;
+      box-shadow: 0 0 0 3px rgba(34,197,94,.15), 0 10px 30px rgba(6,182,212,.25);
+      color: white;
+    }
+
+    .brand-text b { display: block; font-size: 15px; letter-spacing: .2px; }
+    .brand-text small { color: var(--muted); }
+
+    .nav a.btn {
+      padding: 10px 14px;
+      border: 1px solid rgba(148,163,184,.25);
+      border-radius: 12px;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .hero { padding: 72px 0 38px; }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 32px;
+      align-items: center;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border: 1px solid rgba(148,163,184,.35);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .badge i { color: var(--brand); }
+
+    h1 { margin: 12px 0; font-size: clamp(28px, 4.2vw, 44px); }
+    .lead { color: #334155; font-size: 17px; max-width: 65ch; }
+
+    .cta { display: flex; gap: 12px; margin-top: 20px; }
+
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      border-radius: 14px;
+      padding: 12px 16px;
+      border: 1px solid rgba(148,163,184,.25);
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+      color: white;
+      border: none;
+    }
+
+    .btn:hover { opacity: 0.9; }
+
+    .card {
+      background: var(--card);
+      border: 1px solid rgba(148,163,184,.2);
+      border-radius: 18px;
+      padding: 24px;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0,0,0,.08);
+      border-color: rgba(34,197,94,.3);
+    }
+
+    .cards { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+    .muted { color: var(--muted); }
+
+    .section { padding: 34px 0; }
+    .section h2 { font-size: 24px; margin-bottom: 14px; }
+
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; }
+
+    .list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+    .list li {
+      display: flex; gap: 10px; align-items: flex-start;
+      padding: 12px 14px;
+      border: 1px solid rgba(148,163,184,.25);
+      border-radius: 10px;
+      background: #fff;
+      transition: all 0.2s;
+    }
+
+    .list li:hover {
+      background: rgba(34,197,94,.08);
+      transform: translateX(3px);
+    }
+
+    .tick {
+      height: 22px; width: 22px; border-radius: 6px;
+      display: grid; place-items: center;
+      background: var(--brand);
+      color: white; font-weight: bold;
+    }
+
+    .table {
+      width: 100%; border-collapse: collapse;
+      border-radius: 10px; overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    }
+
+    .table th {
+      background: var(--brand);
+      color: white; text-align: left; padding: 12px 16px;
+    }
+
+    .table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid rgba(148,163,184,.15);
+    }
+
+    .notice {
+      padding: 18px;
+      border-left: 5px solid var(--brand);
+      background: rgba(34,197,94,.05);
+      border-radius: 10px;
+    }
+
+    .footer {
+      padding: 28px 0;
+      color: var(--muted);
+      border-top: 1px solid rgba(148,163,184,.2);
+      text-align: center;
+      background: #f9fafb;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid, .grid-2, .grid-3, .cards { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
-  <header class="nav">
-    <div class="container nav-inner">
-      <div class="brand">
-        <div class="brand-logo" aria-hidden="true"><span>✓</span></div>
-        <div class="brand-text">
-          <b>LSP SMK Jaya Buana</b>
-          <small>Lembaga Sertifikasi Profesi</small>
+   <!-- Top Bar -->
+   <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <span class="date" id="dateTime"></span>
+            </div>
+            <script>
+        function updateTime() {
+            const dateElement = document.getElementById('dateTime');
+            const now = new Date();
+
+            // Format waktu dalam Bahasa Indonesia
+            const options = {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false,
+                timeZone: 'Asia/Jakarta'
+            };
+
+            const formatter = new Intl.DateTimeFormat('id-ID', options);
+            dateElement.textContent = formatter.format(now);
+        }
+
+        // Jalankan pertama kali dan perbarui setiap detik
+        updateTime();
+        setInterval(updateTime, 1000);
+    </script>
+<header class="nav">
+  <nav class="main-nav">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;">
+      
+      <!-- Logo dan Teks -->
+      <div class="nav-left" style="display:flex;align-items:center;gap:10px;">
+        <div class="logo">
+          <img src="assets/images/jb3.png" alt="Logo" style="width:50px;height:50px;border-radius:50%;">
+        </div>
+        <div class="logo-text" style="display:flex;flex-direction:column;line-height:1;">
+          <span style="font-size:20px;font-weight:bold;color:#333;">LSP-P1</span>
+          <span style="font-size:14px;color:#666;">JAYA BUANA</span>
         </div>
       </div>
-      <nav>
-        <a class="btn" href="#tentang">Tentang</a>
-        <a class="btn" href="#skema">Skema</a>
-        <a class="btn" href="#asesor">Asesor</a>
-        <a class="btn btn-primary" href="#kontak">Kontak</a>
-      </nav>
-    </div>
-  </header>
 
-  <main>
+      <!-- Menu Navigasi -->
+      <div class="nav-right" style="display:flex;gap:15px;">
+        <a class="btn" href="#tentang" style="text-decoration:none;color:#333;font-weight:500;">Tentang</a>
+        <a class="btn" href="#skema" style="text-decoration:none;color:#333;font-weight:500;">Skema</a>
+        <a class="btn" href="#asesor" style="text-decoration:none;color:#333;font-weight:500;">Asesor</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<main>
     <section class="hero">
       <div class="container hero-grid">
         <div>
@@ -272,44 +398,20 @@
       </div>
     </section>
 
-    <section id="kontak" class="section">
-      <div class="container grid-2">
-        <div class="card">
-          <h2>Kontak</h2>
-          <ul class="list">
-            <li><span class="tick">✓</span><span>Alamat: Jl. …, Kota …, Provinsi …</span></li>
-            <li><span class="tick">✓</span><span>Email: lsp@smkjayabuana.sch.id</span></li>
-            <li><span class="tick">✓</span><span>Telepon: (0xx) xxxx-xxxx</span></li>
-            <li><span class="tick">✓</span><span>Website: https://smkjayabuana.sch.id (jika ada)</span></li>
-          </ul>
-        </div>
-          <!-- Peta Lokasi -->
-          <div class="mt-6">
-            <h3 class="text-lg font-semibold text-gray-800 mb-2">Lokasi Kami</h3>
-            <div class="w-full h-96 md:h-[32rem] rounded-lg overflow-hidden shadow">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0512141211693!2d106.41574877498951!3d-6.123810193862889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f8c0ffffffff%3A0x8466ad94725db23a!2sSMK%20JAYA%20BUANA%20Kresek%20Tangerang%20BANTEN!5e0!3m2!1sid!2sid!4v1760981516758!5m2!1sid!2sid" 
-                    width="100%" height="100%" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-        </div>
+   
 
       </div>
     </section>
-  </main>
+  </main><!-- (seluruh isi <main> kamu tetap sama, tidak perlu diubah) -->
 
-  <footer class="footer">
-    <div class="container">
-      <small>© <span id="y"></span> LSP SMK Jaya Buana. Semua hak cipta dilindungi.</small>
-    </div>
-  </footer>
+<footer class="footer">
+  <div class="container">
+    <small>© <span id="y"></span> LSP-P1 Jaya Buana. Semua hak cipta dilindungi.</small>
+  </div>
+</footer>
 
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
