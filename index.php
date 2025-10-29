@@ -62,45 +62,44 @@
     </script>
 
 
-    <!-- Main Navigation -->
-    <nav class="main-nav">
-        <div class="container">
-            <div class="nav-left" style="display:flex;align-items:center;gap:10px;">
-        <!-- Logo Gambar -->
-        <div class="logo">
-            <img src="assets/images/jb3.png" alt="Logo" style="width:50px;height:50px;border-radius:50%;">
+  <!-- Main Navigation -->
+<nav class="main-nav">
+    <div class="container">
+        <div class="nav-left" style="display:flex;align-items:center;gap:10px;">
+            
+            <!-- Dua Logo Gambar Berdekatan -->
+            <div class="logo" style="display:flex;align-items:center;gap:5px;">
+                <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px;height:70px;border-radius:50%;">
+                <img src="assets/images/bnsp.png" alt="Logo 2" style="width:85px;height:70px;border-radius:50%;">
+            </div>
+
+            <!-- Teks -->
+            <div class="logo-text" style="display:flex;flex-direction:column;line-height:1;">
+                <span style="font-size:20px;font-weight:bold;color:#333;">LSP SMK</span>
+                <span style="font-size:14px;color:#666;">JAYA BUANA</span>
+            </div>
         </div>
 
-        <!-- Teks -->
-        <div class="logo-text" style="display:flex;flex-direction:column;line-height:1;">
-            <span style="font-size:20px;font-weight:bold;color:#333;">LSP-P1</span>
-            <span style="font-size:14px;color:#666;">JAYA BUANA</span>
+        <!-- Menu Navigasi -->
+        <div class="nav-center">
+            <ul class="nav-menu">
+                <li class="nav-item active">
+                    <a href="index.php" class="nav-link">Home <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="profile.php" class="nav-link">Profile <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="pengumuman.php" class="nav-link">Pengumuman <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="kontak.php" class="nav-link">Kontak <i class="fas fa-chevron-down"></i></a>
+                </li>
+            </ul>
         </div>
     </div>
+</nav>
 
-            
-            <div class="nav-center">
-                <ul class="nav-menu">
-                    <li class="nav-item active">
-                        <a href="index.php" class="nav-link">Home <i class="fas fa-chevron-down"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="profile.php" class="nav-link">Profile <i class="fas fa-chevron-down"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="sertifikasi.php" class="nav-link">Sertifikasi <i class="fas fa-chevron-down"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="asesor.php" class="nav-link">Asesor <i class="fas fa-chevron-down"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="download.php" class="nav-link">Download <i class="fas fa-chevron-down"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="kontak.php" class="nav-link">Kontak <i class="fas fa-chevron-down"></i></a>
-                    </li>
-                </ul>
-            </div>
             
             <div class="nav-right">
                 <!-- Reserved for additional elements -->
@@ -603,7 +602,7 @@
         <br>
         <center>
             <div class="col-md-12">
-            © 2025 - LSP-P1 JAYA BUANA					
+            © 2025 - LSP SMK JAYA BUANA					
             </div>
         </center>
     </div>
