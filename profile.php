@@ -251,28 +251,10 @@
       <div class="container hero-grid">
         <div>
           <span class="badge"><i>●</i> Terlisensi BNSP — Mandiri, Objektif, Akuntabel</span>
-          <h1>Profil LSP SMK Jaya Buana</h1>
-          <p class="lead">Lembaga Sertifikasi Profesi (LSP) SMK Jaya Buana adalah unit pelaksana sertifikasi kompetensi yang memastikan lulusan memiliki <em>kompetensi terukur</em> sesuai Standar Kompetensi Kerja Nasional Indonesia (SKKNI), Standar Industri, dan KKNI. LSP berkomitmen pada mutu layanan, integritas asesmen, dan kemitraan industri.</p>
+          <h1>Profile LSP SMK Jaya Buana</h1>
+          <p class="lead">Lembaga Sertifikasi Profesi SMK JAYA BUANA melaksanakan sertifikasi kompetensi bagi tenaga kerja mengacu kepada Standar Kompetensi Kerja Nasional Indonesia dan Kerangka Kualifikasi Nasional Indonesia. Skema sertifikasi yang telah disiapkan LSP SMK JAYA BUANA adalah jenis skema KKNI, kualifikas dan Okupasi.</p>
           <div class="cta">
             <a class="btn btn-primary" href="#visi">Lihat Visi & Misi</a>
-            <a class="btn" href="#legalitas">Legalitas</a>
-          </div>
-        </div>
-        <div class="cards">
-          <div class="card">
-            <div class="muted">🏛️ Status</div>
-            <h3>Terlisensi BNSP</h3>
-            <p class="muted">Nomor Lisensi: <b>—</b> (isi sesuai dokumen lisensi). Ruang lingkup: Bidang Vokasi & TIK/Jaringan (contoh, sesuaikan).</p>
-          </div>
-          <div class="card">
-            <div class="muted">🎯 Fokus</div>
-            <h3>Link & Match Industri</h3>
-            <p class="muted">Sinkronisasi kurikulum, TUK layak, asesor bersertifikat, dan penjaminan mutu asesmen.</p>
-          </div>
-          <div class="card">
-            <div class="muted">📍 TUK</div>
-            <h3>Tempat Uji Kompetensi</h3>
-            <p class="muted">Laboratorium/ruang praktik sesuai skema. Kapasitas, peralatan, dan SOP keselamatan memenuhi standar.</p>
           </div>
         </div>
       </div>
@@ -282,99 +264,73 @@
       <div class="container grid-2">
         <div class="card">
           <h2 id="visi">Visi</h2>
-          <p class="muted">Menjadi LSP sekolah yang unggul, terpercaya, dan diakui industri dalam menghasilkan tenaga kerja berkompeten dan berkarakter.</p>
+          <p class="muted">Menjadi Lembaga Sertifikasi Profesi yang Mampu Menghasilkan dan Menjadi Wadah Peningkatan Kompetensi Para Peserta Didik Untuk Memenuhi Kebutuhan Industri.</p>
           <h2>Misi</h2>
           <ul class="list">
-            <li><span class="tick">✓</span><span>Menyelenggarakan asesmen kompetensi yang valid, reliabel, dan berkeadilan.</span></li>
-            <li><span class="tick">✓</span><span>Mengembangkan skema sertifikasi sesuai kebutuhan industri dan SKKNI.</span></li>
-            <li><span class="tick">✓</span><span>Memastikan ketersediaan TUK yang layak dan aman.</span></li>
-            <li><span class="tick">✓</span><span>Meningkatkan kapasitas asesor dan personel LSP secara berkelanjutan.</span></li>
-            <li><span class="tick">✓</span><span>Membangun kemitraan dengan dunia usaha dan dunia industri (DUDI).</span></li>
+            <li><span class="tick">1</span><span>Menyelenggarakan sertifikasi kompetensi berbasis setandar kerja nasional indosesia yang sesuai dengan kebutuhan dunia kerja</span></li>
+            <li><span class="tick">2</span><span>Menghasilkan sumber daya manusia yang unggul sesuai dengan kompetensi</span></li>
+            <li><span class="tick">3</span><span>Mengimplementasikan seluruh kebijakan pedoman bnsp 201 dan 202 tentang lisensi LSP.</span></li>
+            <li><span class="tick">4</span><span>Memfasilitasi peserta didik dalam dalam memperoleh sertifikasi kompetensi sesuai dengan dunia usaha dan dunia industri.</span></li>
+            <li><span class="tick">5</span><span>Mencetak lulusan yang kompeten, berintegritas, dan memiliki daya saing sesuai dengan kebutuhan dunia industri.</span></li>
           </ul>
         </div>
         <div class="card">
-          <h2>Ruang Lingkup Sertifikasi</h2>
-          <p class="muted">Contoh (sesuaikan dengan lisensi):</p>
-          <div class="table-responsive">
-            <table class="table">
-              <thead><tr><th>Bidang</th><th>Skema/Unit Kompetensi</th></tr></thead>
-              <tbody>
-                <tr><td><strong>TJKT / Jaringan</strong></td><td>Teknisi Jaringan Komputer, Administrator Jaringan, Fiber Optic Installer</td></tr>
-                <tr><td><strong>RPL / SIJA</strong></td><td>Pengembang Web Dasar, Pengujian Perangkat Lunak</td></tr>
-                <tr><td><strong>Multimedia</strong></td><td>Desain Grafis, Editing Video Dasar</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="muted">Catatan: Tuliskan sesuai skema yang disahkan di lisensi LSP.</p>
+          <h2 id="visi">Kebijakan Mutu</h2>
+          <p class="muted">Lembaga sertifikasi profesi pihak pertama Sekolah Menengah Kejuruan Jaya Buana bertekad menerapkan dan memelihara sistem mutu sesuai dengan pedoman BNSP 217. Seluruh personil LSP SMK Jaya Buana berkomitmen untuk menyelenggarakan uji kompetensi profesi secara profesional.</p>
+          <h2>Sasaran Mutu</h2>
+          <ul class="list">
+            <li><span class="tick">1</span><span>1.	Melaksanakan uji kompetensi sesuai panduan bnsp 201 dengan profesional dan independent di wilayah LSP SMK Jaya Buana.</span></li>
+            <li><span class="tick">2</span><span>2.	Tercapainya standar mutu proses sertifikasi kompetensi kerja di seluruh skema sertifikasi yang kompeten dan profesional.</span></li>
+            <li><span class="tick">3</span><span>3.	Upskilling dan reskilling kompetensi sertifikasi bagi para asesor dan menjaga kualitas serta kemampuan dalam melakukan assessment pada peserta didik.</span></li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section id="skema" class="section">
-      <div class="container">
-        <h2>Daftar Skema Sertifikasi</h2>
-        <div class="grid-3">
-          <div class="card">
-            <h3>Teknisi Jaringan Komputer</h3>
-            <p class="muted">Kualifikasi: Level KKNI (sesuaikan). Prasyarat: portofolio praktik & logbook.</p>
-            <ul class="list">
-              <li><span class="tick">✓</span>Instalasi & konfigurasi perangkat jaringan</li>
-              <li><span class="tick">✓</span>Manajemen IP, VLAN, dan keamanan dasar</li>
-              <li><span class="tick">✓</span>Uji fungsi & dokumentasi</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Administrator Jaringan</h3>
-            <p class="muted">Fokus: layanan jaringan, server, monitoring, <em>backup</em>.</p>
-            <ul class="list">
-              <li><span class="tick">✓</span>DHCP/DNS/Web/Proxy</li>
-              <li><span class="tick">✓</span>Monitoring & hardening</li>
-              <li><span class="tick">✓</span>Prosedur pemulihan</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Desain Grafis</h3>
-            <p class="muted">Fokus: tata letak, tipografi, pengolahan gambar.</p>
-            <ul class="list">
-              <li><span class="tick">✓</span>Brief & konsep visual</li>
-              <li><span class="tick">✓</span>Produksi & revisi</li>
-              <li><span class="tick">✓</span>Ekspor & presentasi</li>
-            </ul>
-          </div>
+    <!-- < -->
+     <section id="tentang" class="section">
+      <div class="container grid-2">
+        <div class="card">
+          <h2 id="visi">Bentuk Organisasi</h2>
+          <p class="muted">Lembaga Sertifikasi Profesi (LSP) SMK Jaya Buana dibentuk dan dikembangkan oleh Sekolah Menengah Kejuruan (SMK) Jaya Buana adalah lembaga yang dilisensi BNSP yang bertanggung jawab melaksanakan sertifikasi kompetensi profesi. LSP SMK Jaya Buana yang dibentuk wajib berbadan hukum dan diakui oleh BNSP.</p>
+          <p class="muted">LSP SMK Jaya Buana mempunyai tugas memenuhi sarana dan prasarana LSP sesuai standar BNSP, mengembangkan SDM LSP, mengembangkan skema sertifikasi, mengembangkan materi uji kompetensi, melakukan verifikasi tempat uji kompetensi, melaksanakan uji kompetensi, serta menerbitkan sertifikat kompetensi.</p>
+          <p class="muted">Lembaga Sertifikasi Profesi (LSP) SMK Jaya Buana dibentuk dan dikembangkan oleh Sekolah Menengah Kejuruan (SMK) Jaya Buana adalah lembaga yang dilisensi BNSP yang bertanggung jawab melaksanakan sertifikasi kompetensi profesi. LSP SMK Jaya Buana yang dibentuk wajib berbadan hukum dan diakui oleh BNSP.</p>
         </div>
-        <p class="muted" style="margin-top:10px">Tambahkan kartu skema lain sesuai kebutuhan.</p>
+        <div class="card">
+          <h2 id="visi">Komitmen Ketidakberpihakan</h2>
+          <p class="muted">Kebijakan, prosedur, dan administrasi LSP SMK Jaya Buana terkait dengan kriteria sertifikasi, yang jujur dan wajar terhadap seluruh calon dan telah memenuhi semua persyaratan dan peraturan organisasi/industrinya serta perundang-undangan yang berlaku. LSP tidak diizinkan menggunakan prosedur yang menghambat dan menghalangi akses oleh asesi dan calon, kecuali yang ditetapkan dalam pedoman ini. LSP sebagai lembaga sertifikasi profesi memberikan kepercayaan kepada pihak terkait atas kompetensi, ketidakberpihakan dan integritasnya.</p>
+        </div>
       </div>
     </section>
 
     <section id="asesor" class="section">
       <div class="container grid-2">
         <div class="card">
-          <h2>Struktur Organisasi LSP</h2>
+          <h2>Struktur Organisasi LSP SMK JAYA BUANA</h2>
           <ul class="list">
-            <li><span class="tick">✓</span><span>Ketua LSP: … (nama)</span></li>
-            <li><span class="tick">✓</span><span>Manajer Sertifikasi: … (nama)</span></li>
-            <li><span class="tick">✓</span><span>Manajer Mutu: … (nama)</span></li>
-            <li><span class="tick">✓</span><span>Administrator/TUK: … (nama)</span></li>
+            <li><span class=>DEWAN PENGARAH : </span><span>AAN ANGSORI</span></li>
+            <li><span class=>DIREKTUR LSP : </span><span>IQBAL QURNAWAN</span></li>
+            <li><span class=>KOMITE SKEMA : </span><span>AGUS SOLIHIN</span></li>
+            <li><span class=>ADMINISTRASI LSP : </span><span>EGI ANDIYANA</span></li>
+            <li><span class=>BENDAHARA LSP : </span><span>LIA SOLIHAH</span></li>
+            <li><span class=>MANAGER SERTIFIKASI : </span><span>LUKMANUL HAKIM</span></li>
+            <li><span class=>MANAGER MANAJEMEN MUTU : </span><span>RIFIQ OKVIANTO</span></li>
+            <li><span class=>MEDIA DAN INFORMASI : </span><span>NANANG SUHAEMI</span></li>
           </ul>
-          <p class="muted">Lengkapi sesuai SK penugasan dan organigram.</p>
         </div>
         <div class="card">
-          <h2>Asesor Kompetensi</h2>
-          <div class="table-responsive">
-            <table class="table">
-              <thead><tr><th>Nama Asesor</th><th>Nomor Registrasi</th><th>Bidang Keahlian</th></tr></thead>
-              <tbody>
-                <tr><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td><strong>Teknik Jaringan</strong></td></tr>
-                <tr><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td><strong>Rekayasa Perangkat Lunak</strong></td></tr>
-                <tr><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td><strong>Multimedia</strong></td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="muted">Isi sesuai bukti sertifikat asesor (BNSP).</p>
+          <h2>Fasilitas TUK</h2>
+          <ul class="list">
+            <li><span class="tick">✓</span><span>Ruang asesmen, observasi, dan wawancara</span></li>
+            <li><span class="tick">✓</span><span>Perangkat jaringan (router, switch, FO toolkit)</span></li>
+            <li><span class="tick">✓</span><span>PC/Laptop, server mini, perangkat lunak legal</span></li>
+            <li><span class="tick">✓</span><span>Perlengkapan K3 & SOP keselamatan</span></li>
+            <li><span class="tick">✓</span><span>Dokumen mutu: skema, SOP, panduan asesmen</span></li>
+          </ul>
         </div>
       </div>
     </section>
-
+<!-- 
     <section class="section">
       <div class="container grid-2">
         <div class="card">
@@ -401,7 +357,7 @@
    
 
       </div>
-    </section>
+    </section> -->
   </main><!-- (seluruh isi <main> kamu tetap sama, tidak perlu diubah) -->
 
 <footer class="footer">
