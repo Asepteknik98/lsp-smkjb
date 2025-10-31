@@ -22,8 +22,6 @@
                 <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="utility-icon"><i class="fas fa-search"></i></a>
-                <a href="#" class="utility-icon"><i class="fas fa-user"></i></a>
                 <a href="#" class="utility-icon menu-toggle"><i class="fas fa-bars"></i></a>
                 <a href="login_admin.php" class="utility-icon bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center gap-2">
                 <i class="fas fa-user-cog"></i>
@@ -91,6 +89,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="pengumuman.php" class="nav-link">Pengumuman <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="pendaftaran.php" class="nav-link">Pendaftaran<i class="fas fa-chevron-down"></i></a>
                 </li>
                 <li class="nav-item">
                     <a href="kontak.php" class="nav-link">Kontak <i class="fas fa-chevron-down"></i></a>
@@ -205,7 +206,7 @@
         </div>
 
 
-        <div class="process-section">
+        <!-- <div class="process-section">
     <h3 class="process-title">Proses Sertifikasi Kompetensi</h3>
     <div class="process-container">
 
@@ -219,8 +220,8 @@
                     <div class="illustration-document"><i class="fas fa-file-alt"></i></div>
                 </div>
             </div>
-        </a>
-
+        </a> -->
+<!-- 
         <a href="pra-asesmen.php" class="process-card">
             <div class="process-number">2</div>
             <div class="process-content">
@@ -263,7 +264,7 @@
                     <div class="illustration-review"><i class="fas fa-search"></i></div>
                 </div>
             </div>
-        </a>
+        </a> -->
 
     </div>
 </div>
