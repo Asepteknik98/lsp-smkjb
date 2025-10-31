@@ -220,51 +220,6 @@
                 </div>
             </div>
         </a>
-
-        <a href="pra-asesmen.php" class="process-card">
-            <div class="process-number">2</div>
-            <div class="process-content">
-                <h4 class="process-step">Pra Asesmen</h4>
-                <div class="process-illustration">
-                    <div class="illustration-office"><i class="fas fa-building"></i></div>
-                    <div class="illustration-clock"><i class="fas fa-clock"></i></div>
-                </div>
-            </div>
-        </a>
-
-        <a href="asesmen.php" class="process-card">
-            <div class="process-number">3</div>
-            <div class="process-content">
-                <h4 class="process-step">Pengumpulan Bukti (Asesmen)</h4>
-                <div class="process-illustration">
-                    <div class="illustration-garage"><i class="fas fa-car"></i></div>
-                    <div class="illustration-tools"><i class="fas fa-tools"></i></div>
-                </div>
-            </div>
-        </a>
-
-        <a href="keputusan.php" class="process-card">
-            <div class="process-number">4</div>
-            <div class="process-content">
-                <h4 class="process-step">Keputusan Asesmen</h4>
-                <div class="process-illustration">
-                    <div class="illustration-chart"><i class="fas fa-chart-bar"></i></div>
-                    <div class="illustration-screen"><i class="fas fa-desktop"></i></div>
-                </div>
-            </div>
-        </a>
-
-        <a href="laporan.php" class="process-card">
-            <div class="process-number">5</div>
-            <div class="process-content">
-                <h4 class="process-step">Melaporkan dan Meninjau Asesmen</h4>
-                <div class="process-illustration">
-                    <div class="illustration-report"><i class="fas fa-file-chart-line"></i></div>
-                    <div class="illustration-review"><i class="fas fa-search"></i></div>
-                </div>
-            </div>
-        </a>
-
     </div>
 </div>
     <!-- Certification Schemes Section -->
