@@ -102,15 +102,11 @@
   <nav class="main-nav" style="width:100%;background-color:#fff;padding:10px 20px;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
     <div class="nav-left" style="display:flex;align-items:center;gap:10px;">
       <!-- Logo Gambar -->
-      <div class="logo">
-        <img src="assets/images/jb3.png" alt="Logo" style="width:50px;height:50px;border-radius:50%;">
-      </div>
+      <div class="logo" style="display:flex; align-items:center; justify-content:center; gap:5px;">
+            <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px; height:70px; border-radius:50%;">
+            <img src="assets/images/bnsp.png" alt="Logo 2" style="width:85px; height:70px; border-radius:50%;">
+        </div>
 
-      <!-- Teks -->
-      <div class="logo-text" style="display:flex;flex-direction:column;line-height:1;">
-        <span style="font-size:20px;font-weight:bold;color:#333;">LSP SMK Jaya Buana</span>
-        <span style="font-size:14px;color:#666;">Kresek, tangerang</span>
-      </div>
     </div>
   </nav>
 

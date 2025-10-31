@@ -14,11 +14,10 @@
         <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between flex-wrap">
             <!-- Logo dan Teks -->
             <div class="flex items-center gap-3">
-                <img src="assets/images/jb3.png" alt="Logo" class="w-10 h-10 rounded-full object-cover">
-                <div class="leading-tight">
-                    <span class="text-lg font-bold text-gray-800 block">LSP SMK</span>
-                    <span class="text-sm text-gray-500 block">JAYA BUANA</span>
-                </div>
+             <div class="logo" style="display:flex; align-items:center; justify-content:center; gap:5px;">
+            <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px; height:70px; border-radius:50%;">
+            <img src="assets/images/bnsp.png" alt="Logo 2" style="width:85px; height:70px; border-radius:50%;">
+        </div>
             </div>
 
             <!-- Navigasi -->
