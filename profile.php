@@ -26,6 +26,8 @@
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial;
     }
 
+    p { text-align: justify; }
+
     a { color: inherit; }
 
     .container { width: min(1100px, 92vw); margin-inline: auto; }
@@ -229,6 +231,10 @@
       <div class="logo" style="display:flex; align-items:center; justify-content:center; gap:5px;">
             <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px; height:70px; border-radius:50%;">
             <img src="assets/images/bnsp.png" alt="Logo 2" style="width:85px; height:70px; border-radius:50%;">
+            <div class="logo-text" style="display:flex;flex-direction:column;line-height:1;">
+                <span style="font-size:20px;font-weight:bold;color:#333;">LSP SMK</span>
+                <span style="font-size:14px;color:#666;">JAYA BUANA</span>
+            </div>
         </div>
       </div>
     </div>
@@ -287,8 +293,15 @@
           <p class="muted">Lembaga Sertifikasi Profesi (LSP) SMK Jaya Buana dibentuk dan dikembangkan oleh Sekolah Menengah Kejuruan (SMK) Jaya Buana adalah lembaga yang dilisensi BNSP yang bertanggung jawab melaksanakan sertifikasi kompetensi profesi. LSP SMK Jaya Buana yang dibentuk wajib berbadan hukum dan diakui oleh BNSP.</p>
         </div>
         <div class="card">
-          <h2 id="visi">Komitmen Ketidakberpihakan</h2>
+          <h2 id="Name">Komitmen Ketidakberpihakan</h2>
           <p class="muted">Kebijakan, prosedur, dan administrasi LSP SMK Jaya Buana terkait dengan kriteria sertifikasi, yang jujur dan wajar terhadap seluruh calon dan telah memenuhi semua persyaratan dan peraturan organisasi/industrinya serta perundang-undangan yang berlaku. LSP tidak diizinkan menggunakan prosedur yang menghambat dan menghalangi akses oleh asesi dan calon, kecuali yang ditetapkan dalam pedoman ini. LSP sebagai lembaga sertifikasi profesi memberikan kepercayaan kepada pihak terkait atas kompetensi, ketidakberpihakan dan integritasnya.</p>
+          <h2 id="Name">Sarana Dan Perangkat</h2>Sarana dan perangkat adalah sumber daya yang akan memastikan terselenggaranya Sertifikasi Kompetensi di LSP SMK JAYA BUANA, antara lain : <br>
+1.	Lembaga yang berbadan hukum dan tempat kerja yang memadahi untuk menjalankan fungsi Lembaga yang terakreditasi. <br>
+2.	Acuan pembanding yang valid, terkini dan memadahi, untuk memastikan hasil Sertifikasi yang berkualitas. <br>
+3.	Materi Uji Kompetensi (MUK) yeng berkualitas, memenuhi prinsip-prinsip asesmen dan aturan bukti sesuai ketetapan BNSP.  <br>
+4.	Tempat Uji Kompetensi (TUK) yang terlisensi sesuai hasil verifikasi Lembaga Sertifikasi telah memenuhi persaratan teknis dan persaratan managerial. <br>
+5.	Asesor Kompetensi yang teregistrasi di LSP SMK JAYA BUANA, telah dinyatakan sesuai pedoman BNSP yang memiliki sertifikat metodologi dan teknis sesuai ruang lingkupnya.
+<br>
         </div>
       </div>
     </section>
@@ -304,21 +317,58 @@
             <li><span class=>ADMINISTRASI LSP : </span><span>EGI ANDIYANA</span></li>
             <li><span class=>BENDAHARA LSP : </span><span>LIA SOLIHAH</span></li>
             <li><span class=>MANAGER SERTIFIKASI : </span><span>LUKMANUL HAKIM</span></li>
-            <li><span class=>MANAGER MANAJEMEN MUTU : </span><span>RIFIQ OKVIANTO</span></li>
+            <li><span class=>MANAGER MANAJEMEN MUTU : </span><span>ROFIQ OKVIANTO</span></li>
             <li><span class=>MEDIA DAN INFORMASI : </span><span>NANANG SUHAEMI</span></li>
           </ul>
+          <h2>Fungsi dan Tugas:</h2>
+          <ul class="list">
+            <li><span class="tick">1</span><span><Strong>Dewan Pengarah</Strong> mempunyai tanggung jawab atas keberlangsungan LSP antara lain: <br>
+a.	Menetapkan visi, misi dan tujuan LSP <br>
+b.	Menetapkan rencana strategis, program kerja dan anggaran belanja <br>
+c.	Mengangkat dan memberhentikan pelaksana LSP <br>
+d.	Membina komunikasi dengan para pemangku kepentingan <br>
+e.	Memobilisasi sumber daya <br>
+</span></li>
+            <li><span class="tick">2</span><span> <strong> Direktur LSP</strong> memiliki fungsi sebagai pelaksana kebijakan yang telah ditetapkan oleh pengarah, dengan tugas antara lain sebagai berikut: <br>
+a.	Melaksanakan program kerja LSP <br>
+b.	Melakukan monitoring dan evaluasi <br>
+c.	Menyiapkan rencana program dan anggaran <br>
+d.	Memberikan laporan dan bertanggung jawab kepada Pengarah <br>
+</span></li>
         </div>
         <div class="card">
-          <h2>Fasilitas TUK</h2>
+          <h2>Fungsi dan Tugas:</h2>
           <ul class="list">
-            <li><span class="tick">✓</span><span>Ruang asesmen, observasi, dan wawancara</span></li>
-            <li><span class="tick">✓</span><span>Perangkat jaringan (router, switch, FO toolkit)</span></li>
-            <li><span class="tick">✓</span><span>PC/Laptop, server mini, perangkat lunak legal</span></li>
-            <li><span class="tick">✓</span><span>Perlengkapan K3 & SOP keselamatan</span></li>
-            <li><span class="tick">✓</span><span>Dokumen mutu: skema, SOP, panduan asesmen</span></li>
+      <li><span class="tick">3</span><span> <strong>Bagian Sertifikasi</strong> mempunyai tugas, antara lain: <br>
+a.	Memfasilitasi penyusunan skema sertifikasi <br>
+b.	Menyiapkan perangkat asesmen dan materi uji <br>
+c.	Melaksanakan kegiatan sertifikasi termasuk pemeliharaan kompetensi dan sertifikasi ulang <br>
+d.	Menetapkan persyaratan Tempat Uji Kompetensi (TUK) <br>
+e.	Melaksanakan verifikasi dan menetapkan TUK <br>
+f.	Melakukan rekrutmen asesor kompetensi serta pemeliharaan kompetensinya <br>
+</span></li>
+      <li><span class="tick">4</span><span><strong>Bagian Manajemen Mutu </strong> mempunyai tugas, antara lain: <br>
+a.	Mengembangkan dan menerapkan sistem manajemen mutu LSP sesuai Pedoman BNSP 201 <br>
+b.	Memelihara berlangsungnya sistem manajemen agar tetap sesuai dengan standar dan pedoman yang diacu <br>
+c.	Melakukan internal audit dan memfasilitasi kaji ulang manajemen <br>
+</span></li>
+ <li><span class="tick">5</span><span> <strong> Bagian Administrasi dan Keuangan</strong> mempunyai tugas, antara lain: <br>
+a.	Memfasilitasi unsur-unsur LSP guna terselenggaranya program sertifikasi profesi <br>
+b.	Melaksanakan tugas-tugas ketatausahaan organisasi LSP <br>
+c.	Melakukan verifikasi hasil sertifikasi kompetensi <br>
+d.	Mempersiapkan laporan kegiatan LSP<br>
+<li><span class="tick">6</span><span> <strong>Komite Skema Sertifikasi </strong>mempunyai tugas, antara lain: <br>
+a.	Menetapkan kebijakan teknis sertifikasi; <br>
+b.	Menentukan kelayakan skema sertifikasi; <br>
+c.	Mengkaji dan mengesahkan skema sertifikasi; <br>
+d.	Memantau, mengevaluasi serta penyempurnaan dan pengkinian atas skema sertifikasi yang diterapkan<br>
+<li><span class="tick">7</span><span> <strong>Asesor Sertifikasi</Strong> mempunyai tugas, antara lain: <br>
+a.	Memahami skema sertifikasi yang relevan; <br>
+b.	Mampu menerapkan prosedur uji kompetensi dan dokumentasinya; dan <br>
+c.	Melakukan uji kompetensi pada kegiatan sertifikasi. <br>
+<br>
           </ul>
         </div>
-      </div>
     </section>
   </main><!-- (seluruh isi <main> kamu tetap sama, tidak perlu diubah) -->
 
