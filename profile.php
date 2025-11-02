@@ -320,9 +320,21 @@
         </div>
       </div>
     </section>
-<!-- 
-    <section class="section">
+     <section id="asesor" class="section">
       <div class="container grid-2">
+        <div class="card">
+          <h2>Struktur Organisasi LSP SMK JAYA BUANA</h2>
+          <ul class="list">
+            <li><span class=>DEWAN PENGARAH : </span><span>AAN ANGSORI</span></li>
+            <li><span class=>DIREKTUR LSP : </span><span>IQBAL QURNAWAN</span></li>
+            <li><span class=>KOMITE SKEMA : </span><span>AGUS SOLIHIN</span></li>
+            <li><span class=>ADMINISTRASI LSP : </span><span>EGI ANDIYANA</span></li>
+            <li><span class=>BENDAHARA LSP : </span><span>LIA SOLIHAH</span></li>
+            <li><span class=>MANAGER SERTIFIKASI : </span><span>LUKMANUL HAKIM</span></li>
+            <li><span class=>MANAGER MANAJEMEN MUTU : </span><span>RIFIQ OKVIANTO</span></li>
+            <li><span class=>MEDIA DAN INFORMASI : </span><span>NANANG SUHAEMI</span></li>
+          </ul>
+        </div>
         <div class="card">
           <h2>Fasilitas TUK</h2>
           <ul class="list">
@@ -333,21 +345,8 @@
             <li><span class="tick">✓</span><span>Dokumen mutu: skema, SOP, panduan asesmen</span></li>
           </ul>
         </div>
-        <div class="card">
-          <h2 id="legalitas">Legalitas & Mutu</h2>
-          <div class="notice">
-            <p><b>Lisensi BNSP:</b> Nomor …, berlaku s.d. … (tanggal). Ruang lingkup: …</p>
-            <p><b>Dokumen Mutu:</b> Manual Mutu LSP, SOP Asesmen, SOP Banding & Keluhan, Form APL-01/02, FR.AK, FR.M, dsb.</p>
-            <p><b>Audit Internal:</b> Dilaksanakan minimal 1x per tahun. Tindak lanjut & perbaikan terdokumentasi.</p>
-          </div>
-        </div>
       </div>
     </section>
-
-   
-
-      </div>
-    </section> -->
   </main><!-- (seluruh isi <main> kamu tetap sama, tidak perlu diubah) -->
 
 <footer class="footer">
