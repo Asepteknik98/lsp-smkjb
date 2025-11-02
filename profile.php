@@ -320,33 +320,6 @@
         </div>
       </div>
     </section>
-     <section id="asesor" class="section">
-      <div class="container grid-2">
-        <div class="card">
-          <h2>Struktur Organisasi LSP SMK JAYA BUANA</h2>
-          <ul class="list">
-            <li><span class=>DEWAN PENGARAH : </span><span>AAN ANGSORI</span></li>
-            <li><span class=>DIREKTUR LSP : </span><span>IQBAL QURNAWAN</span></li>
-            <li><span class=>KOMITE SKEMA : </span><span>AGUS SOLIHIN</span></li>
-            <li><span class=>ADMINISTRASI LSP : </span><span>EGI ANDIYANA</span></li>
-            <li><span class=>BENDAHARA LSP : </span><span>LIA SOLIHAH</span></li>
-            <li><span class=>MANAGER SERTIFIKASI : </span><span>LUKMANUL HAKIM</span></li>
-            <li><span class=>MANAGER MANAJEMEN MUTU : </span><span>RIFIQ OKVIANTO</span></li>
-            <li><span class=>MEDIA DAN INFORMASI : </span><span>NANANG SUHAEMI</span></li>
-          </ul>
-        </div>
-        <div class="card">
-          <h2>Fasilitas TUK</h2>
-          <ul class="list">
-            <li><span class="tick">✓</span><span>Ruang asesmen, observasi, dan wawancara</span></li>
-            <li><span class="tick">✓</span><span>Perangkat jaringan (router, switch, FO toolkit)</span></li>
-            <li><span class="tick">✓</span><span>PC/Laptop, server mini, perangkat lunak legal</span></li>
-            <li><span class="tick">✓</span><span>Perlengkapan K3 & SOP keselamatan</span></li>
-            <li><span class="tick">✓</span><span>Dokumen mutu: skema, SOP, panduan asesmen</span></li>
-          </ul>
-        </div>
-      </div>
-    </section>
   </main><!-- (seluruh isi <main> kamu tetap sama, tidak perlu diubah) -->
 
 <footer class="footer">
