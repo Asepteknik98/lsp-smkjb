@@ -413,7 +413,7 @@
     aan: {
       name: "AAN ANGSORI",
       role: "Dewan Pengarah",
-      img: "assets/images/aan.jpg",
+      img: "assets/images/pak_aan.png",
       bio: "Bertanggung jawab atas arah kebijakan strategis LSP SMK Jaya Buana."
     },
     iqbal: {
