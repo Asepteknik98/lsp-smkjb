@@ -295,13 +295,16 @@
         <div class="card">
           <h2 id="Name">Komitmen Ketidakberpihakan</h2>
           <p class="muted">Kebijakan, prosedur, dan administrasi LSP SMK Jaya Buana terkait dengan kriteria sertifikasi, yang jujur dan wajar terhadap seluruh calon dan telah memenuhi semua persyaratan dan peraturan organisasi/industrinya serta perundang-undangan yang berlaku. LSP tidak diizinkan menggunakan prosedur yang menghambat dan menghalangi akses oleh asesi dan calon, kecuali yang ditetapkan dalam pedoman ini. LSP sebagai lembaga sertifikasi profesi memberikan kepercayaan kepada pihak terkait atas kompetensi, ketidakberpihakan dan integritasnya.</p>
-          <h2 id="Name">Sarana Dan Perangkat</h2>Sarana dan perangkat adalah sumber daya yang akan memastikan terselenggaranya Sertifikasi Kompetensi di LSP SMK JAYA BUANA, antara lain : <br>
+          <h2 id="Name">Sarana Dan Perangkat</h2>
+          <p>
+            Sarana dan perangkat adalah sumber daya yang akan memastikan terselenggaranya Sertifikasi Kompetensi di LSP SMK JAYA BUANA, antara lain : <br>
 1.	Lembaga yang berbadan hukum dan tempat kerja yang memadahi untuk menjalankan fungsi Lembaga yang terakreditasi. <br>
 2.	Acuan pembanding yang valid, terkini dan memadahi, untuk memastikan hasil Sertifikasi yang berkualitas. <br>
 3.	Materi Uji Kompetensi (MUK) yeng berkualitas, memenuhi prinsip-prinsip asesmen dan aturan bukti sesuai ketetapan BNSP.  <br>
 4.	Tempat Uji Kompetensi (TUK) yang terlisensi sesuai hasil verifikasi Lembaga Sertifikasi telah memenuhi persaratan teknis dan persaratan managerial. <br>
 5.	Asesor Kompetensi yang teregistrasi di LSP SMK JAYA BUANA, telah dinyatakan sesuai pedoman BNSP yang memiliki sertifikat metodologi dan teknis sesuai ruang lingkupnya.
-<br>
+
+          </p><br>
         </div>
       </div>
     </section>
