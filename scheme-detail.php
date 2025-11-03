@@ -36,10 +36,10 @@
 </head>
 <body>
 
-<nav>
-  <img src="assets/images/jb3.png" alt="Logo JB" />
-  <img src="assets/images/bnsp.png" alt="Logo BNSP" />
-</nav>
+  <nav>
+    <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px;height:70px;border-radius:50%;">
+    <img src="assets/images/bnsp.png" alt="Logo 2" style="width:100px;height:70px;border-radius:50%;">     
+  </nav>
 
 <section class="scheme-section">
   <div class="container">
@@ -149,7 +149,7 @@
 
         'tbkr' => [
           'title' => 'Teknik Bodi Kendaraan Ringan',
-          'image' => 'assets/images/bodi.jpg',
+          'image' => 'assets/images/tbkr1.jpeg',
           'description' => 'Sertifikasi bagi teknisi yang menguasai perbaikan dan pengecatan bodi kendaraan ringan dengan standar pabrikan.',
           'requirements' => [
             ['title' => 'Pendidikan Minimal', 'desc' => 'SMK TKR atau setara'],
@@ -161,21 +161,21 @@
             'Keselamatan kerja bengkel bodi'
           ]
         ],
-
-        'tp' => [
-          'title' => 'Teknik Pemesinan',
-          'image' => 'assets/images/pemesinan.jpg',
-          'description' => 'Sertifikasi bagi teknisi mesin yang memahami penggunaan mesin bubut, frais, dan CNC untuk produksi komponen.',
-          'requirements' => [
-            ['title' => 'Pendidikan Minimal', 'desc' => 'SMK Teknik Pemesinan'],
-          ],
-          'competencies' => [
-            'Pengoperasian mesin bubut',
-            'Pemrograman CNC dasar',
-            'Membaca gambar teknik',
-            'Perawatan mesin produksi'
-          ]
+        'tpm' => [
+            'title' => 'Teknik Pemesinan (TPM)',
+            'image' => 'assets/images/mesin.jpeg',
+            'description' => 'Program sertifikasi bagi teknisi yang menguasai penggunaan mesin bubut, frais, dan CNC untuk produksi komponen, termasuk membaca gambar teknik dan perawatan mesin sesuai standar industri.',
+            'requirements' => [
+                ['title' => 'Pendidikan Minimal', 'desc' => 'SMK Teknik Pemesinan atau setara'],
+            ],
+            'competencies' => [
+                'Pengoperasian mesin bubut dan frais',
+                'Pemrograman CNC dasar',
+                'Membaca gambar teknik',
+                'Perawatan dan pemeliharaan mesin produksi'
+            ]
         ],
+
 
         'tki' => [
           'title' => 'Teknik Kimia Industri',

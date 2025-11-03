@@ -269,7 +269,6 @@
             </div>
         </a> -->
 
->>>>>>> d5d687cc524cc046cc90ef28eaac5dabb16cda98
     </div>
 </div>
    <!-- Certification Schemes Section -->
@@ -380,36 +379,39 @@
             </a>
 
 
-            <!-- Injection Tune Up -->
-            <a href="scheme-detail.php?scheme=injection-tuneup" class="scheme-card">
-                <div class="scheme-image">
-                    <img src="assets/images/7.jpeg" alt="Injection Tune Up">
-                    <div class="scheme-overlay">
-                        <i class="fas fa-tachometer-alt"></i>
-                    </div>
+           <!-- Teknik Bodi Kendaraan Ringan -->
+        <a href="scheme-detail.php?scheme=tbkr" class="scheme-card">
+            <div class="scheme-image">
+                <img src="assets/images/tbkr.jpeg" alt="Teknik Bodi Kendaraan Ringan">
+                <div class="scheme-overlay">
+                    <i class="fas fa-car-side"></i>
                 </div>
-                <div class="scheme-content">
-                    <h3 class="scheme-title">Pelaksanaan Engine Tune Up Sistem Injeksi</h3>
-                    <p class="scheme-description">
-                        Program sertifikasi untuk teknisi yang menguasai tune up mesin dengan sistem injeksi elektronik modern.
-                    </p>
-                </div>
-            </a>
+            </div>
+            <div class="scheme-content">
+                <h3 class="scheme-title">Teknik Bodi Kendaraan Ringan (TBKR)</h3>
+                <p class="scheme-description">
+                    Program sertifikasi bagi teknisi yang menguasai perbaikan, pengecatan, dan perawatan bodi kendaraan ringan, termasuk identifikasi kerusakan, teknik pengelasan ringan, dan finishing sesuai standar industri otomotif.
+                </p>
+            </div>
+        </a>
 
-            <!-- Motorcycle Maintenance -->
-            <a href="scheme-detail.php?scheme=motorcycle-maintenance" class="scheme-card">
-                <div class="scheme-image">
-                    <img src="assets/images/8.jpeg" alt="Motorcycle Maintenance">
-                    <div class="scheme-overlay">
-                        <i class="fas fa-motorcycle"></i>
-                    </div>
+
+           <!-- Teknik Pemesinan -->
+        <a href="scheme-detail.php?scheme=tpm" class="scheme-card">
+            <div class="scheme-image">
+                <img src="assets/images/mesin.jpeg" alt="Teknik Pemesinan">
+                <div class="scheme-overlay">
+                    <i class="fas fa-industry"></i>
                 </div>
-                <div class="scheme-content">
-                    <h3 class="scheme-title">Pemeliharaan Sepeda Motor Konvensional</h3>
-                    <p class="scheme-description">
-                        Sertifikasi untuk teknisi yang menguasai pemeliharaan dan perbaikan sepeda motor dengan sistem konvensional.
-                    </p>
-                </div>
+            </div>
+            <div class="scheme-content">
+                <h3 class="scheme-title">Teknik Pemesinan (TPM)</h3>
+                <p class="scheme-description">
+                    Program sertifikasi bagi teknisi yang menguasai proses pemesinan logam dan material lain menggunakan peralatan konvensional maupun CNC, meliputi pengukuran, pemotongan, pembentukan, dan perawatan mesin sesuai standar industri.
+                </p>
+            </div>
+        </a>
+
             </a>
         </div>
     </div>
