@@ -1,16 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="assets/images/jb3.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulir Pendaftaran LSP P1X</title>
+<link rel="icon" type="image/png" href="assets/images/jb3.png">
 <style>
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Solid light gray background for better readability */
+    background-color: #f0f0f0;
     color: #333;
 }
 
+/* Main Navigation */
+nav.main-nav {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+nav .logo img {
+    width: 85px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* Form Wrapper */
 .form-wrapper {
     display: flex;
     justify-content: center;
@@ -21,42 +42,18 @@ body {
     gap: 20px;
 }
 
-.container {
+/* Containers */
+.container, .school-data-container {
     flex: 1;
     max-width: 500px;
-    background: #ffffff;
+    background: #fff;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(0,0,0,0.15);
     border: 1px solid #ddd;
 }
 
-.school-data-container {
-    flex: 1;
-    max-width: 500px;
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-    border: 1px solid #ddd;
-}
-
-.declaration {
-    margin-top: 30px;
-    padding: 20px;
-    background: #e9ecef;
-    border-left: 5px solid #007bff;
-    font-style: italic;
-    color: #495057;
-    border-radius: 5px;
-}
-
-.declaration p {
-    margin: 0;
-    font-size: 14px;
-    line-height: 1.6;
-}
-
+/* Headings */
 h2 {
     text-align: center;
     margin-bottom: 25px;
@@ -65,13 +62,13 @@ h2 {
     font-weight: bold;
 }
 
+/* Form Fields */
 form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
     color: #495057;
 }
-
 form input, form select, form textarea, form button {
     width: 100%;
     padding: 12px;
@@ -81,18 +78,17 @@ form input, form select, form textarea, form button {
     font-size: 14px;
     box-sizing: border-box;
 }
-
 form input:focus, form select:focus, form textarea:focus {
     border-color: #007bff;
     outline: none;
     box-shadow: 0 0 5px rgba(0,123,255,0.5);
 }
-
 form textarea {
     resize: vertical;
     min-height: 80px;
 }
 
+/* Buttons */
 form button {
     background: #007bff;
     color: white;
@@ -102,159 +98,191 @@ form button {
     font-weight: bold;
     padding: 12px;
 }
-
 form button:hover {
     background: #0056b3;
 }
 
-/* Responsive Design */
+/* Skema Download Buttons */
+.skema-item {
+    display: flex;
+    justify-content: space-between; /* teks kiri, tombol kanan */
+    align-items: center;
+    margin-bottom: 10px;
+}
+.skema-item button {
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+/* Declaration */
+.declaration {
+    margin-top: 30px;
+    padding: 20px;
+    background: #e9ecef;
+    border-left: 5px solid #007bff;
+    font-style: italic;
+    color: #495057;
+    border-radius: 5px;
+}
+.declaration p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
     .form-wrapper {
         padding: 0 10px;
         margin: 20px auto;
+        flex-direction: column;
+        gap: 20px;
     }
-
-    .container {
-        padding: 20px;
+    .container, .school-data-container {
         max-width: 100%;
+        padding: 20px;
     }
-
     h2 {
         font-size: 18px;
     }
-
     form input, form select, form textarea, form button {
-        font-size: 16px; /* Prevent zoom on iOS */
+        font-size: 16px;
         padding: 10px;
-    }
-
-    nav .logo-text span:first-child {
-        font-size: 18px;
-    }
-
-    nav .logo-text span:last-child {
-        font-size: 12px;
     }
 }
 </style>
-
 </head>
-
 <body>
 
-
-    <!-- Main Navigation -->
-    <nav class="main-nav" style="width:100%;background-color:#fff;padding:10px 20px;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-        <div class="nav-left" style="display:flex;align-items:center;gap:10px;">
-        <!-- Logo Gambar -->
-        <div class="logo" style="display:flex; align-items:center; justify-content:center; gap:5px;">
-            <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px; height:70px; border-radius:50%;">
-            <img src="assets/images/bnsp.png" alt="Logo 2" style="width:85px; height:70px; border-radius:50%;">
-        </div>
-
-        </div>
-    </nav>
-
-    <div class="form-wrapper">
-        <div class="container">
-            <h2>FORMULIR PENDAFTARAN UJI KOMPETENSI LSP P1X</h2>
-            <form>
-                <label for="nama_lengkap">Nama lengkap (sesuai ijazah)</label>
-                <input type="text" id="nama_lengkap" name="nama_lengkap" required>
-
-                <label for="nik">NIK (Nomor Induk Kependudukan)</label>
-                <input type="text" id="nik" name="nik" required>
-
-                <label for="tempat_lahir">Tempat Lahir</label>
-                <input type="text" id="tempat_lahir" name="tempat_lahir" required>
-
-                <label for="tanggal_lahir">Tanggal Lahir</label>
-                <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
-
-                <label for="jenis_kelamin">Jenis Kelamin</label>
-                <select id="jenis_kelamin" name="jenis_kelamin" required>
-                    <option value="">Pilih</option>
-                    <option value="Laki-laki">Laki-laki</option>
-                    <option value="Perempuan">Perempuan</option>
-                </select>
-
-                <label for="alamat_lengkap">Alamat Lengkap</label>
-                <textarea id="alamat_lengkap" name="alamat_lengkap" required></textarea>
-
-                <label for="no_hp">No. HP</label>
-                <input type="text" id="no_hp" name="no_hp" required>
-
-                <label for="email">Email aktif</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="pendidikan_terakhir">Pendidikan Terakhir</label>
-                <input type="text" id="pendidikan_terakhir" name="pendidikan_terakhir" required>
-
-                <label for="program_keahlian">Program Keahlian / Kompetensi Keahlian</label>
-                <input type="text" id="program_keahlian" name="program_keahlian" required>
-
-                <label for="tahun_masuk">Tahun Masuk</label>
-                <input type="number" id="tahun_masuk" name="tahun_masuk" required>
-
-                <label for="tahun_lulus">Tahun Lulus</label>
-                <input type="number" id="tahun_lulus" name="tahun_lulus" required>
-
-                <label for="status">Status</label>
-                <select id="status" name="status" required>
-                    <option value="">Pilih</option>
-                    <option value="Siswa aktif">Siswa aktif</option>
-                    <option value="Alumni">Alumni</option>
-                </select>
-
-                
-            </form>
-            <h2>DATA SEKOLAH / TEMPAT UJI KOMPETENSI</h2>
-            <form>
-                <label for="nama_sekolah">Nama Sekolah / Lembaga</label>
-                <input type="text" id="nama_sekolah" name="nama_sekolah" required>
-
-                <label for="alamat_sekolah">Alamat Sekolah</label>
-                <textarea id="alamat_sekolah" name="alamat_sekolah" required></textarea>
-
-                <label for="nama_guru">Nama Guru / Pembimbing</label>
-                <input type="text" id="nama_guru" name="nama_guru" required>
-
-                <label for="nama_tuk">Nama Tempat Uji Kompetensi (TUK)</label>
-                <input type="text" id="nama_tuk" name="nama_tuk" required>
-
-                <label for="jenis_tuk">Jenis TUK</label>
-                <select id="jenis_tuk" name="jenis_tuk" required>
-                    <option value="">Pilih</option>
-                    <option value="Mandiri">Mandiri</option>
-                    <option value="Sewaktu">Sewaktu</option>
-                </select>
-
-            </form>
-
-            <h2>PENGALAMAN KERJA / PRAKTIK</h2>
-            <form>
-                <label for="nama_perusahaan">Nama Perusahaan / Tempat PKL</label>
-                <input type="text" id="nama_perusahaan" name="nama_perusahaan" required>
-
-                <label for="alamat_perusahaan">Alamat Perusahaan</label>
-                <input type="text" id="alamat_perusahaan" name="alamat_perusahaan" required>
-
-                <label for="jabatan_tugas">Jabatan / Tugas yang dilakukan</label>
-                <textarea id="jabatan_tugas" name="jabatan_tugas" required></textarea>
-
-                <label for="lama_praktik">Lama waktu praktik</label>
-                <input type="text" id="lama_praktik" name="lama_praktik" required>
-
-                <label for="keterangan_tambahan">Keterangan tambahan</label>
-                <input type="text" id="keterangan_tambahan" name="keterangan_tambahan" required>
-
-                <button type="submit">Daftar</button>
-            </form>
-
-            <div class="declaration">
-                <p>Dengan ini saya menyatakan bahwa seluruh data yang saya isi adalah benar. Saya siap mengikuti seluruh proses asesmen sesuai ketentuan LSP P1 dan BNSP.</p>
-            </div>
-        </div>
+<!-- Navigation -->
+<nav class="main-nav">
+    <div class="logo">
+        <img src="assets/images/jb3.png" alt="Logo 1">
+        <img src="assets/images/bnsp.png" alt="Logo 2">
     </div>
+</nav>
+
+<div class="form-wrapper">
+
+    <!-- Form Container -->
+    <div class="container">
+        <h2>FORMULIR PENDAFTARAN UJI KOMPETENSI LSP P1X</h2>
+        <form>
+            <label for="nama_lengkap">Nama lengkap (sesuai ijazah)</label>
+            <input type="text" id="nama_lengkap" name="nama_lengkap" required>
+
+            <label for="nik">NIK (Nomor Induk Kependudukan)</label>
+            <input type="text" id="nik" name="nik" required>
+
+            <label for="tempat_lahir">Tempat Lahir</label>
+            <input type="text" id="tempat_lahir" name="tempat_lahir" required>
+
+            <label for="tanggal_lahir">Tanggal Lahir</label>
+            <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+
+            <label for="jenis_kelamin">Jenis Kelamin</label>
+            <select id="jenis_kelamin" name="jenis_kelamin" required>
+                <option value="">Pilih</option>
+                <option value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select>
+
+            <label for="alamat_lengkap">Alamat Lengkap</label>
+            <textarea id="alamat_lengkap" name="alamat_lengkap" required></textarea>
+
+            <label for="no_hp">No. HP</label>
+            <input type="text" id="no_hp" name="no_hp" required>
+
+            <label for="email">Email aktif</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="program_keahlian">Jurusan</label>
+            <select id="program_keahlian" name="program_keahlian" required>
+                <option value="" disabled selected>Pilih jurusan</option>
+                <option value="tkj">Teknik Komputer & Jaringan (TKJ)</option>
+                <option value="tkr">Teknik Kendaraan Ringan (TKR)</option>
+                <option value="tsm">Teknik Sepeda Motor (TSM)</option>
+                <option value="akl">Akuntansi & Keuangan Lembaga (AKL)</option>
+                <option value="otkp">Otomatisasi & Tata Kelola Perkantoran (OTKP)</option>
+                <option value="rpl">Rekayasa Perangkat Lunak (RPL)</option>
+                <option value="multimedia">Multimedia</option>
+            </select>
+
+            <h2>Formulir Permohonan Sertifikasi Kompetensi</h2>
+
+            <!-- Skema Sertifikasi -->
+            <div class="skema-item">
+                <span>Skema Sertifikasi Drafter Fiber Optik</span>
+                <a href="path/to/FR.APL.01_drafter.pdf" download>
+                    <button type="button">Unduh FR.APL.01</button>
+                </a>
+            </div>
+
+            <div class="skema-item">
+                <span>Skema Sertifikasi Junior Custom Made</span>
+                <a href="path/to/FR.APL.01_junior.pdf" download>
+                    <button type="button">Unduh FR.APL.01</button>
+                </a>
+            </div>
+
+            <div class="skema-item">
+                <span>Skema Sertifikasi Teknisi Jaringan</span>
+                <a href="path/to/FR.APL.01_teknisi.pdf" download>
+                    <button type="button">Unduh FR.APL.01</button>
+                </a>
+            </div>
+
+            <div class="skema-item">
+                <span>Skema Sertifikasi Administrasi Perkantoran</span>
+                <a href="path/to/FR.APL.01_admin.pdf" download>
+                    <button type="button">Unduh FR.APL.01</button>
+                </a>
+            </div>
+
+            <div class="skema-item">
+                <span>Skema Sertifikasi Desain Grafis</span>
+                <a href="path/to/FR.APL.01_grafis.pdf" download>
+                    <button type="button">Unduh FR.APL.01</button>
+                </a>
+            </div>
+
+            <div class="skema-item">
+                <span>Skema Sertifikasi Multimedia</span>
+                <a href="path/to/FR.APL.01_multimedia.pdf" download>
+                    <button type="button">Unduh FR.APL.01</button>
+                </a>
+            </div>
+
+            <div class="skema-item">
+                <span>Skema Sertifikasi Programming Dasar</span>
+                <a href="path/to/FR.APL.01_programming.pdf" download>
+                    <button type="button">Unduh FR.APL.01</button>
+                </a>
+            </div>
+
+   <form action="#" method="post" style="max-width: 600px; margin: auto;">
+    <div class="declaration" style="margin-bottom: 20px; font-family: Arial, sans-serif; font-size: 14px; color: #333;">
+        <label style="display: flex; align-items: center; gap: 12px; cursor: pointer;">
+            <input type="checkbox" name="agree" required style="width: 18px; height: 18px; accent-color: green;">
+            <span>Dengan ini saya menyatakan bahwa seluruh data yang saya isi adalah benar. Saya siap mengikuti seluruh proses asesmen sesuai ketentuan LSP P1 dan BNSP.</span>
+        </label>
+    </div>
+
+    <button type="submit" style="
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    " onmouseover="this.style.backgroundColor='#0056b3'" onmouseout="this.style.backgroundColor='#007bff'">
+        Daftar
+    </button>
+</form>
+
+
+
 </body>
 </html>
