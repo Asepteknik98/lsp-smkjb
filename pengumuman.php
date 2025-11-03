@@ -172,7 +172,7 @@
 
   <!-- FOOTER -->
   <footer>
-    &copy; 2025 LSP SMK Jaya Buana | Terlisensi BNSP — Mandiri, Objektif, Akuntabel
+    &copy; 2025 LSP SMK Jaya Buana
   </footer>
 
 </body>

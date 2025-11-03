@@ -275,9 +275,9 @@
           <p class="muted">Lembaga sertifikasi profesi pihak pertama Sekolah Menengah Kejuruan Jaya Buana bertekad menerapkan dan memelihara sistem mutu sesuai dengan pedoman BNSP 217. Seluruh personil LSP SMK Jaya Buana berkomitmen untuk menyelenggarakan uji kompetensi profesi secara profesional.</p>
           <h2>Sasaran Mutu</h2>
           <ul class="list">
-            <li><span class="tick">1</span><span>1.	Melaksanakan uji kompetensi sesuai panduan bnsp 201 dengan profesional dan independent di wilayah LSP SMK Jaya Buana.</span></li>
-            <li><span class="tick">2</span><span>2.	Tercapainya standar mutu proses sertifikasi kompetensi kerja di seluruh skema sertifikasi yang kompeten dan profesional.</span></li>
-            <li><span class="tick">3</span><span>3.	Upskilling dan reskilling kompetensi sertifikasi bagi para asesor dan menjaga kualitas serta kemampuan dalam melakukan assessment pada peserta didik.</span></li>
+            <li><span class="tick">1</span><span>Melaksanakan uji kompetensi sesuai panduan bnsp 201 dengan profesional dan independent di wilayah LSP SMK Jaya Buana.</span></li>
+            <li><span class="tick">2</span><span>Tercapainya standar mutu proses sertifikasi kompetensi kerja di seluruh skema sertifikasi yang kompeten dan profesional.</span></li>
+            <li><span class="tick">3</span><span>Upskilling dan reskilling kompetensi sertifikasi bagi para asesor dan menjaga kualitas serta kemampuan dalam melakukan assessment pada peserta didik.</span></li>
           </ul>
         </div>
       </div>
