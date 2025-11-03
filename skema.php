@@ -115,7 +115,7 @@
         <div class="btn-group">
           <a href="#" class="btn">KUK</a>
           <a href="#" class="btn">Download Skema</a>
-          <a href="#" class="btn">Daftar Sekarang</a>
+          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
       </div>
 
@@ -126,7 +126,7 @@
         <div class="btn-group">
           <a href="#" class="btn">KUK</a>
           <a href="#" class="btn">Download Skema</a>
-          <a href="../pendaftaran.php" class="btn">Daftar Sekarang</a>
+          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
       </div>
 
@@ -137,7 +137,7 @@
         <div class="btn-group">
           <a href="#" class="btn">KUK</a>
           <a href="#" class="btn">Download Skema</a>
-          <a href="#" class="btn">Daftar Sekarang</a>
+          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
       </div>
 
@@ -148,7 +148,7 @@
         <div class="btn-group">
           <a href="#" class="btn">KUK</a>
           <a href="#" class="btn">Download Skema</a>
-          <a href="#" class="btn">Daftar Sekarang</a>
+          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
       </div>
 
@@ -159,7 +159,7 @@
         <div class="btn-group">
           <a href="#" class="btn">KUK</a>
           <a href="#" class="btn">Download Skema</a>
-          <a href="#" class="btn">Daftar Sekarang</a>
+          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
       </div>
 
@@ -170,7 +170,7 @@
         <div class="btn-group">
           <a href="#" class="btn">KUK</a>
           <a href="#" class="btn">Download Skema</a>
-          <a href="#" class="btn">Daftar Sekarang</a>
+          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
       </div>
 
@@ -181,7 +181,7 @@
         <div class="btn-group">
           <a href="#" class="btn">KUK</a>
           <a href="#" class="btn">Download Skema</a>
-          <a href="#" class="btn">Daftar Sekarang</a>
+          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
       </div>
     </section>
