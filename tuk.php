@@ -140,10 +140,10 @@
           <h3><i class="fa-solid fa-toolbox"></i> Ruang Praktik</h3>
           <p>Dilengkapi bengkel, laboratorium, dan perangkat uji yang sesuai dengan bidang keahlian siswa.</p>
         </div>
-        <div class="card">
+        <a href="skemaalatuji.php" class="card" style="display:block;">
           <h3><i class="fa-solid fa-book-open"></i> Materi & Peralatan Uji</h3>
           <p>Meliputi job sheet, instruksi kerja, serta alat ukur berstandar industri.</p>
-        </div>
+        </a>
         <div class="card">
           <h3><i class="fa-solid fa-check-double"></i> Verifikasi TUK</h3>
           <p>Setiap TUK telah diverifikasi dan disahkan oleh LSP SMK Jaya Buana sesuai ketentuan BNSP.</p>
