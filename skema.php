@@ -103,7 +103,7 @@
 <body>
   <div class="container">
     <header>
-      <h1>Skema Sertifikasi<br><small class="muted">Tempat Uji Kompetensi (TUK) SMK Jaya Buana</small></h1>
+      <h1>Skema Sertifikasi<br><small class="muted">Lembaga Sertifikasi Profesi (LSP) SMK Jaya Buana</small></h1>
       <div class="lead">Berikut adalah skema sertifikasi untuk setiap jurusan di SMK Jaya Buana. Pilih jurusan untuk melihat detail KUK, download skema, atau mendaftar uji kompetensi.</div>
     </header>
 
