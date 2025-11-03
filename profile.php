@@ -319,69 +319,168 @@
 
 
     <section id="asesor" class="section">
-      <div class="container grid-2">
-        <div class="card">
-          <h2>Struktur Organisasi LSP SMK JAYA BUANA</h2>
-          <ul class="list">
-            <li><span class=>DEWAN PENGARAH : </span><span>AAN ANGSORI</span></li>
-            <li><span class=>DIREKTUR LSP : </span><span>IQBAL QURNAWAN</span></li>
-            <li><span class=>KOMITE SKEMA : </span><span>AGUS SOLIHIN</span></li>
-            <li><span class=>ADMINISTRASI LSP : </span><span>EGI ANDIYANA</span></li>
-            <li><span class=>BENDAHARA LSP : </span><span>LIA SOLIHAH</span></li>
-            <li><span class=>MANAGER SERTIFIKASI : </span><span>LUKMANUL HAKIM</span></li>
-            <li><span class=>MANAGER MANAJEMEN MUTU : </span><span>ROFIQ OKVIANTO</span></li>
-            <li><span class=>MEDIA DAN INFORMASI : </span><span>NANANG SUHAEMI</span></li>
-          </ul>
-          <h2>Fungsi dan Tugas:</h2>
-          <ul class="list">
-            <li><span class="tick">1</span><span><Strong>Dewan Pengarah</Strong> mempunyai tanggung jawab atas keberlangsungan LSP antara lain: <br>
-a.	Menetapkan visi, misi dan tujuan LSP <br>
-b.	Menetapkan rencana strategis, program kerja dan anggaran belanja <br>
-c.	Mengangkat dan memberhentikan pelaksana LSP <br>
-d.	Membina komunikasi dengan para pemangku kepentingan <br>
-e.	Memobilisasi sumber daya <br>
-</span></li>
-            <li><span class="tick">2</span><span> <strong> Direktur LSP</strong> memiliki fungsi sebagai pelaksana kebijakan yang telah ditetapkan oleh pengarah, dengan tugas antara lain sebagai berikut: <br>
-a.	Melaksanakan program kerja LSP <br>
-b.	Melakukan monitoring dan evaluasi <br>
-c.	Menyiapkan rencana program dan anggaran <br>
-d.	Memberikan laporan dan bertanggung jawab kepada Pengarah <br>
-</span></li>
-        </div>
-        <div class="card">
-          <h2>Fungsi dan Tugas:</h2>
-          <ul class="list">
-      <li><span class="tick">3</span><span> <strong>Bagian Sertifikasi</strong> mempunyai tugas, antara lain: <br>
-a.	Memfasilitasi penyusunan skema sertifikasi <br>
-b.	Menyiapkan perangkat asesmen dan materi uji <br>
-c.	Melaksanakan kegiatan sertifikasi termasuk pemeliharaan kompetensi dan sertifikasi ulang <br>
-d.	Menetapkan persyaratan Tempat Uji Kompetensi (TUK) <br>
-e.	Melaksanakan verifikasi dan menetapkan TUK <br>
-f.	Melakukan rekrutmen asesor kompetensi serta pemeliharaan kompetensinya <br>
-</span></li>
-      <li><span class="tick">4</span><span><strong>Bagian Manajemen Mutu </strong> mempunyai tugas, antara lain: <br>
-a.	Mengembangkan dan menerapkan sistem manajemen mutu LSP sesuai Pedoman BNSP 201 <br>
-b.	Memelihara berlangsungnya sistem manajemen agar tetap sesuai dengan standar dan pedoman yang diacu <br>
-c.	Melakukan internal audit dan memfasilitasi kaji ulang manajemen <br>
-</span></li>
- <li><span class="tick">5</span><span> <strong> Bagian Administrasi dan Keuangan</strong> mempunyai tugas, antara lain: <br>
-a.	Memfasilitasi unsur-unsur LSP guna terselenggaranya program sertifikasi profesi <br>
-b.	Melaksanakan tugas-tugas ketatausahaan organisasi LSP <br>
-c.	Melakukan verifikasi hasil sertifikasi kompetensi <br>
-d.	Mempersiapkan laporan kegiatan LSP<br>
-<li><span class="tick">6</span><span> <strong>Komite Skema Sertifikasi </strong>mempunyai tugas, antara lain: <br>
-a.	Menetapkan kebijakan teknis sertifikasi; <br>
-b.	Menentukan kelayakan skema sertifikasi; <br>
-c.	Mengkaji dan mengesahkan skema sertifikasi; <br>
-d.	Memantau, mengevaluasi serta penyempurnaan dan pengkinian atas skema sertifikasi yang diterapkan<br>
-<li><span class="tick">7</span><span> <strong>Asesor Sertifikasi</Strong> mempunyai tugas, antara lain: <br>
-a.	Memahami skema sertifikasi yang relevan; <br>
-b.	Mampu menerapkan prosedur uji kompetensi dan dokumentasinya; dan <br>
-c.	Melakukan uji kompetensi pada kegiatan sertifikasi. <br>
-<br>
-          </ul>
-        </div>
-    </section>
+  <div class="container grid-2">
+    <div class="card">
+      <h2>Struktur Organisasi LSP SMK JAYA BUANA</h2>
+      <!-- Struktur Organisasi -->
+      <ul class="list">
+        <li onclick="showProfile('aan')"><span>DEWAN PENGARAH :</span><span>AAN ANGSORI</span></li>
+        <li onclick="showProfile('iqbal')"><span>DIREKTUR LSP :</span><span>IQBAL QURNAWAN</span></li>
+        <li onclick="showProfile('agus')"><span>KOMITE SKEMA :</span><span>AGUS SOLIHIN</span></li>
+        <li onclick="showProfile('egi')"><span>ADMINISTRASI LSP :</span><span>EGI ANDIYANA</span></li>
+        <li onclick="showProfile('lia')"><span>BENDAHARA LSP :</span><span>LIA SOLIHAH</span></li>
+        <li onclick="showProfile('lukman')"><span>MANAGER SERTIFIKASI :</span><span>LUKMANUL HAKIM</span></li>
+        <li onclick="showProfile('rofiq')"><span>MANAGER MANAJEMEN MUTU :</span><span>ROFIQ OKVIANTO</span></li>
+        <li onclick="showProfile('nanang')"><span>MEDIA DAN INFORMASI :</span><span>NANANG SUHAEMI</span></li>
+      </ul>
+
+      <h2>Fungsi dan Tugas:</h2>
+      <ul class="list">
+        <li><span class="tick">1</span><span><strong>Dewan Pengarah</strong> mempunyai tanggung jawab atas keberlangsungan LSP antara lain: <br>
+          a. Menetapkan visi, misi dan tujuan LSP <br>
+          b. Menetapkan rencana strategis, program kerja dan anggaran belanja <br>
+          c. Mengangkat dan memberhentikan pelaksana LSP <br>
+          d. Membina komunikasi dengan para pemangku kepentingan <br>
+          e. Memobilisasi sumber daya <br>
+        </span></li>
+
+        <li><span class="tick">2</span><span><strong>Direktur LSP</strong> memiliki fungsi sebagai pelaksana kebijakan yang telah ditetapkan oleh pengarah, dengan tugas antara lain sebagai berikut: <br>
+          a. Melaksanakan program kerja LSP <br>
+          b. Melakukan monitoring dan evaluasi <br>
+          c. Menyiapkan rencana program dan anggaran <br>
+          d. Memberikan laporan dan bertanggung jawab kepada Pengarah <br>
+        </span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Fungsi dan Tugas:</h2>
+      <ul class="list">
+        <li><span class="tick">3</span><span><strong>Bagian Sertifikasi</strong> mempunyai tugas, antara lain: <br>
+          a. Memfasilitasi penyusunan skema sertifikasi <br>
+          b. Menyiapkan perangkat asesmen dan materi uji <br>
+          c. Melaksanakan kegiatan sertifikasi termasuk pemeliharaan kompetensi dan sertifikasi ulang <br>
+          d. Menetapkan persyaratan Tempat Uji Kompetensi (TUK) <br>
+          e. Melaksanakan verifikasi dan menetapkan TUK <br>
+          f. Melakukan rekrutmen asesor kompetensi serta pemeliharaan kompetensinya <br>
+        </span></li>
+
+        <li><span class="tick">4</span><span><strong>Bagian Manajemen Mutu</strong> mempunyai tugas, antara lain: <br>
+          a. Mengembangkan dan menerapkan sistem manajemen mutu LSP sesuai Pedoman BNSP 201 <br>
+          b. Memelihara berlangsungnya sistem manajemen agar tetap sesuai dengan standar dan pedoman yang diacu <br>
+          c. Melakukan internal audit dan memfasilitasi kaji ulang manajemen <br>
+        </span></li>
+
+        <li><span class="tick">5</span><span><strong>Bagian Administrasi dan Keuangan</strong> mempunyai tugas, antara lain: <br>
+          a. Memfasilitasi unsur-unsur LSP guna terselenggaranya program sertifikasi profesi <br>
+          b. Melaksanakan tugas-tugas ketatausahaan organisasi LSP <br>
+          c. Melakukan verifikasi hasil sertifikasi kompetensi <br>
+          d. Mempersiapkan laporan kegiatan LSP<br>
+        </span></li>
+
+        <li><span class="tick">6</span><span><strong>Komite Skema Sertifikasi</strong> mempunyai tugas, antara lain: <br>
+          a. Menetapkan kebijakan teknis sertifikasi <br>
+          b. Menentukan kelayakan skema sertifikasi <br>
+          c. Mengkaji dan mengesahkan skema sertifikasi <br>
+          d. Memantau, mengevaluasi serta penyempurnaan dan pengkinian atas skema sertifikasi yang diterapkan <br>
+        </span></li>
+
+        <li><span class="tick">7</span><span><strong>Asesor Sertifikasi</strong> mempunyai tugas, antara lain: <br>
+          a. Memahami skema sertifikasi yang relevan <br>
+          b. Mampu menerapkan prosedur uji kompetensi dan dokumentasinya <br>
+          c. Melakukan uji kompetensi pada kegiatan sertifikasi <br>
+        </span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Modal Popup -->
+<div id="profileModal" class="modal" style="display:none;
+  position:fixed;top:0;left:0;width:100%;height:100%;
+  background:rgba(0,0,0,0.6);justify-content:center;align-items:center;z-index:999;">
+  <div class="modal-content" style="background:white;padding:25px;border-radius:10px;width:90%;max-width:400px;position:relative;text-align:center;">
+    <span onclick="closeModal()" style="position:absolute;top:10px;right:15px;cursor:pointer;font-size:22px;">&times;</span>
+    <img id="profilePhoto" src="" alt="Foto Profil" style="width:100px;height:100px;border-radius:50%;object-fit:cover;margin-bottom:10px;">
+    <h3 id="profileName"></h3>
+    <p id="profileRole" style="font-weight:600;color:#004aad;"></p>
+    <p id="profileBio"></p>
+  </div>
+</div>
+
+<script>
+  const profiles = {
+    aan: {
+      name: "AAN ANGSORI",
+      role: "Dewan Pengarah",
+      img: "assets/images/aan.jpg",
+      bio: "Bertanggung jawab atas arah kebijakan strategis LSP SMK Jaya Buana."
+    },
+    iqbal: {
+      name: "IQBAL QURNAWAN",
+      role: "Direktur LSP",
+      img: "assets/images/iqbal.jpg",
+      bio: "Mengawasi dan memastikan seluruh kegiatan sertifikasi berjalan sesuai standar BNSP."
+    },
+    agus: {
+      name: "AGUS SOLIHIN",
+      role: "Komite Skema",
+      img: "assets/images/agus.jpg",
+      bio: "Mengembangkan dan memperbaharui skema sertifikasi sesuai kebutuhan industri."
+    },
+    egi: {
+      name: "EGI ANDIYANA",
+      role: "Administrasi LSP",
+      img: "assets/images/egi.jpg",
+      bio: "Mengelola administrasi dan arsip kegiatan sertifikasi."
+    },
+    lia: {
+      name: "LIA SOLIHAH",
+      role: "Bendahara LSP",
+      img: "assets/images/lia.jpg",
+      bio: "Mengatur dan melaporkan keuangan lembaga secara transparan dan akuntabel."
+    },
+    lukman: {
+      name: "LUKMANUL HAKIM",
+      role: "Manager Sertifikasi",
+      img: "assets/images/lukman.jpg",
+      bio: "Mengkoordinasikan pelaksanaan uji kompetensi di seluruh TUK."
+    },
+    rofiq: {
+      name: "ROFIQ OKVIANTO",
+      role: "Manager Manajemen Mutu",
+      img: "assets/images/rofiq.jpg",
+      bio: "Menjamin mutu dan konsistensi seluruh proses sertifikasi."
+    },
+    nanang: {
+      name: "NANANG SUHAEMI",
+      role: "Media dan Informasi",
+      img: "assets/images/nanang.jpg",
+      bio: "Mengelola publikasi, media sosial, dan dokumentasi kegiatan LSP."
+    }
+  };
+
+  function showProfile(id) {
+    const modal = document.getElementById("profileModal");
+    const data = profiles[id];
+    document.getElementById("profilePhoto").src = data.img;
+    document.getElementById("profileName").textContent = data.name;
+    document.getElementById("profileRole").textContent = data.role;
+    document.getElementById("profileBio").textContent = data.bio;
+    modal.style.display = "flex";
+  }
+
+  function closeModal() {
+    document.getElementById("profileModal").style.display = "none";
+  }
+
+  // Tutup modal jika klik luar area konten
+  window.onclick = function(e) {
+    const modal = document.getElementById("profileModal");
+    if (e.target === modal) modal.style.display = "none";
+  };
+</script>
+
   </main><!-- (seluruh isi <main> kamu tetap sama, tidak perlu diubah) -->
 
 <footer class="footer">
