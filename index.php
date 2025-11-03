@@ -187,14 +187,15 @@
             </div>
 
                 <div class="stats-container">
-            <a href="tuk.php" class="stat-card">
-                <div class="stat-label">TUK</div>
-                <div class="stat-number">7</div>
-            </a>
             <a href="skema.php" class="stat-card">
                 <div class="stat-label">SKEMA SERTIFIKASI</div>
                 <div class="stat-number">7</div>
             </a>
+            <a href="tuk.php" class="stat-card">
+                <div class="stat-label">TUK</div>
+                <div class="stat-number">7</div>
+            </a>
+            
             <a href="asesor.php" class="stat-card">
                 <div class="stat-label">ASESOR KOMPETENSI</div>
                 <div class="stat-number">14</div>
