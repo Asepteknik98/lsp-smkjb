@@ -107,84 +107,85 @@
       <div class="lead">Berikut adalah skema sertifikasi untuk setiap jurusan di SMK Jaya Buana. Pilih jurusan untuk melihat detail KUK, download skema, atau mendaftar uji kompetensi.</div>
     </header>
 
-    <section class="logo-grid">
-      <!-- Jurusan 1 -->
-      <div class="logo-card">
-        <img src="assets/images/tkj.png" alt="Teknik Komputer dan Jaringan">
-        <h3>Teknik Komputer & Jaringan</h3>
-        <div class="btn-group">
-          <a href="#" class="btn">KUK</a>
-          <a href="#" class="btn">Download Skema</a>
-          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
-        </div>
-      </div>
+   <section class="logo-grid">
+  <!-- Jurusan 1 -->
+  <div class="logo-card">
+    <img src="assets/images/tkj.png" alt="Teknik Komputer dan Jaringan">
+    <h3>Teknik Komputer & Jaringan</h3>
+    <div class="btn-group">
+      <a href="dokumen/kuk_tkj.pdf" class="btn" download>KUK</a>
+      <a href="dokumen/skema_tkj.pdf" class="btn" download>Download Skema</a>
+      <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
+    </div>
+  </div>
 
-      <!-- Jurusan 2 -->
-      <div class="logo-card">
-        <img src="assets/images/tbsm.png" alt="Teknik & Bisnis Sepeda Motor">
-        <h3>Teknik & Bisnis Sepeda Motor</h3>
-        <div class="btn-group">
-          <a href="#" class="btn">KUK</a>
-          <a href="#" class="btn">Download Skema</a>
-          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
-        </div>
-      </div>
+  <!-- Jurusan 2 -->
+  <div class="logo-card">
+    <img src="assets/images/tbsm.png" alt="Teknik & Bisnis Sepeda Motor">
+    <h3>Teknik & Bisnis Sepeda Motor</h3>
+    <div class="btn-group">
+      <a href="dokumen/kuk_tbsm.pdf" class="btn" download>KUK</a>
+      <a href="dokumen/skema_tbsm.pdf" class="btn" download>Download Skema</a>
+      <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
+    </div>
+  </div>
 
-      <!-- Jurusan 3 -->
-      <div class="logo-card">
-        <img src="assets/images/titl.png" alt="Teknik Instalasi Tenaga Listrik">
-        <h3>Teknik Instalasi Tenaga Listrik</h3>
-        <div class="btn-group">
-          <a href="#" class="btn">KUK</a>
-          <a href="#" class="btn">Download Skema</a>
-          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
-        </div>
-      </div>
+  <!-- Jurusan 3 -->
+  <div class="logo-card">
+    <img src="assets/images/titl.png" alt="Teknik Instalasi Tenaga Listrik">
+    <h3>Teknik Instalasi Tenaga Listrik</h3>
+    <div class="btn-group">
+      <a href="dokumen/kuk_titl.pdf" class="btn" download>KUK</a>
+      <a href="dokumen/skema_titl.pdf" class="btn" download>Download Skema</a>
+      <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
+    </div>
+  </div>
 
-      <!-- Jurusan 4 -->
-      <div class="logo-card">
-        <img src="assets/images/rpl.png" alt="Rekayasa Perangkat Lunak">
-        <h3>Rekayasa Perangkat Lunak</h3>
-        <div class="btn-group">
-          <a href="#" class="btn">KUK</a>
-          <a href="#" class="btn">Download Skema</a>
-          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
-        </div>
-      </div>
+  <!-- Jurusan 4 -->
+  <div class="logo-card">
+    <img src="assets/images/rpl.png" alt="Rekayasa Perangkat Lunak">
+    <h3>Rekayasa Perangkat Lunak</h3>
+    <div class="btn-group">
+      <a href="dokumen/kuk_rpl.pdf" class="btn" download>KUK</a>
+      <a href="dokumen/skema_rpl.pdf" class="btn" download>Download Skema</a>
+      <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
+    </div>
+  </div>
 
-      <!-- Jurusan 5 -->
-      <div class="logo-card">
-        <img src="assets/images/dkv.png" alt="Desain Komunikasi Visual">
-        <h3>Desain Komunikasi Visual</h3>
-        <div class="btn-group">
-          <a href="#" class="btn">KUK</a>
-          <a href="#" class="btn">Download Skema</a>
-          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
-        </div>
-      </div>
+  <!-- Jurusan 5 -->
+  <div class="logo-card">
+    <img src="assets/images/dkv.png" alt="Desain Komunikasi Visual">
+    <h3>Desain Komunikasi Visual</h3>
+    <div class="btn-group">
+      <a href="dokumen/kuk_dkv.pdf" class="btn" download>KUK</a>
+      <a href="dokumen/skema_dkv.pdf" class="btn" download>Download Skema</a>
+      <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
+    </div>
+  </div>
 
-      <!-- Jurusan 6 -->
-      <div class="logo-card">
-        <img src="assets/images/akl.png" alt="Akuntansi dan Keuangan Lembaga">
-        <h3>Akuntansi & Keuangan Lembaga</h3>
-        <div class="btn-group">
-          <a href="#" class="btn">KUK</a>
-          <a href="#" class="btn">Download Skema</a>
-          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
-        </div>
-      </div>
+  <!-- Jurusan 6 -->
+  <div class="logo-card">
+    <img src="assets/images/akl.png" alt="Akuntansi dan Keuangan Lembaga">
+    <h3>Akuntansi & Keuangan Lembaga</h3>
+    <div class="btn-group">
+      <a href="dokumen/kuk_akl.pdf" class="btn" download>KUK</a>
+      <a href="dokumen/skema_akl.pdf" class="btn" download>Download Skema</a>
+      <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
+    </div>
+  </div>
 
-      <!-- Jurusan 7 -->
-      <div class="logo-card">
-        <img src="assets/images/bdp.png" alt="Bisnis Daring dan Pemasaran">
-        <h3>Bisnis Daring & Pemasaran</h3>
-        <div class="btn-group">
-          <a href="#" class="btn">KUK</a>
-          <a href="#" class="btn">Download Skema</a>
-          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
-        </div>
-      </div>
-    </section>
+  <!-- Jurusan 7 -->
+  <div class="logo-card">
+    <img src="assets/images/bdp.png" alt="Bisnis Daring dan Pemasaran">
+    <h3>Bisnis Daring & Pemasaran</h3>
+    <div class="btn-group">
+      <a href="dokumen/kuk_bdp.pdf" class="btn" download>KUK</a>
+      <a href="dokumen/skema_bdp.pdf" class="btn" download>Download Skema</a>
+      <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
+    </div>
+  </div>
+</section>
+
 
     <footer>
       <p class="font-semibold">© 2025 LSP SMK Jaya Buana</p>
