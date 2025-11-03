@@ -84,11 +84,9 @@
     </div>
 
     <!-- Footer -->
-    <footer class="bg-white border-t border-gray-200 p-4">
-        <div class="container mx-auto text-center text-gray-600">
-            <p>&copy; 2025 SMK-JB. All rights reserved.</p>
-            <p>Contact us: <a href="mailto:info@smkjb.ac.id" class="underline">info@smkjb.ac.id</a></p>
-        </div>
-    </footer>
+    <footer class="bg-white text-blue-900 text-center py-4 mt-10 border-t border-gray-200">
+    <p class="text-xs sm:text-sm md:text-base font-semibold">© 2025 LSP SMK Jaya Buana</p>
+    <p class="text-[10px] sm:text-xs md:text-sm">Semua Hak Dilindungi.</p>
+  </footer>
 </body>
 </html>

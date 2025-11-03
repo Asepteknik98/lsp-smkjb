@@ -221,9 +221,10 @@ footer{padding:32px 18px;border-top:1px solid rgba(55,65,81,.1);color:var(--mute
 </section>
 
 <!-- FOOTER -->
-<footer>
-  &copy; 2025 SMK Jaya Buana. Semua hak dilindungi.
-</footer>
+<footer class="bg-white text-blue-900 text-center py-4 mt-10 border-t border-gray-200">
+    <p class="text-xs sm:text-sm md:text-base font-semibold">© 2025 LSP SMK Jaya Buana</p>
+    <p class="text-[10px] sm:text-xs md:text-sm">Semua Hak Dilindungi.</p>
+  </footer>
 
 </body>
 </html>

@@ -143,13 +143,13 @@
         </div>
       </aside>
     </main>
-
-    <footer style="margin-top:18px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
-      <div class="muted">© <span id="year"></span> TUK SMK Jaya Buana</div>
-      <div class="muted">Butuh perubahan skema? Hubungi admin untuk update kurikulum & skema.</div>
-    </footer>
+<center>
+    <footer class="bg-white text-blue-900 text-center py-4 mt-10 border-t border-gray-200">
+    <p class="text-xs sm:text-sm md:text-base font-semibold">© 2025 LSP SMK Jaya Buana</p>
+    <p class="text-[10px] sm:text-xs md:text-sm">Semua Hak Dilindungi.</p>
+  </footer>
   </div>
-
+  </center>
   <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>

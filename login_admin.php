@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Admin - LSP P1 Jaya Buana</title>
+    <title>Login Admin - LSP SMK Jaya Buana</title>
     <link rel="icon" type="image/png" href="assets/images/jb3.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -15,7 +15,7 @@
         <div class="flex flex-col items-center mb-6">
             <img src="assets/images/jb3.png" alt="Logo" class="w-20 h-20 mb-2 rounded-full">
             <h2 class="text-2xl font-bold text-gray-800">Login Admin</h2>
-            <p class="text-gray-500 text-sm">LSP P1 Jaya Buana</p>
+            <p class="text-gray-500 text-sm">LSP SMK Jaya Buana</p>
         </div>
 
         <form action="admin.php" method="post" class="space-y-5">
@@ -43,7 +43,7 @@
         </form>
 
         <div class="text-center mt-6 text-gray-500 text-sm">
-            © 2025 LSP-P1 Jaya Buana. 
+            © 2025 LSP SMK Jaya Buana. 
             <h4>Semua hak dilindungi.</h4>
         </div>
     </div>

@@ -15,13 +15,13 @@
             <div class="top-bar-left">
                 <span class="date" id="dateTime"></span>
             </div>
-            <div class="top-bar-right">
+            <div class="top-bar-right">               
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/lsp_smk_jayabuana/" class="social-icon"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
                 <a href="#" class="utility-icon menu-toggle"><i class="fas fa-bars"></i></a>
                 <a href="login_admin.php" class="utility-icon bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center gap-2">
                 <i class="fas fa-user-cog"></i>
@@ -272,138 +272,148 @@
 >>>>>>> d5d687cc524cc046cc90ef28eaac5dabb16cda98
     </div>
 </div>
-    <!-- Certification Schemes Section -->
-    <section class="schemes-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">DAFTAR SKEMA SERTIFIKASI</h2>
-            </div>
-            
-            <div class="schemes-grid">
-                <!-- Row 1 -->
-                <a href="scheme-detail.php?scheme=ev" class="scheme-card">
-                    <div class="scheme-image">
-                        <img src="assets/images/1.jpeg" alt="Electrified Vehicles">
-                        <div class="scheme-overlay">
-                            <i class="fas fa-bolt"></i>
-                        </div>
-                    </div>
-                    <div class="scheme-content">
-                        <h3 class="scheme-title">Pemeliharaan Electrified Vehicles (EV)</h3>
-                        <p class="scheme-description">
-                            Program sertifikasi untuk teknisi yang menguasai pemeliharaan dan perbaikan kendaraan listrik modern dengan teknologi terkini.
-                        </p>
-                    </div>
-                </a>
-
-                <a href="scheme-detail.php?scheme=motor-conversion" class="scheme-card">
-                    <div class="scheme-image">
-                        <img src="assets/images/2.jpeg" alt="Motor Conversion">
-                        <div class="scheme-overlay">
-                            <i class="fas fa-motorcycle"></i>
-                        </div>
-                    </div>
-                    <div class="scheme-content">
-                        <h3 class="scheme-title">Pelaksanaan Konversi Motor Listrik</h3>
-                        <p class="scheme-description">
-                            Sertifikasi untuk teknisi yang mampu melakukan konversi sepeda motor konvensional menjadi motor listrik dengan standar keamanan tinggi.
-                        </p>
-                    </div>
-                </a>
-
-                <a href="scheme-detail.php?scheme=gems" class="scheme-card">
-                    <div class="scheme-image">
-                        <img src="assets/images/3.jpeg" alt="Gasoline Engine Management">
-                        <div class="scheme-overlay">
-                            <i class="fas fa-cogs"></i>
-                        </div>
-                    </div>
-                    <div class="scheme-content">
-                        <h3 class="scheme-title">Perbaikan Gasoline Engine Management System (GEMS)</h3>
-                        <p class="scheme-description">
-                            Program sertifikasi untuk teknisi yang menguasai sistem manajemen mesin bensin modern dan teknologi EFI.
-                        </p>
-                    </div>
-                </a>
-
-                <a href="scheme-detail.php?scheme=vehicle-maintenance" class="scheme-card">
-                    <div class="scheme-image">
-                        <img src="assets/images/4.jpeg" alt="Vehicle Maintenance">
-                        <div class="scheme-overlay">
-                            <i class="fas fa-tools"></i>
-                        </div>
-                    </div>
-                    <div class="scheme-content">
-                        <h3 class="scheme-title">Pemeliharaan Berkala Kendaraan Ringan</h3>
-                        <p class="scheme-description">
-                            Sertifikasi untuk teknisi yang mampu melakukan pemeliharaan berkala kendaraan ringan sesuai standar pabrik.
-                        </p>
-                    </div>
-                </a>
-
-                <!-- Row 2 -->
-                <a href="scheme-detail.php?scheme=wheel-alignment" class="scheme-card">
-                    <div class="scheme-image">
-                        <img src="assets/images/5.jpeg" alt="Four Wheel Alignment">
-                        <div class="scheme-overlay">
-                            <i class="fas fa-car"></i>
-                        </div>
-                    </div>
-                    <div class="scheme-content">
-                        <h3 class="scheme-title">Pelaksanaan Four Wheel Alignment Kendaraan Ringan</h3>
-                        <p class="scheme-description">
-                            Program sertifikasi untuk teknisi yang menguasai teknik spooring dan balancing kendaraan ringan dengan peralatan modern.
-                        </p>
-                    </div>
-                </a>
-
-                <a href="scheme-detail.php?scheme=conventional-tuneup" class="scheme-card">
-                    <div class="scheme-image">
-                        <img src="assets/images/6.jpeg" alt="Conventional Tune Up">
-                        <div class="scheme-overlay">
-                            <i class="fas fa-wrench"></i>
-                        </div>
-                    </div>
-                    <div class="scheme-content">
-                        <h3 class="scheme-title">Pelaksanaan Engine Tune Up Sistem Konvensional</h3>
-                        <p class="scheme-description">
-                            Sertifikasi untuk teknisi yang menguasai tune up mesin dengan sistem konvensional dan karburator.
-                        </p>
-                    </div>
-                </a>
-
-                <a href="scheme-detail.php?scheme=injection-tuneup" class="scheme-card">
-                    <div class="scheme-image">
-                        <img src="assets/images/7.jpeg" alt="Injection Tune Up">
-                        <div class="scheme-overlay">
-                            <i class="fas fa-tachometer-alt"></i>
-                        </div>
-                    </div>
-                    <div class="scheme-content">
-                        <h3 class="scheme-title">Pelaksanaan Engine Tune Up Sistem Injeksi</h3>
-                        <p class="scheme-description">
-                            Program sertifikasi untuk teknisi yang menguasai tune up mesin dengan sistem injeksi elektronik modern.
-                        </p>
-                    </div>
-                </a>
-
-                <a href="scheme-detail.php?scheme=motorcycle-maintenance" class="scheme-card">
-                    <div class="scheme-image">
-                        <img src="assets/images/8.jpeg" alt="Motorcycle Maintenance">
-                        <div class="scheme-overlay">
-                            <i class="fas fa-motorcycle"></i>
-                        </div>
-                    </div>
-                    <div class="scheme-content">
-                        <h3 class="scheme-title">Pemeliharaan Sepeda Motor Konvensional</h3>
-                        <p class="scheme-description">
-                            Sertifikasi untuk teknisi yang menguasai pemeliharaan dan perbaikan sepeda motor dengan sistem konvensional.
-                        </p>
-                    </div>
-                </a>
-            </div>
+   <!-- Certification Schemes Section -->
+<section class="schemes-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">DAFTAR SKEMA SERTIFIKASI</h2>
         </div>
-    </section>
+        
+        <div class="schemes-grid">
+            <!-- TKJ -->
+            <a href="scheme-detail.php?scheme=tkj" class="scheme-card">
+                <div class="scheme-image">
+                    <img src="assets/images/tkj.jpeg" alt="Teknologi Komputer dan Jaringan">
+                    <div class="scheme-overlay">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                </div>
+                <div class="scheme-content">
+                    <h3 class="scheme-title">Teknologi Komputer dan Jaringan (TKJ)</h3>
+                    <p class="scheme-description">
+                        Program sertifikasi yang berfokus pada penguasaan jaringan komputer berbasis Mikrotik, meliputi konfigurasi router, manajemen jaringan, keamanan, serta troubleshooting untuk membangun infrastruktur jaringan yang handal dan efisien.
+                    </p>
+                </div>
+            </a>
+
+            <!-- TSM -->
+            <a href="scheme-detail.php?scheme=tsm" class="scheme-card">
+                <div class="scheme-image">
+                    <img src="assets/images/tsm.jpeg" alt="Teknik dan Bisnis Sepeda Motor">
+                    <div class="scheme-overlay">
+                        <i class="fas fa-motorcycle"></i>
+                    </div>
+                </div>
+                <div class="scheme-content">
+                    <h3 class="scheme-title">Teknik dan Bisnis Sepeda Motor (TSM)</h3>
+                    <p class="scheme-description">
+                        Program sertifikasi bagi teknisi yang menguasai perawatan, perbaikan, dan diagnosa sistem sepeda motor modern, termasuk teknologi injeksi, kelistrikan, serta manajemen bengkel dengan standar industri otomotif.
+                    </p>
+                </div>
+            </a>
+
+           <!-- Teknik Pengelasan -->
+            <a href="scheme-detail.php?scheme=tpl" class="scheme-card">
+                <div class="scheme-image">
+                    <img src="assets/images/tp.jpeg" alt="Teknik Pengelasan">
+                    <div class="scheme-overlay">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                </div>
+                <div class="scheme-content">
+                    <h3 class="scheme-title">Teknik Pengelasan (TP)</h3>
+                    <p class="scheme-description">
+                        Program sertifikasi bagi peserta yang menguasai proses pengelasan logam menggunakan berbagai metode seperti SMAW, GMAW, dan GTAW, mencakup persiapan bahan, teknik pengelasan, serta penerapan standar keselamatan kerja industri.
+                    </p>
+                </div>
+            </a>
+
+
+           <!-- Teknik Instalasi Tenaga Listrik -->
+            <a href="scheme-detail.php?scheme=titl" class="scheme-card">
+                <div class="scheme-image">
+                    <img src="assets/images/titl.jpeg" alt="Teknik Instalasi Tenaga Listrik">
+                    <div class="scheme-overlay">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                </div>
+                <div class="scheme-content">
+                    <h3 class="scheme-title">Teknik Instalasi Tenaga Listrik (TITL)</h3>
+                    <p class="scheme-description">
+                        Program sertifikasi bagi teknisi yang memiliki kompetensi dalam merancang, memasang, dan memelihara instalasi tenaga listrik pada bangunan gedung dan industri, sesuai dengan standar keselamatan dan ketentuan ketenagalistrikan nasional.
+                    </p>
+                </div>
+            </a>
+
+
+           <!-- Teknik Pendingin dan Tata Udara -->
+            <a href="scheme-detail.php?scheme=tptu" class="scheme-card">
+                <div class="scheme-image">
+                    <img src="assets/images/tptu.jpeg" alt="Teknik Pendingin dan Tata Udara">
+                    <div class="scheme-overlay">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                </div>
+                <div class="scheme-content">
+                    <h3 class="scheme-title">Teknik Pendingin dan Tata Udara (TPTU)</h3>
+                    <p class="scheme-description">
+                        Program sertifikasi bagi teknisi yang menguasai instalasi, perawatan, dan perbaikan sistem pendingin serta tata udara, mencakup AC rumah tangga dan komersial dengan penerapan standar keselamatan dan efisiensi energi.
+                    </p>
+                </div>
+            </a>
+
+
+            <!-- Desain Produksi Busana -->
+            <a href="scheme-detail.php?scheme=dpb" class="scheme-card">
+                <div class="scheme-image">
+                    <img src="assets/images/dpb.jpeg" alt="Desain dan Produksi Busana">
+                    <div class="scheme-overlay">
+                        <i class="fas fa-scissors"></i>
+                    </div>
+                </div>
+                <div class="scheme-content">
+                    <h3 class="scheme-title">Desain dan Produksi Busana (DPB)</h3>
+                    <p class="scheme-description">
+                        Program sertifikasi bagi peserta yang menguasai keterampilan mendesain, membuat pola, menjahit, dan memproduksi busana dengan estetika serta teknik jahit yang sesuai standar industri mode.
+                    </p>
+                </div>
+            </a>
+
+
+            <!-- Injection Tune Up -->
+            <a href="scheme-detail.php?scheme=injection-tuneup" class="scheme-card">
+                <div class="scheme-image">
+                    <img src="assets/images/7.jpeg" alt="Injection Tune Up">
+                    <div class="scheme-overlay">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                </div>
+                <div class="scheme-content">
+                    <h3 class="scheme-title">Pelaksanaan Engine Tune Up Sistem Injeksi</h3>
+                    <p class="scheme-description">
+                        Program sertifikasi untuk teknisi yang menguasai tune up mesin dengan sistem injeksi elektronik modern.
+                    </p>
+                </div>
+            </a>
+
+            <!-- Motorcycle Maintenance -->
+            <a href="scheme-detail.php?scheme=motorcycle-maintenance" class="scheme-card">
+                <div class="scheme-image">
+                    <img src="assets/images/8.jpeg" alt="Motorcycle Maintenance">
+                    <div class="scheme-overlay">
+                        <i class="fas fa-motorcycle"></i>
+                    </div>
+                </div>
+                <div class="scheme-content">
+                    <h3 class="scheme-title">Pemeliharaan Sepeda Motor Konvensional</h3>
+                    <p class="scheme-description">
+                        Sertifikasi untuk teknisi yang menguasai pemeliharaan dan perbaikan sepeda motor dengan sistem konvensional.
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
 
     <!-- Info Update Section -->
     <section class="info-update-section">
@@ -572,7 +582,7 @@
                     </div>
 
                     <!-- Teks Logo -->
-                    <span class="footer-logo-text" style="font-weight:bold;color:#333;">LSP-P1 JAYA BUANA</span>
+                    <span class="footer-logo-text" style="font-weight:bold;color:#333;">LSP SMK JAYA BUANA</span>
                 </div>
 
                 <p class="footer-description">
