@@ -72,7 +72,7 @@
 <body>
     <div class="container">
         <!-- Tombol kembali -->
-        <a class="btn" href="index.php"><i class="fa fa-arrow-left"></i> Kembali</a>
+        <a class="btn" href="../index.php"><i class="fa fa-arrow-left"></i> Kembali</a>
 
         <!-- Judul -->
         <h1>Verifikasi Tempat Uji Kompetensi SMK Negeri 1 Kuta Selatan</h1>
