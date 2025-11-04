@@ -127,6 +127,70 @@
     </header>
 
    <section class="logo-grid">
+  <style>
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 40px;
+      background: #f9f9f9;
+    }
+
+    .logo-card {
+      text-align: center;
+      background: #fff;
+      padding: 25px 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .logo-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .logo-card img {
+      width: 170px; /* ukuran gambar lebih besar */
+      height: auto;
+      margin-bottom: 15px;
+      transition: transform 0.3s;
+    }
+
+    .logo-card img:hover {
+      transform: scale(1.07);
+    }
+
+    .logo-card h3 {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 15px;
+      min-height: 45px;
+    }
+
+    .btn-group .btn {
+      display: inline-block;
+      background-color: #007BFF;
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin: 5px 3px;
+      font-size: 14px;
+      transition: background 0.3s;
+    }
+
+    .btn-group .btn:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 768px) {
+      .logo-card img {
+        width: 140px;
+      }
+    }
+  </style>
+
       <!-- Jurusan 1 -->
       <div class="logo-card">
         <img src="assets/images/jurusan/LogoTKJ.png" alt="Teknik Komputer dan Jaringan">
@@ -140,18 +204,18 @@
 
       <!-- Jurusan 2 -->
       <div class="logo-card">
-        <img src="assets/images/tbsm.png" alt="Teknik & Bisnis Sepeda Motor">
+        <img src="assets/images/jurusan/LogoTSM.png" alt="Teknik & Bisnis Sepeda Motor">
         <h3>Kualifikasi II Bidang Teknik Sepeda Motor</h3>
         <div class="btn-group">
           <a href="#" id="btnKukTsm" class="btn">KUK</a>
           <a href="file_skema/31. SKEMA_SERTIFIKASI_KKNI_KUALIFIKASI_II_BIDANG_TEKNIK_SEPEDA_MOTOR.pdf" class="btn" download>Download Skema</a>
           <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
-      </div>  
+      </div>
 
       <!-- Jurusan 3 -->
       <div class="logo-card">
-        <img src="assets/images/titl.png" alt="Teknik Instalasi Tenaga Listrik">
+        <img src="assets/images/jurusan/LOGO  TEKNIK LISTRIK.png" alt="Teknik Instalasi Tenaga Listrik">
         <h3>Pemasangan Instalasi Tenaga Listrik</h3>
         <div class="btn-group">
           <a href="#" class="btn" download>KUK</a>
@@ -162,8 +226,8 @@
 
       <!-- Jurusan 4 -->
       <div class="logo-card">
-        <img src="assets/images/rpl.png" alt="Rekayasa Perangkat Lunak">
-        <h3>Junior Costum Made</h3>
+        <img src="assets/images/jurusan/LOGO DESIGN FASHION.png" alt="Rekayasa Perangkat Lunak">
+        <h3>Junior Custom Made</h3>
         <div class="btn-group">
           <a href="#" class="btn" download>KUK</a>
           <a href="file_skema/31. Skema_Sertifikasi_Okupasi_Junior_Custom_Made.pdf" class="btn" download>Download Skema</a>
@@ -173,8 +237,8 @@
 
       <!-- Jurusan 5 -->
       <div class="logo-card">
-        <img src="assets/images/dkv.png" alt="Desain Komunikasi Visual">
-        <h3>Kualifikasi II Bidang Teknisi Refrigerasi Dan Teknisi Tata Udara</h3>
+        <img src="assets/images/jurusan/LogoPu.png" alt="Desain Komunikasi Visual">
+        <h3>Kualifikasi II Bidang Teknisi Refrigerasi dan Tata Udara</h3>
         <div class="btn-group">
           <a href="#" class="btn" download>KUK</a>
           <a href="file_skema/31. SKEMA_SERTIFIKASI_KKNI_KUALIFIKASI_II_BIDANG_TEKNISI_REFRIGERASI_DAN_TEKNISI_TATA_UDARA.pdf" class="btn" download>Download Skema</a>
@@ -184,7 +248,7 @@
 
       <!-- Jurusan 6 -->
       <div class="logo-card">
-        <img src="assets/images/akl.png" alt="Akuntansi dan Keuangan Lembaga">
+        <img src="assets/images/jurusan/Logo Teknik Mesin.png" alt="Akuntansi dan Keuangan Lembaga">
         <h3>Operator Perkakas Mesin</h3>
         <div class="btn-group">
           <a href="#" class="btn" download>KUK</a>
@@ -195,8 +259,41 @@
 
       <!-- Jurusan 7 -->
       <div class="logo-card">
-        <img src="assets/images/bdp.png" alt="Bisnis Daring dan Pemasaran">
-        <h3>Tukang las Kontruksi Plat Dan Pipa level 2</h3>
+        <img src="assets/images/jurusan/LogoTP.png" alt="Bisnis Daring dan Pemasaran">
+        <h3>Tukang Las Konstruksi Plat dan Pipa Level 2</h3>
+        <div class="btn-group">
+          <a href="#" class="btn" download>KUK</a>
+          <a href="file_skema/31. Skema_Sertifikasi_Okupasi_Tukang_Las_Konstruksi_Plat_dan_Pipa_Level_2.pdf" class="btn" download>Download Skema</a>
+          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
+        </div>
+      </div>
+
+        <!-- Jurusan 8 -->
+      <div class="logo-card">
+        <img src="assets/images/jurusan/logoAnakbuahmahdi.png" alt="Bisnis Daring dan Pemasaran">
+        <h3>Tukang Las Konstruksi Plat dan Pipa Level 2</h3>
+        <div class="btn-group">
+          <a href="#" class="btn" download>KUK</a>
+          <a href="file_skema/31. Skema_Sertifikasi_Okupasi_Tukang_Las_Konstruksi_Plat_dan_Pipa_Level_2.pdf" class="btn" download>Download Skema</a>
+          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
+        </div>
+      </div>
+
+        <!-- Jurusan 9 -->
+      <div class="logo-card">
+        <img src="assets/images/jurusan/LogoTBO.png" alt="Bisnis Daring dan Pemasaran">
+        <h3>Tukang Las Konstruksi Plat dan Pipa Level 2</h3>
+        <div class="btn-group">
+          <a href="#" class="btn" download>KUK</a>
+          <a href="file_skema/31. Skema_Sertifikasi_Okupasi_Tukang_Las_Konstruksi_Plat_dan_Pipa_Level_2.pdf" class="btn" download>Download Skema</a>
+          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
+        </div>
+      </div>
+
+        <!-- Jurusan 10 -->
+      <div class="logo-card">
+        <img src="assets/images/jurusan/LogoDTF.png" alt="Bisnis Daring dan Pemasaran">
+        <h3>Tukang Las Konstruksi Plat dan Pipa Level 2</h3>
         <div class="btn-group">
           <a href="#" class="btn" download>KUK</a>
           <a href="file_skema/31. Skema_Sertifikasi_Okupasi_Tukang_Las_Konstruksi_Plat_dan_Pipa_Level_2.pdf" class="btn" download>Download Skema</a>
