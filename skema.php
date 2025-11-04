@@ -218,7 +218,7 @@
         <img src="assets/images/jurusan/LOGO  TEKNIK LISTRIK.png" alt="Teknik Instalasi Tenaga Listrik">
         <h3>Pemasangan Instalasi Tenaga Listrik</h3>
         <div class="btn-group">
-          <a href="#" class="btn" download>KUK</a>
+          <a href="#" id="btnKukListrik" class="btn">KUK</a>
           <a href="file_skema/31. Skema_Sertifikasi_Okupasi_Operator_Pemasangan_Instalasi_Listrik.pdf" class="btn" download>Download Skema</a>
           <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
@@ -229,7 +229,7 @@
         <img src="assets/images/jurusan/LOGO DESIGN FASHION.png" alt="Rekayasa Perangkat Lunak">
         <h3>Junior Custom Made</h3>
         <div class="btn-group">
-          <a href="#" class="btn" download>KUK</a>
+          <a href="#" id="btnKukCustomMade" class="btn">KUK</a>
           <a href="file_skema/31. Skema_Sertifikasi_Okupasi_Junior_Custom_Made.pdf" class="btn" download>Download Skema</a>
           <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
@@ -240,7 +240,7 @@
         <img src="assets/images/jurusan/LogoPu.png" alt="Desain Komunikasi Visual">
         <h3>Kualifikasi II Bidang Teknisi Refrigerasi dan Tata Udara</h3>
         <div class="btn-group">
-          <a href="#" class="btn" download>KUK</a>
+          <a href="#" id="btnKukTataUdara" class="btn">KUK</a>
           <a href="file_skema/31. SKEMA_SERTIFIKASI_KKNI_KUALIFIKASI_II_BIDANG_TEKNISI_REFRIGERASI_DAN_TEKNISI_TATA_UDARA.pdf" class="btn" download>Download Skema</a>
           <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
@@ -251,7 +251,7 @@
         <img src="assets/images/jurusan/Logo Teknik Mesin.png" alt="Akuntansi dan Keuangan Lembaga">
         <h3>Operator Perkakas Mesin</h3>
         <div class="btn-group">
-          <a href="#" class="btn" download>KUK</a>
+          <a href="#" id="btnKukPerkakasMesin" class="btn">KUK</a>
           <a href="file_skema/31. Skema_Sertifikasi_Okupasi_Operator_Perkakas_Mesin.pdf" class="btn" download>Download Skema</a>
           <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
@@ -262,44 +262,12 @@
         <img src="assets/images/jurusan/LogoTP.png" alt="Bisnis Daring dan Pemasaran">
         <h3>Tukang Las Konstruksi Plat dan Pipa Level 2</h3>
         <div class="btn-group">
-          <a href="#" class="btn" download>KUK</a>
+          <a href="#" id="btnKukTukangLas" class="btn">KUK</a>
           <a href="file_skema/31. Skema_Sertifikasi_Okupasi_Tukang_Las_Konstruksi_Plat_dan_Pipa_Level_2.pdf" class="btn" download>Download Skema</a>
           <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
         </div>
       </div>
 
-        <!-- Jurusan 8 -->
-      <div class="logo-card">
-        <img src="assets/images/jurusan/logoAnakbuahmahdi.png" alt="Bisnis Daring dan Pemasaran">
-        <h3>Tukang Las Konstruksi Plat dan Pipa Level 2</h3>
-        <div class="btn-group">
-          <a href="#" class="btn" download>KUK</a>
-          <a href="file_skema/31. Skema_Sertifikasi_Okupasi_Tukang_Las_Konstruksi_Plat_dan_Pipa_Level_2.pdf" class="btn" download>Download Skema</a>
-          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
-        </div>
-      </div>
-
-        <!-- Jurusan 9 -->
-      <div class="logo-card">
-        <img src="assets/images/jurusan/LogoTBO.png" alt="Bisnis Daring dan Pemasaran">
-        <h3>Tukang Las Konstruksi Plat dan Pipa Level 2</h3>
-        <div class="btn-group">
-          <a href="#" class="btn" download>KUK</a>
-          <a href="file_skema/31. Skema_Sertifikasi_Okupasi_Tukang_Las_Konstruksi_Plat_dan_Pipa_Level_2.pdf" class="btn" download>Download Skema</a>
-          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
-        </div>
-      </div>
-
-        <!-- Jurusan 10 -->
-      <div class="logo-card">
-        <img src="assets/images/jurusan/LogoDTF.png" alt="Bisnis Daring dan Pemasaran">
-        <h3>Tukang Las Konstruksi Plat dan Pipa Level 2</h3>
-        <div class="btn-group">
-          <a href="#" class="btn" download>KUK</a>
-          <a href="file_skema/31. Skema_Sertifikasi_Okupasi_Tukang_Las_Konstruksi_Plat_dan_Pipa_Level_2.pdf" class="btn" download>Download Skema</a>
-          <a href="pendaftaran.php" class="btn">Daftar Sekarang</a>
-        </div>
-      </div>
     </section>
 
     <!-- Modal KUK: Junior Drafter Fiber Optik -->
@@ -375,6 +343,165 @@
       </div>
     </div>
 
+    <!-- Modal KUK: Pemasangan Instalasi Listrik -->
+    <div id="modalKukListrik" class="modal-overlay">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3 class="modal-title">KUK — Pemasangan Instalasi Listrik</h3>
+          <button type="button" class="modal-close" aria-label="Tutup" onclick="closeKukListrikModal()">×</button>
+        </div>
+        <div class="modal-body">
+          <div style="overflow:auto;">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th style="width:60px;">No</th>
+                  <th style="width:260px;">Kode Unit Kompetensi</th>
+                  <th>Judul Unit Kompetensi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>M.71KKK02.005.1</td><td>Menerapkan Persyaratan Keselamatan dan Kesehatan Kerja (K3) dalam Perencanaan Instalasi Listrik pada Instalasi Pemanfaatan Tenaga Listrik (IPTL)</td></tr>
+                <tr><td>2</td><td>M.71KKK02.007.1</td><td>Mengelola Penggunaan Alat Pelindung Diri (APD)</td></tr>
+                <tr><td>3</td><td>C.282900.001.01</td><td>Mengoperasikan Peralatan Kelistrikan</td></tr>
+                <tr><td>4</td><td>C.282900.002.01</td><td>Mengoperasikan Peralatan Pneumatik</td></tr>
+                <tr><td>5</td><td>C.282900.003.01</td><td>Mengoperasikan Peralatan Elektronik</td></tr>
+                <tr><td>6</td><td>C.282900.005.01</td><td>Mengoperasikan Programmable Logic Controller (PLC)</td></tr>
+                <tr><td>7</td><td>C.282900.020.01</td><td>Mengoperasikan Sistem Supervising Control and Data Acuitation (SCADA)</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal KUK: Junior Custom Made -->
+    <div id="modalKukCustomMade" class="modal-overlay">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3 class="modal-title">KUK — Junior Custom Made</h3>
+          <button type="button" class="modal-close" aria-label="Tutup" onclick="closeKukCustomMadeModal()">×</button>
+        </div>
+        <div class="modal-body">
+          <div style="overflow:auto;">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th style="width:60px;">No</th>
+                  <th style="width:260px;">Kode Unit Kompetensi</th>
+                  <th>Judul Unit Kompetensi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>M.71KKK02.005.1</td><td>Menerapkan Persyaratan Keselamatan dan Kesehatan Kerja (K3) dalam Perencanaan Instalasi Listrik pada Instalasi Pemanfaatan Tenaga Listrik (IPTL)</td></tr>
+                <tr><td>2</td><td>M.71KKK02.007.1</td><td>Mengelola Penggunaan Alat Pelindung Diri (APD)</td></tr>
+                <tr><td>3</td><td>C.282900.001.01</td><td>Mengoperasikan Peralatan Kelistrikan</td></tr>
+                <tr><td>4</td><td>C.282900.002.01</td><td>Mengoperasikan Peralatan Pneumatik</td></tr>
+                <tr><td>5</td><td>C.282900.003.01</td><td>Mengoperasikan Peralatan Elektronik</td></tr>
+                <tr><td>6</td><td>C.282900.005.01</td><td>Mengoperasikan Programmable Logic Controller (PLC)</td></tr>
+                <tr><td>7</td><td>C.282900.020.01</td><td>Mengoperasikan Sistem Supervising Control and Data Acuitation (SCADA)</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal KUK: Kualifikasi II Bidang Teknisi Refrigerasi dan Tata Udara -->
+    <div id="modalKukTataUdara" class="modal-overlay">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3 class="modal-title">KUK — Kualifikasi II Bidang Teknisi Refrigerasi dan Tata Udara</h3>
+          <button type="button" class="modal-close" aria-label="Tutup" onclick="closeKukTataUdaraModal()">×</button>
+        </div>
+        <div class="modal-body">
+          <div style="overflow:auto;">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th style="width:60px;">No</th>
+                  <th style="width:260px;">Kode Unit Kompetensi</th>
+                  <th>Judul Unit Kompetensi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>F.43RAC01.001.1</td><td>Menerapkan Keselamatan dan Kesehatan Kerja dan Lingkungan Hidup (K3-LH)</td></tr>
+                <tr><td>2</td><td>F.43RAC01.002.1</td><td>Menerapkan Komunikasi di Tempat Kerja</td></tr>
+                <tr><td>3</td><td>F.43RAC01.003.1</td><td>Menerapkan Kerjasama di Tempat Kerja</td></tr>
+                <tr><td>4</td><td>F.43RAC01.008.1</td><td>Menggunakan Alat Ukur Refrigerasi dan Tata Udara</td></tr>
+                <tr><td>5</td><td>F.43RAC01.004.1</td><td>Mempersiapkan Peralatan dan Material</td></tr>
+                <tr><td>6</td><td>F.43RAC01.023.1</td><td>Mengganti Komponen Elektrik dan Mekanik pada Sistem Refrigerasi dan Tata Udara</td></tr>
+                <tr><td>7</td><td>C.281930.056.01</td><td>Membersihkan AC Indoor dan Outdoor</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal KUK: Operator Perkakas Mesin -->
+    <div id="modalKukPerkakasMesin" class="modal-overlay">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3 class="modal-title">KUK — Operator Perkakas Mesin</h3>
+          <button type="button" class="modal-close" aria-label="Tutup" onclick="closeKukPerkakasMesinModal()">×</button>
+        </div>
+        <div class="modal-body">
+          <div style="overflow:auto;">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th style="width:60px;">No</th>
+                  <th style="width:260px;">Kode Unit Kompetensi</th>
+                  <th>Judul Unit Kompetensi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>F.43RAC01.001.1</td><td>Menerapkan Keselamatan dan Kesehatan Kerja dan Lingkungan Hidup (K3-LH)</td></tr>
+                <tr><td>2</td><td>F.43RAC01.002.1</td><td>Menerapkan Komunikasi di Tempat Kerja</td></tr>
+                <tr><td>3</td><td>F.43RAC01.003.1</td><td>Menerapkan Kerjasama di Tempat Kerja</td></tr>
+                <tr><td>4</td><td>F.43RAC01.008.1</td><td>Menggunakan Alat Ukur Refrigerasi dan Tata Udara</td></tr>
+                <tr><td>5</td><td>F.43RAC01.004.1</td><td>Mempersiapkan Peralatan dan Material</td></tr>
+                <tr><td>6</td><td>F.43RAC01.023.1</td><td>Mengganti Komponen Elektrik dan Mekanik pada Sistem Refrigerasi dan Tata Udara</td></tr>
+                <tr><td>7</td><td>C.281930.056.01</td><td>Membersihkan AC Indoor dan Outdoor</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal KUK: Tukang Las Konstruksi Plat dan Pipa Level 2 -->
+    <div id="modalKukTukangLas" class="modal-overlay">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3 class="modal-title">KUK — Tukang Las Konstruksi Plat dan Pipa Level 2</h3>
+          <button type="button" class="modal-close" aria-label="Tutup" onclick="closeKukTukangLasModal()">×</button>
+        </div>
+        <div class="modal-body">
+          <div style="overflow:auto;">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th style="width:60px;">No</th>
+                  <th style="width:260px;">Kode Unit Kompetensi</th>
+                  <th>Judul Unit Kompetensi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>C.24LAS01.001.1</td><td>Melaksanakan Persiapan Tempat Kerja</td></tr>
+                <tr><td>2</td><td>C.24LAS01.003.1</td><td>Menetapkan Proses dan Peralatan Las</td></tr>
+                <tr><td>3</td><td>C.24LAS01.010.1</td><td>Membuat Welding Procedure Specification (WPS) Sesuai Standar yang Ditentukan</td></tr>
+                <tr><td>4</td><td>C.24LAS01.028.1</td><td>Membuat Sambungan Las Fillet Sesuai WPS Untuk Pengelasan Pelat ke Pelat, Pipa ke Pipa, dan Pelat ke Pipa Sesuai dengan Proses Las yang Digunakan</td></tr>
+                <tr><td>5</td><td>C.24LAS01.029.1</td><td>Membuat Sambungan Las Kampuh (Groove) Sesuai WPS untuk Pengelasan Pelat ke Pelat dan Sesuai dengan Proses Las yang Digunakan</td></tr>
+                <tr><td>6</td><td>C.24LAS01.030.1</td><td>Membuat Sambungan Las Kampuh (Groove) Sesuai WPS untuk Pengelasan Pipa ke Pipa dan Sesuai dengan Proses Las yang Digunakan</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <p>© 2025 LSP SMK Jaya Buana</p>
       <p>Semua Hak Dilindungi.</p>
@@ -398,6 +525,46 @@
         window.addEventListener('click', function(e){ if (e.target === modalT) { modalT.style.display = 'none'; } });
       }
       window.closeKukTsmModal = function(){ var mt = document.getElementById('modalKukTsm'); if (mt) mt.style.display = 'none'; };
+
+      var openBtnL = document.getElementById('btnKukListrik');
+      var modalL = document.getElementById('modalKukListrik');
+      if (openBtnL && modalL) {
+        openBtnL.addEventListener('click', function(e){ e.preventDefault(); modalL.style.display = 'flex'; });
+        window.addEventListener('click', function(e){ if (e.target === modalL) { modalL.style.display = 'none'; } });
+      }
+      window.closeKukListrikModal = function(){ var ml = document.getElementById('modalKukListrik'); if (ml) ml.style.display = 'none'; };
+
+      var openBtnC = document.getElementById('btnKukCustomMade');
+      var modalC = document.getElementById('modalKukCustomMade');
+      if (openBtnC && modalC) {
+        openBtnC.addEventListener('click', function(e){ e.preventDefault(); modalC.style.display = 'flex'; });
+        window.addEventListener('click', function(e){ if (e.target === modalC) { modalC.style.display = 'none'; } });
+      }
+      window.closeKukCustomMadeModal = function(){ var mc = document.getElementById('modalKukCustomMade'); if (mc) mc.style.display = 'none'; };
+
+      var openBtnU = document.getElementById('btnKukTataUdara');
+      var modalU = document.getElementById('modalKukTataUdara');
+      if (openBtnU && modalU) {
+        openBtnU.addEventListener('click', function(e){ e.preventDefault(); modalU.style.display = 'flex'; });
+        window.addEventListener('click', function(e){ if (e.target === modalU) { modalU.style.display = 'none'; } });
+      }
+      window.closeKukTataUdaraModal = function(){ var mu = document.getElementById('modalKukTataUdara'); if (mu) mu.style.display = 'none'; };
+
+      var openBtnP = document.getElementById('btnKukPerkakasMesin');
+      var modalP = document.getElementById('modalKukPerkakasMesin');
+      if (openBtnP && modalP) {
+        openBtnP.addEventListener('click', function(e){ e.preventDefault(); modalP.style.display = 'flex'; });
+        window.addEventListener('click', function(e){ if (e.target === modalP) { modalP.style.display = 'none'; } });
+      }
+      window.closeKukPerkakasMesinModal = function(){ var mp = document.getElementById('modalKukPerkakasMesin'); if (mp) mp.style.display = 'none'; };
+
+      var openBtnL = document.getElementById('btnKukTukangLas');
+      var modalLas = document.getElementById('modalKukTukangLas');
+      if (openBtnL && modalLas) {
+        openBtnL.addEventListener('click', function(e){ e.preventDefault(); modalLas.style.display = 'flex'; });
+        window.addEventListener('click', function(e){ if (e.target === modalLas) { modalLas.style.display = 'none'; } });
+      }
+      window.closeKukTukangLasModal = function(){ var ml = document.getElementById('modalKukTukangLas'); if (ml) ml.style.display = 'none'; };
     })();
   </script>
 </body>
