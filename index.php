@@ -475,12 +475,7 @@
                          </div>
                      </div>
                  </a>            
-            <div class="news-cta">
-                <button class="next-article-btn">
-                    <span>Artikel Selanjutnya</span>
-                    <i class="fas fa-arrow-right"></i>
-                </button>
-            </div>
+            
         </div>
     </section>
 
