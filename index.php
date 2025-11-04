@@ -283,15 +283,15 @@
             <!-- TKJ -->
             <a href="scheme-detail.php?scheme=tkj" class="scheme-card">
                 <div class="scheme-image">
-                    <img src="assets/images/tkj.jpeg" alt="Teknologi Komputer dan Jaringan">
+                    <img src="assets/images/TKJ.jpeg" alt="Teknologi Komputer dan Jaringan">
                     <div class="scheme-overlay">
                         <i class="fas fa-network-wired"></i>
                     </div>
                 </div>
                 <div class="scheme-content">
-                    <h3 class="scheme-title">Teknologi Komputer dan Jaringan (TKJ)</h3>
-                    <p class="scheme-description">
-                        Program sertifikasi yang berfokus pada penguasaan jaringan komputer berbasis Mikrotik, meliputi konfigurasi router, manajemen jaringan, keamanan, serta troubleshooting untuk membangun infrastruktur jaringan yang handal dan efisien.
+                    <h3 class="scheme-title">Teknik Komputer dan Jaringan (TKJ)</h3>
+                    <p class="scheme-description" style="text-align: justify;">
+                        Program sertifikasi bagi peserta yang menguasai keterampilan membuat gambar jaringan telekomunikasi fiber optik, meliputi perancangan dokumentasi teknis, pemetaan infrastruktur fiber optik, serta penerapan standar keselamatan dan kesehatan kerja dalam perencanaan instalasi.
                     </p>
                 </div>
             </a>
@@ -306,8 +306,8 @@
                 </div>
                 <div class="scheme-content">
                     <h3 class="scheme-title">Teknik dan Bisnis Sepeda Motor (TSM)</h3>
-                    <p class="scheme-description">
-                        Program sertifikasi bagi teknisi yang menguasai perawatan, perbaikan, dan diagnosa sistem sepeda motor modern, termasuk teknologi injeksi, kelistrikan, serta manajemen bengkel dengan standar industri otomotif.
+                    <p class="scheme-description" style="text-align: justify;">
+                        Program sertifikasi Kualifikasi II Bidang Teknik Sepeda Motor yang mencakup kompetensi perawatan, perbaikan, dan diagnosa sistem sepeda motor meliputi sistem karburator, injeksi, kopling, transmisi, rem, suspensi, serta perawatan baterai dan sistem kelistrikan sesuai standar KKNI.
                     </p>
                 </div>
             </a>
@@ -322,8 +322,8 @@
                 </div>
                 <div class="scheme-content">
                     <h3 class="scheme-title">Teknik Pengelasan (TP)</h3>
-                    <p class="scheme-description">
-                        Program sertifikasi bagi peserta yang menguasai proses pengelasan logam menggunakan berbagai metode seperti SMAW, GMAW, dan GTAW, mencakup persiapan bahan, teknik pengelasan, serta penerapan standar keselamatan kerja industri.
+                    <p class="scheme-description" style="text-align: justify;">
+                        Program sertifikasi Tukang Las Konstruksi Plat dan Pipa Level 2 yang mencakup kompetensi persiapan tempat kerja, penetapan proses dan peralatan las, pembuatan WPS (Welding Procedure Specification), serta pembuatan sambungan las fillet dan kampuh untuk pelat dan pipa sesuai standar yang ditentukan.
                     </p>
                 </div>
             </a>
@@ -339,8 +339,8 @@
                 </div>
                 <div class="scheme-content">
                     <h3 class="scheme-title">Teknik Instalasi Tenaga Listrik (TITL)</h3>
-                    <p class="scheme-description">
-                        Program sertifikasi bagi teknisi yang memiliki kompetensi dalam merancang, memasang, dan memelihara instalasi tenaga listrik pada bangunan gedung dan industri, sesuai dengan standar keselamatan dan ketentuan ketenagalistrikan nasional.
+                    <p class="scheme-description" style="text-align: justify;">
+                        Program sertifikasi Operator Pemasangan Instalasi Listrik yang mencakup kompetensi penerapan persyaratan K3 dalam perencanaan instalasi listrik, pengelolaan penggunaan APD, serta pengoperasian peralatan kelistrikan, pneumatik, elektronik, PLC, dan sistem SCADA pada instalasi pemanfaatan tenaga listrik.
                     </p>
                 </div>
             </a>
@@ -356,8 +356,8 @@
                 </div>
                 <div class="scheme-content">
                     <h3 class="scheme-title">Teknik Pendingin dan Tata Udara (TPTU)</h3>
-                    <p class="scheme-description">
-                        Program sertifikasi bagi teknisi yang menguasai instalasi, perawatan, dan perbaikan sistem pendingin serta tata udara, mencakup AC rumah tangga dan komersial dengan penerapan standar keselamatan dan efisiensi energi.
+                    <p class="scheme-description" style="text-align: justify;">
+                        Program sertifikasi Kualifikasi II Bidang Teknisi Refrigerasi dan Tata Udara yang mencakup kompetensi penerapan K3-LH, komunikasi dan kerjasama di tempat kerja, penggunaan alat ukur, persiapan peralatan dan material, penggantian komponen elektrik dan mekanik, serta pembersihan AC indoor dan outdoor.
                     </p>
                 </div>
             </a>
@@ -373,29 +373,11 @@
                 </div>
                 <div class="scheme-content">
                     <h3 class="scheme-title">Desain dan Produksi Busana (DPB)</h3>
-                    <p class="scheme-description">
-                        Program sertifikasi bagi peserta yang menguasai keterampilan mendesain, membuat pola, menjahit, dan memproduksi busana dengan estetika serta teknik jahit yang sesuai standar industri mode.
+                    <p class="scheme-description" style="text-align: justify;">
+                        Program sertifikasi Junior Custom Made yang mencakup kompetensi penerapan persyaratan K3 dalam perencanaan produksi, pengelolaan penggunaan APD, pengoperasian peralatan produksi busana, serta kemampuan membuat busana custom sesuai kebutuhan dan spesifikasi pelanggan dengan standar kualitas industri.
                     </p>
                 </div>
             </a>
-
-
-           <!-- Teknik Bodi Kendaraan Ringan -->
-        <a href="scheme-detail.php?scheme=tbkr" class="scheme-card">
-            <div class="scheme-image">
-                <img src="assets/images/tbkr.jpeg" alt="Teknik Bodi Kendaraan Ringan">
-                <div class="scheme-overlay">
-                    <i class="fas fa-car-side"></i>
-                </div>
-            </div>
-            <div class="scheme-content">
-                <h3 class="scheme-title">Teknik Bodi Kendaraan Ringan (TBKR)</h3>
-                <p class="scheme-description">
-                    Program sertifikasi bagi teknisi yang menguasai perbaikan, pengecatan, dan perawatan bodi kendaraan ringan, termasuk identifikasi kerusakan, teknik pengelasan ringan, dan finishing sesuai standar industri otomotif.
-                </p>
-            </div>
-        </a>
-
 
            <!-- Teknik Pemesinan -->
         <a href="scheme-detail.php?scheme=tpm" class="scheme-card">
@@ -407,8 +389,8 @@
             </div>
             <div class="scheme-content">
                 <h3 class="scheme-title">Teknik Pemesinan (TPM)</h3>
-                <p class="scheme-description">
-                    Program sertifikasi bagi teknisi yang menguasai proses pemesinan logam dan material lain menggunakan peralatan konvensional maupun CNC, meliputi pengukuran, pemotongan, pembentukan, dan perawatan mesin sesuai standar industri.
+                <p class="scheme-description" style="text-align: justify;">
+                    Program sertifikasi Operator Perkakas Mesin yang mencakup kompetensi penerapan K3-LH, komunikasi dan kerjasama di tempat kerja, penggunaan alat ukur, persiapan peralatan dan material, penggantian komponen elektrik dan mekanik pada sistem mesin, serta pemeliharaan dan perawatan peralatan perkakas mesin.
                 </p>
             </div>
         </a>
@@ -492,76 +474,7 @@
                              <div class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></div>
                          </div>
                      </div>
-                 </a>
-
-                 <!-- Row 2 -->
-                 <a href="info_update/smkpgri.php" class="news-card">
-                     <div class="news-image">
-                         <img src="assets/images/wirosari.jpeg" alt="SMK PGRI Wirosari">
-                         <div class="news-overlay">
-                             <span class="news-category">Tenaga Pendidik SMK PGRI Wirosari Grobogan</span>
-                         </div>
-                     </div>
-                     <div class="news-content">
-                         <h3 class="news-title">Uji Kompetensi Tenaga Pendidik SMK PGRI Wirosari Grobogan</h3>
-                         <p class="news-description">
-                             LSP Global Otomotif telah sukses menyelenggarakan kegiatan Uji Kompetensi bagi para Tenaga Pendidik dari SMK PGRI Wirosari Grobogan. Kegiatan ini merupakan bagian dari program pengembangan kompetensi guru otomotif.
-                         </p>
-                         <div class="news-meta">
-                             <div class="news-date">
-                                 <i class="fas fa-calendar-alt"></i>
-                                 <span>8 Desember 2024</span>
-                             </div>
-                             <div class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></div>
-                         </div>
-                     </div>
-                 </a>
-
-                 <a href="info_update/smkn52.php" class="news-card">
-                     <div class="news-image">
-                         <img src="assets/images/52jkt.jpeg" alt="SMK Negeri 52 Jakarta">
-                         <div class="news-overlay">
-                             <span class="news-category">SMK Negeri 52 Jakarta</span>
-                         </div>
-                     </div>
-                     <div class="news-content">
-                         <h3 class="news-title">Uji Kompetensi Tenaga Pendidik SMK Negeri 52 Jakarta</h3>
-                         <p class="news-description">
-                             Komitmen Meningkatkan Mutu Pendidikan SMK Negeri 52 Jakarta menyelenggarakan Uji Kompetensi Tenaga Pendidik sebagai langkah nyata dalam meningkatkan kualitas pendidikan vokasi di bidang otomotif.
-                         </p>
-                         <div class="news-meta">
-                             <div class="news-date">
-                                 <i class="fas fa-calendar-alt"></i>
-                                 <span>5 Desember 2024</span>
-                             </div>
-                             <div class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></div>
-                         </div>
-                     </div>
-                 </a>
-
-                 <a href="info_update/smkn51jkt.php" class="news-card">
-                     <div class="news-image">
-                         <img src="assets/images/jkt.jpeg" alt="Bimtek SMKN 52 Jakarta">
-                         <div class="news-overlay">
-                             <span class="news-category">SMKN 52 Jakarta</span>
-                         </div>
-                     </div>
-                     <div class="news-content">
-                         <h3 class="news-title">Bimbingan Teknis Uji Kompeteni Tenaga Pendidik SMKN 52 Jakarta</h3>
-                         <p class="news-description">
-                             LSP Global Otomotif bekerja sama dengan SMKN 52 Jakarta menyelenggarakan Bimbingan Teknis (Bimtek) Uji Kompetensi bagi tenaga pendidik. Program ini bertujuan untuk mempersiapkan guru dalam menghadapi uji kompetensi.
-                         </p>
-                         <div class="news-meta">
-                             <div class="news-date">
-                                 <i class="fas fa-calendar-alt"></i>
-                                 <span>3 Desember 2024</span>
-                             </div>
-                             <div class="news-read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></div>
-                         </div>
-                     </div>
-                 </a>
-            </div>
-            
+                 </a>            
             <div class="news-cta">
                 <button class="next-article-btn">
                     <span>Artikel Selanjutnya</span>
