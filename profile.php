@@ -229,8 +229,8 @@
       <!-- Logo dan Teks -->
       <div class="nav-left" style="display:flex;align-items:center;gap:10px;">
       <div class="logo" style="display:flex; align-items:center; justify-content:center; gap:5px;">
-            <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px; height:70px; border-radius:50%;">
             <img src="assets/images/bnsp.png" alt="Logo 2" style="width:85px; height:70px; border-radius:50%;">
+            <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px; height:70px; border-radius:50%;">
             <div class="logo-text" style="display:flex;flex-direction:column;line-height:1;">
                 <span style="font-size:20px;font-weight:bold;color:#333;">LSP SMK</span>
                 <span style="font-size:14px;color:#666;">JAYA BUANA</span>

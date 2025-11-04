@@ -102,9 +102,9 @@
       
       <!-- Dua Logo Gambar Berdekatan -->
       <div class="logo" style="display:flex;align-items:center;gap:5px;">
-        <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px;height:70px;border-radius:50%;">
-        <img src="assets/images/bnsp.png" alt="Logo 2" style="width:85px;height:70px;border-radius:50%;">
-      </div>
+         <img src="assets/images/bnsp.png" alt="Logo 2" style="width:85px;height:70px;border-radius:50%;">  
+      <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px;height:70px;border-radius:50%;">
+       </div>
 
       <!-- Teks -->
       <div class="logo-text" style="display:flex;flex-direction:column;line-height:1;">

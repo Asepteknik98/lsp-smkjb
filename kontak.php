@@ -15,16 +15,15 @@
             <!-- Logo dan Teks -->
             <div class="flex items-center gap-3">
              <div class="logo" style="display:flex; align-items:center; justify-content:center; gap:5px;">
-            <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px; height:70px; border-radius:50%;">
             <img src="assets/images/bnsp.png" alt="Logo 2" style="width:85px; height:70px; border-radius:50%;">
+            <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px; height:70px; border-radius:50%;">
         </div>
             </div>
 
             <!-- Navigasi -->
             <nav class="flex items-center gap-5 text-gray-700 text-sm font-medium mt-3 md:mt-0">
                 <a href="index.php" class="hover:text-red-600 transition">Beranda</a>
-                <a href="kontak.php" class="text-red-600 font-semibold">Kontak</a>
-            </nav>
+             </nav>
         </div>
     </header>
 

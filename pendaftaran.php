@@ -157,8 +157,8 @@ form button:hover {
 <!-- Navigation -->
 <nav class="main-nav">
     <div class="logo">
-        <img src="assets/images/jb3.png" alt="Logo 1">
         <img src="assets/images/bnsp.png" alt="Logo 2">
+        <img src="assets/images/jb3.png" alt="Logo 1">
     </div>
 </nav>
 

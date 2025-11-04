@@ -137,10 +137,9 @@
   <!-- HEADER -->
   <header>
     <div class="logo">
-      <img src="assets/images/jb3.png" alt="Logo 1">
       <img src="assets/images/bnsp.png" alt="Logo 2">
+      <img src="assets/images/jb3.png" alt="Logo 1">
     </div>
-    <h1>LSP SMK Jaya Buana</h1>
   </header>
 
   <!-- MAIN CONTENT -->

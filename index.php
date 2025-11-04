@@ -21,12 +21,12 @@
                 <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/lsp_smk_jayabuana/" class="social-icon"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://twitter.com/username" class="social-icon"><i class="fab fa-x-twitter"></i></a> <!-- Twitter/X -->
                 <a href="#" class="utility-icon menu-toggle"><i class="fas fa-bars"></i></a>
                 <a href="login_admin.php" class="utility-icon bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center gap-2">
                 <i class="fas fa-user-cog"></i>
-                Admin
-            </a>
+                        Admin
+                       </a>
 
             </div>
         </div>
@@ -67,8 +67,8 @@
             
             <!-- Dua Logo Gambar Berdekatan -->
             <div class="logo" style="display:flex;align-items:center;gap:5px;">
-                <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px;height:70px;border-radius:50%;">
                 <img src="assets/images/bnsp.png" alt="Logo 2" style="width:85px;height:70px;border-radius:50%;">
+                <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px;height:70px;border-radius:50%;">           
             </div>
 
             <!-- Teks -->

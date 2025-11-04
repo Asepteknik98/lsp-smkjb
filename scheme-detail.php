@@ -37,8 +37,8 @@
 <body>
 
   <nav>
-    <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px;height:70px;border-radius:50%;">
     <img src="assets/images/bnsp.png" alt="Logo 2" style="width:100px;height:70px;border-radius:50%;">     
+    <img src="assets/images/jb3.png" alt="Logo 1" style="width:85px;height:70px;border-radius:50%;">
   </nav>
 
 <section class="scheme-section">
