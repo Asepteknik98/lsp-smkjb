@@ -85,122 +85,145 @@
         </section>
       </div>
 
-      <h2 class="text-2xl font-semibold mb-4">Daftar Asesor</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/iqbal.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Iqbal Qurnawan" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Iqbal Qurnawan</p>
-            <p class="text-sm text-slate-600">Nomor MET: 198505150001000001</p>
-            <p class="text-sm">Skema: Operator Perkakas Mesin</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/rohmad.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Rohmad Kuswindarto" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Rohmad Kuswindarto</p>
-            <p class="text-sm text-slate-600">Nomor MET: 199003220002000010</p>
-            <p class="text-sm">Skema: Operator Perkakas Mesin</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/aan.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Aan Farhan" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Aan Farhan</p>
-            <p class="text-sm text-slate-600">Nomor MET: 197812010003000029</p>
-            <p class="text-sm">Skema: Operator Pemasangan Instalasi Listrik</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/mahdi.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Mahdi" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Mahdi</p>
-            <p class="text-sm text-slate-600">Nomor MET: 199706050004000038</p>
-            <p class="text-sm">Skema: Operator Pemasangan Instalasi Listrik</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/lukmanul.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Lukmanul Hakim" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Lukmanul Hakim</p>
-            <p class="text-sm text-slate-600">Nomor MET: 198912300005000047</p>
-            <p class="text-sm">Skema: Teknik Sepeda Motor</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/keke.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Keke Asbita Vitaloka" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Keke Asbita Vitaloka</p>
-            <p class="text-sm text-slate-600">Nomor MET: 199402140006000056</p>
-            <p class="text-sm">Skema: Teknik Sepeda Motor</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/egi.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Egi Andiana" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Egi Andiana</p>
-            <p class="text-sm text-slate-600">Nomor MET: 198207090007000065</p>
-            <p class="text-sm">Skema: Junior Custom Made</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/abdul-mutholib.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Abdul Mutholib" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Abdul Mutholib</p>
-            <p class="text-sm text-slate-600">Nomor MET: 199811110008000074</p>
-            <p class="text-sm">Skema: Junior Custom Made</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/agus.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Agus Solihin" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Agus Solihin</p>
-            <p class="text-sm text-slate-600">Nomor MET: 197505250009000083</p>
-            <p class="text-sm">Skema: Tukang Las Konstruksi Plat dan Pipa Level 2</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/widya.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Widya Ningsih" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Widya Ningsih</p>
-            <p class="text-sm text-slate-600">Nomor MET: 199609300010000092</p>
-            <p class="text-sm">Skema: Tukang Las Konstruksi Plat dan Pipa Level 2</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/rofiq.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Rofiq Okvianto" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Rofiq Okvianto</p>
-            <p class="text-sm text-slate-600">Nomor MET: 198601200011000101</p>
-            <p class="text-sm">Skema: Junior Drafter Fiber Optik</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/imas.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Imas Rahmawati" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Imas Rahmawati</p>
-            <p class="text-sm text-slate-600">Nomor MET: 199212180012000110</p>
-            <p class="text-sm">Skema: Junior Drafter Fiber Optik</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/suhendi.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Suhendi" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Suhendi</p>
-            <p class="text-sm text-slate-600">Nomor MET: 198310070013000129</p>
-            <p class="text-sm">Skema: Teknisi Refrigasi dan Tata Udara</p>
-          </div>
-        </div>
-        <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-          <img src="assets/images/asesor/arif-effendi.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Arif Effendi" class="w-16 h-16 rounded-full object-cover">
-          <div>
-            <p class="font-semibold">Arif Effendi</p>
-            <p class="text-sm text-slate-600">Nomor MET: 198703152014000140</p>
-            <p class="text-sm">Skema: Teknisi Refrigasi dan Tata Udara</p>
-          </div>
-        </div>
+      <section class="py-10">
+  <h2 class="text-2xl font-semibold mb-6 text-center">Daftar Asesor</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <!-- Asesor 1 -->
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Iqbal Qurnawan" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Iqbal Qurnawan</p>
+        <p class="text-sm text-slate-600">Nomor MET: 198505150001000001</p>
+        <p class="text-sm">Skema: Operator Perkakas Mesin</p>
       </div>
-    </section>
+    </div>
+
+    <!-- Asesor 2 -->
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Rohmad Kuswindarto" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Rohmad Kuswindarto</p>
+        <p class="text-sm text-slate-600">Nomor MET: 199003220002000010</p>
+        <p class="text-sm">Skema: Operator Perkakas Mesin</p>
+      </div>
+    </div>
+
+    <!-- Asesor 3 -->
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Aan Farhan" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Aan Farhan</p>
+        <p class="text-sm text-slate-600">Nomor MET: 197812010003000029</p>
+        <p class="text-sm">Skema: Operator Pemasangan Instalasi Listrik</p>
+      </div>
+    </div>
+
+    <!-- Tambahkan asesor lain di bawah ini sesuai struktur yang sama -->
+    
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Mahdi" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Mahdi</p>
+        <p class="text-sm text-slate-600">Nomor MET: 199706050004000038</p>
+        <p class="text-sm">Skema: Operator Pemasangan Instalasi Listrik</p>
+      </div>
+    </div>
+
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Lukmanul Hakim" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Lukmanul Hakim</p>
+        <p class="text-sm text-slate-600">Nomor MET: 198912300005000047</p>
+        <p class="text-sm">Skema: Teknik Sepeda Motor</p>
+      </div>
+    </div>
+
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/2.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Keke Asbita Vitaloka" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Keke Asbita Vitaloka</p>
+        <p class="text-sm text-slate-600">Nomor MET: 199402140006000056</p>
+        <p class="text-sm">Skema: Teknik Sepeda Motor</p>
+      </div>
+    </div>
+
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Egi Andiana" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Egi Andiana</p>
+        <p class="text-sm text-slate-600">Nomor MET: 198207090007000065</p>
+        <p class="text-sm">Skema: Junior Custom Made</p>
+      </div>
+    </div>
+
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Abdul Mutholib" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Abdul Mutholib</p>
+        <p class="text-sm text-slate-600">Nomor MET: 199811110008000074</p>
+        <p class="text-sm">Skema: Junior Custom Made</p>
+      </div>
+    </div>
+
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Agus Solihin" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Agus Solihin</p>
+        <p class="text-sm text-slate-600">Nomor MET: 197505250009000083</p>
+        <p class="text-sm">Skema: Tukang Las Konstruksi Plat dan Pipa Level 2</p>
+      </div>
+    </div>
+
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/2.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Widya Ningsih" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Widya Ningsih</p>
+        <p class="text-sm text-slate-600">Nomor MET: 199609300010000092</p>
+        <p class="text-sm">Skema: Tukang Las Konstruksi Plat dan Pipa Level 2</p>
+      </div>
+    </div>
+
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Rofiq Okvianto" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Rofiq Okvianto</p>
+        <p class="text-sm text-slate-600">Nomor MET: 198601200011000101</p>
+        <p class="text-sm">Skema: Junior Drafter Fiber Optik</p>
+      </div>
+    </div>
+
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/2.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Imas Rahmawati" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Imas Rahmawati</p>
+        <p class="text-sm text-slate-600">Nomor MET: 199212180012000110</p>
+        <p class="text-sm">Skema: Junior Drafter Fiber Optik</p>
+      </div>
+    </div>
+
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Suhendi" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Suhendi</p>
+        <p class="text-sm text-slate-600">Nomor MET: 198310070013000129</p>
+        <p class="text-sm">Skema: Teknisi Refrigasi dan Tata Udara</p>
+      </div>
+    </div>
+
+    <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
+      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Arif Effendi" class="w-16 h-16 rounded-full object-cover">
+      <div>
+        <p class="font-semibold">Arif Effendi</p>
+        <p class="text-sm text-slate-600">Nomor MET: 198703152014000140</p>
+        <p class="text-sm">Skema: Teknisi Refrigasi dan Tata Udara</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
   </main>
 
   <footer class="footer reveal">
