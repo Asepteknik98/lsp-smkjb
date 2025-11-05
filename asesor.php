@@ -92,7 +92,7 @@
     
     <!-- Asesor 1 -->
     <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Iqbal Qurnawan" class="w-16 h-16 rounded-full object-cover">
+      <img src="assets/images/asesor/iqbal.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Iqbal Qurnawan" class="w-16 h-16 rounded-full object-cover">
       <div>
         <p class="font-semibold">Iqbal Qurnawan</p>
         <p class="text-sm text-slate-600">Nomor MET: 198505150001000001</p>
@@ -112,7 +112,7 @@
 
     <!-- Asesor 3 -->
     <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Aan Farhan" class="w-16 h-16 rounded-full object-cover">
+      <img src="assets/images/asesor/prof.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Aan Farhan" class="w-16 h-16 rounded-full object-cover">
       <div>
         <p class="font-semibold">Aan Farhan</p>
         <p class="text-sm text-slate-600">Nomor MET: 197812010003000029</p>
@@ -132,7 +132,7 @@
     </div>
 
     <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Lukmanul Hakim" class="w-16 h-16 rounded-full object-cover">
+      <img src="assets/images/asesor/lukman.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Lukmanul Hakim" class="w-16 h-16 rounded-full object-cover">
       <div>
         <p class="font-semibold">Lukmanul Hakim</p>
         <p class="text-sm text-slate-600">Nomor MET: 198912300005000047</p>
@@ -141,7 +141,7 @@
     </div>
 
     <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-      <img src="assets/images/asesor/2.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Keke Asbita Vitaloka" class="w-16 h-16 rounded-full object-cover">
+      <img src="assets/images/asesor/keke.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Keke Asbita Vitaloka" class="w-16 h-16 rounded-full object-cover">
       <div>
         <p class="font-semibold">Keke Asbita Vitaloka</p>
         <p class="text-sm text-slate-600">Nomor MET: 199402140006000056</p>
@@ -150,7 +150,7 @@
     </div>
 
     <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Egi Andiana" class="w-16 h-16 rounded-full object-cover">
+      <img src="assets/images/asesor/egi.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Egi Andiana" class="w-16 h-16 rounded-full object-cover">
       <div>
         <p class="font-semibold">Egi Andiana</p>
         <p class="text-sm text-slate-600">Nomor MET: 198207090007000065</p>
@@ -159,7 +159,7 @@
     </div>
 
     <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Abdul Mutholib" class="w-16 h-16 rounded-full object-cover">
+      <img src="assets/images/asesor/abdul.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Abdul Mutholib" class="w-16 h-16 rounded-full object-cover">
       <div>
         <p class="font-semibold">Abdul Mutholib</p>
         <p class="text-sm text-slate-600">Nomor MET: 199811110008000074</p>
@@ -168,7 +168,7 @@
     </div>
 
     <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Agus Solihin" class="w-16 h-16 rounded-full object-cover">
+      <img src="assets/images/asesor/agus.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Agus Solihin" class="w-16 h-16 rounded-full object-cover">
       <div>
         <p class="font-semibold">Agus Solihin</p>
         <p class="text-sm text-slate-600">Nomor MET: 197505250009000083</p>
@@ -177,7 +177,7 @@
     </div>
 
     <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-      <img src="assets/images/asesor/2.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Widya Ningsih" class="w-16 h-16 rounded-full object-cover">
+      <img src="assets/images/asesor/widya.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Widya Ningsih" class="w-16 h-16 rounded-full object-cover">
       <div>
         <p class="font-semibold">Widya Ningsih</p>
         <p class="text-sm text-slate-600">Nomor MET: 199609300010000092</p>
@@ -186,7 +186,7 @@
     </div>
 
     <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Rofiq Okvianto" class="w-16 h-16 rounded-full object-cover">
+      <img src="assets/images/asesor/rofiq.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Rofiq Okvianto" class="w-16 h-16 rounded-full object-cover">
       <div>
         <p class="font-semibold">Rofiq Okvianto</p>
         <p class="text-sm text-slate-600">Nomor MET: 198601200011000101</p>
@@ -195,7 +195,7 @@
     </div>
 
     <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-      <img src="assets/images/asesor/2.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Imas Rahmawati" class="w-16 h-16 rounded-full object-cover">
+      <img src="assets/images/asesor/imas.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Imas Rahmawati" class="w-16 h-16 rounded-full object-cover">
       <div>
         <p class="font-semibold">Imas Rahmawati</p>
         <p class="text-sm text-slate-600">Nomor MET: 199212180012000110</p>
@@ -213,7 +213,7 @@
     </div>
 
     <div class="bg-white border rounded-xl p-5 shadow-sm flex gap-4 items-center reveal">
-      <img src="assets/images/asesor/1.jpeg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Arif Effendi" class="w-16 h-16 rounded-full object-cover">
+      <img src="assets/images/asesor/arif.jpg" onerror="this.src='assets/images/asesor-default.jpg'" alt="Arif Effendi" class="w-16 h-16 rounded-full object-cover">
       <div>
         <p class="font-semibold">Arif Effendi</p>
         <p class="text-sm text-slate-600">Nomor MET: 198703152014000140</p>
